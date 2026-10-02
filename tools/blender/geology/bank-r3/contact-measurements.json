@@ -1,0 +1,552 @@
+{
+  "method": "Downward BVH raycast against actual final visual mesh polygons, compared with quarter-metre analytic terrain; .1m inspection grid. Not gameplay.",
+  "tested_strip_xz": [
+    353.7,
+    356.9,
+    -792,
+    -737
+  ],
+  "maximum_visual_above_terrain_m": -0.1218414306640625,
+  "maximum_location": [
+    353.7,
+    -737.0,
+    "GEO_Silverveil_moss",
+    55.87815856933594,
+    56.0
+  ],
+  "raised_geometry_samples": [],
+  "inspection_samples": [
+    {
+      "x": 353.8,
+      "z": -792,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 40.15683746928255
+    },
+    {
+      "x": 354,
+      "z": -792,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 40.15947923018472
+    },
+    {
+      "x": 355,
+      "z": -792,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 40.18761817483033
+    },
+    {
+      "x": 356,
+      "z": -792,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 40.24059563540614
+    },
+    {
+      "x": 356.8,
+      "z": -792,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 40.30079705307725
+    },
+    {
+      "x": 357,
+      "z": -792,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 40.31831370008649
+    },
+    {
+      "x": 353.8,
+      "z": -780,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 28.157820666319108
+    },
+    {
+      "x": 354,
+      "z": -780,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 28.16158804438859
+    },
+    {
+      "x": 355,
+      "z": -780,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 28.2017007236827
+    },
+    {
+      "x": 356,
+      "z": -780,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 28.277142823037835
+    },
+    {
+      "x": 356.8,
+      "z": -780,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 28.362748672431803
+    },
+    {
+      "x": 357,
+      "z": -780,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 28.387632672711455
+    },
+    {
+      "x": 353.8,
+      "z": -763,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 11.162832494251708
+    },
+    {
+      "x": 354,
+      "z": -763,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 11.17233215582068
+    },
+    {
+      "x": 355,
+      "z": -763,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 11.273060291078886
+    },
+    {
+      "x": 356,
+      "z": -763,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 11.46048737413093
+    },
+    {
+      "x": 356.8,
+      "z": -763,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 11.670110405376052
+    },
+    {
+      "x": 357,
+      "z": -763,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 11.730458361842869
+    },
+    {
+      "x": 353.8,
+      "z": -755,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 3.1837622486920725
+    },
+    {
+      "x": 354,
+      "z": -755,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 3.216911338762659
+    },
+    {
+      "x": 355,
+      "z": -755,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 3.550971851166185
+    },
+    {
+      "x": 356,
+      "z": -755,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 4.107345080960382
+    },
+    {
+      "x": 356.8,
+      "z": -755,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 4.6603636805662925
+    },
+    {
+      "x": 357,
+      "z": -755,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 4.809487097436097
+    },
+    {
+      "x": 353.8,
+      "z": -750,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 0.4304412631574337
+    },
+    {
+      "x": 354,
+      "z": -750,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 0.6304412631574223
+    },
+    {
+      "x": 355,
+      "z": -750,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 1.6304412631574223
+    },
+    {
+      "x": 356,
+      "z": -750,
+      "terrain": 56.0,
+      "hits": [],
+      "proxy_clearance": 2.6304412631574223
+    },
+    {
+      "x": 356.8,
+      "z": -750,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.69366455078125
+        }
+      ],
+      "proxy_clearance": 3.4304412631574337
+    },
+    {
+      "x": 357,
+      "z": -750,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.56291961669922
+        }
+      ],
+      "proxy_clearance": 3.6304412631574223
+    },
+    {
+      "x": 353.8,
+      "z": -746,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 0.4304412631574337
+    },
+    {
+      "x": 354,
+      "z": -746,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 0.6304412631574223
+    },
+    {
+      "x": 355,
+      "z": -746,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 1.6304412631574223
+    },
+    {
+      "x": 356,
+      "z": -746,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 2.6304412631574223
+    },
+    {
+      "x": 356.8,
+      "z": -746,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.20863342285156
+        }
+      ],
+      "proxy_clearance": 3.4304412631574337
+    },
+    {
+      "x": 357,
+      "z": -746,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 54.90876007080078
+        }
+      ],
+      "proxy_clearance": 3.6304412631574223
+    },
+    {
+      "x": 353.8,
+      "z": -742,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 0.4304412631574337
+    },
+    {
+      "x": 354,
+      "z": -742,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 0.6304412631574223
+    },
+    {
+      "x": 355,
+      "z": -742,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 1.6304412631574223
+    },
+    {
+      "x": 356,
+      "z": -742,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 2.6304412631574223
+    },
+    {
+      "x": 356.8,
+      "z": -742,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 54.64739227294922
+        }
+      ],
+      "proxy_clearance": 3.4304412631574337
+    },
+    {
+      "x": 357,
+      "z": -742,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 54.291229248046875
+        }
+      ],
+      "proxy_clearance": 3.6304412631574223
+    },
+    {
+      "x": 353.8,
+      "z": -740,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 0.4304412631574337
+    },
+    {
+      "x": 354,
+      "z": -740,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 0.6304412631574223
+    },
+    {
+      "x": 355,
+      "z": -740,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 1.6304412631574223
+    },
+    {
+      "x": 356,
+      "z": -740,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 2.6304412631574223
+    },
+    {
+      "x": 356.8,
+      "z": -740,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 54.28611755371094
+        }
+      ],
+      "proxy_clearance": 3.4304412631574337
+    },
+    {
+      "x": 357,
+      "z": -740,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 53.88746643066406
+        }
+      ],
+      "proxy_clearance": 3.6304412631574223
+    },
+    {
+      "x": 353.8,
+      "z": -738,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 1.9505118097564986
+    },
+    {
+      "x": 354,
+      "z": -738,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 2.0041638718584194
+    },
+    {
+      "x": 355,
+      "z": -738,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        }
+      ],
+      "proxy_clearance": 2.5055050092900184
+    },
+    {
+      "x": 356,
+      "z": -738,
+      "terrain": 56.0,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.58460998535156
+        }
+      ],
+      "proxy_clearance": 3.0105408856134783
+    },
+    {
+      "x": 356.8,
+      "z": -738,
+      "terrain": 55.99799697769686,
+      "hits": [
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 53.826759338378906
+        }
+      ],
+      "proxy_clearance": 3.505016536639351
+    },
+    {
+      "x": 357,
+      "z": -738,
+      "terrain": 55.989984888484294,
+      "hits": [],
+      "proxy_clearance": 3.645625741440895
+    }
+  ],
+  "expanded_interaction_disc_radius_m": 2.47,
+  "expanded_disc_raised_samples": [],
+  "central_route_x_355_5_to_356_5_min_proxy_distance_m": 1.9017338602248128,
+  "player_radius_m": 0.27,
+  "target": {
+    "x": 356,
+    "z": -742,
+    "terrain": 56.0,
+    "hits": [
+      {
+        "mesh": "GEO_Silverveil_wet",
+        "y": 55.81999969482422
+      },
+      {
+        "mesh": "GEO_Silverveil_moss",
+        "y": 55.81999969482422
+      }
+    ],
+    "proxy_clearance": 2.6304412631574223
+  },
+  "source_sha256": "0e2261eab37cf2dbeb56a97bca8fe0ee2244de960e5e444fca3522e19663e7b9"
+}

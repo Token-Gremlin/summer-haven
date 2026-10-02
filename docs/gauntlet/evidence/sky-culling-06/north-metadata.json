@@ -1,0 +1,67 @@
+{
+  "build": [
+    "http://127.0.0.1:4175/assets/index-CeBVBOAx.js"
+  ],
+  "camera": {
+    "distance": 6.2,
+    "pitch": -0.14,
+    "position": [
+      496,
+      91.23545076025876,
+      -953.8606608234816
+    ],
+    "quaternion": [
+      0.06994284733753284,
+      0,
+      0,
+      0.9975510002532796
+    ],
+    "target": [
+      496,
+      92.10061807105302,
+      -960
+    ],
+    "yaw": 0
+  },
+  "created": "2026-09-30T01:12:10.301Z",
+  "differentPixels": 0,
+  "dpr": 1.25,
+  "label": "ridge-low-north",
+  "maximumChannelDelta": 0,
+  "meanChannelDelta": 0,
+  "method": "Same-frame real scene: all ridge sectors submitted versus normal frustum culling; fixed grade time; no other scene changes.",
+  "player": [
+    496,
+    89.98545076025876,
+    -960
+  ],
+  "render": [
+    805,
+    584
+  ],
+  "settings": {
+    "aa": 1,
+    "ambience": 0.7,
+    "distance": 90,
+    "effects": 0.7,
+    "freezeTime": true,
+    "hints": true,
+    "invertY": false,
+    "master": 0.65,
+    "post": false,
+    "quality": "low",
+    "reflections": false,
+    "resolution": 0.7,
+    "sensitivity": 1,
+    "shadows": 512,
+    "timeSpeed": 1,
+    "vegetation": 0.3,
+    "visibility": "nearby"
+  },
+  "time": 0.12,
+  "viewport": [
+    920,
+    668
+  ],
+  "worldSeconds": 40.02010000000007
+}

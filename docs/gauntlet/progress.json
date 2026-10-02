@@ -1,0 +1,589 @@
+{
+  "title": "Summer Haven · World workshop",
+  "updated": "2026-09-30T15:51:58.3405523Z",
+  "branch": "polish/living-water",
+  "phase": "Water-only handoff; broader world loop remains paused",
+  "complete": false,
+  "playable": {
+    "approved": "http://127.0.0.1:4173/",
+    "development": "http://127.0.0.1:4178/?qa=1",
+    "checkpoint": "CWGZkIaU: displaced waves, stable flow phases, depth/reflection shading and GPU gravity spray. See HANDOFF-10.md.",
+    "note": "Owner resumed water work only, based on merged PR #4. Existing world bounds and gameplay retained. No broader world acceptance is claimed."
+  },
+  "coverage": [
+    {
+      "name": "Haven village & customization",
+      "state": "Baseline playable",
+      "gap": "New artistic criteria and full-world regression remain unapproved."
+    },
+    {
+      "name": "Aldermere city",
+      "state": "Compact streets · improved, unapproved",
+      "gap": "24 buildings, three entered rooms and ten residents. Fresh blind review prefers the new framing, but skyline depth, surface craft and sustained activity remain below the frozen criteria."
+    },
+    {
+      "name": "Mosswood forest",
+      "state": "Articulated gait and habitat contacts · unapproved craft",
+      "gap": "Existing crowns and groundcover improved without more cells/trees. Current Low J averages36.43FPS, p95 34.6ms; run2 has22 consecutive69–77ms intervals over1.65s. Cause and craft remain unapproved."
+    },
+    {
+      "name": "Silverveil Falls",
+      "state": "Water refined; broader craft gate remains open",
+      "gap": "Vertex waves, gravity spray and stable current phases are documented in HANDOFF-10. Physical bank support, whole-world artistic review and complete journey acceptance remain open."
+    },
+    {
+      "name": "Starroot Sanctuary",
+      "state": "Authored candidate",
+      "gap": "Original gate, court and sanctuary are placed with a bell/story interaction. Moving traversal, stronger discoveries and independent runtime critique remain."
+    },
+    {
+      "name": "Crownreach & dragons",
+      "state": "Two original rigged creatures integrated · craft unapproved",
+      "gap": "Aurelian revision 3 remains below craft criteria. Vesper swims/rests in a measured territory and a real bank encounter survives reload. Its new form shading is preferred blindly, but immersion, material hierarchy, motion and sound remain unapproved."
+    },
+    {
+      "name": "Living inhabitants & social state",
+      "state": "Migration & routes verified mechanically",
+      "gap": "Refreshed 1,233-obstacle runtime fixture passes routes, work contacts, offscreen and daily-state tests. Actual reload preserves ten histories. Full real-time daily/social observation remains."
+    },
+    {
+      "name": "Transport & wildlife",
+      "state": "Persistent fauna and continuous recordings · review incomplete",
+      "gap": "Fourteen original habitat residents and a 135-second Vesper routine are recorded. The final deer contact candidate is preferred narrowly; reviewers inspected frames, not continuous motion/audio. Ferry return and camera visibility remain open."
+    },
+    {
+      "name": "Journey, persistence & performance",
+      "state": "Failed journey retained · latest fixes packaged",
+      "gap": "The 16-minute J1 attempt ended at a real bench get-up collision trap. Road obstructions and Rowan crowd escape have regression repairs; the seating defect and new integrated runtime review remain open. Historical Low measurements were 33–42 FPS at 1120×630 internal, not a new-build benchmark."
+    }
+  ],
+  "baseline": {
+    "hardware": "Intel UHD Graphics (0x00009BC4) · ANGLE D3D11",
+    "viewport": "1280 × 720 · DPR 1",
+    "render": "Low / nearby · 896 × 504",
+    "town": "33.3 FPS · p95 34.8 ms",
+    "river": "39.3 FPS · p95 27.9 ms",
+    "interior": "84.4 FPS · p95 14.0 ms",
+    "heap": "188.7 MB JS heap (approximate browser counter)",
+    "note": "Fresh four-second samples with warmup. Not a sustained 60 FPS result. Resource transfer sizes were cached and are not cold-load measurements."
+  },
+  "reviews": [
+    {
+      "title": "Acceptance v1 frozen",
+      "status": "Criteria only, no production approval",
+      "file": "acceptance-v1.md"
+    },
+    {
+      "title": "Concrete official reference inspection",
+      "status": "Inspected by independent reference specialist",
+      "file": "reference-evidence.md"
+    },
+    {
+      "title": "Geography review 02",
+      "status": "Static geometry checks passed narrowly; live navigation-cache failure was repaired. Full traversal remains unverified.",
+      "file": "reviews/geography-02.md"
+    },
+    {
+      "title": "Blind creature review 03",
+      "status": "Revision 3 preferred; anatomy/surface craft still fail the frozen hero criterion. Motion and sound unverified.",
+      "file": "reviews/creature-03.md"
+    },
+    {
+      "title": "Fresh blind world review 04",
+      "status": "New street and gorge preferred after independently viewing official reference pixels. Q4 still FAIL: scores 2–3; water/land integration is the next experiment.",
+      "file": "reviews/world-04.md"
+    },
+    {
+      "title": "Blind gorge review05",
+      "status": "Revision2 preferred; Q1/Q2/Q4 FAIL. W5 needs contiguous route and audio.",
+      "file": "reviews/world-05.md"
+    },
+    {
+      "title": "Independent wildlife review05",
+      "status": "Q4 FAIL. Timed video frames show flat anatomy/closed forest; shared resting contact identified. Motion/audio unverified.",
+      "file": "reviews/wildlife-05.md"
+    },
+    {
+      "title": "Blind wildlife review06",
+      "status": "New shading and waterline preferred. Narrow improvement only; visible craft remains2–3/5.",
+      "file": "reviews/wildlife-06.md"
+    },
+    {
+      "title": "Independent integrated review 07",
+      "status": "Gait/glade preferred narrowly; deer-rock contact and bank burial found. Q4 FAIL. Motion/audio remain unverified.",
+      "file": "reviews/integrated-07.md"
+    },
+    {
+      "title": "Fresh blind contact review 08",
+      "status": "D forest and P aquatic preferred narrowly. Both remain below frozen craft criteria; partial bank arrival and retained encounter data supported only within stated limits.",
+      "file": "reviews/contact-08.md"
+    },
+    {
+      "title": "Independent sustained-performance audit 05",
+      "status": "Raw samples recomputed: 12 complete runs. P2 target missed; P4 peak-heap ceiling failed. P1/P3 remain incomplete; provenance and route limits explicitly recorded.",
+      "file": "reviews/performance-05.md"
+    },
+    {
+      "title": "Diagnostic and trail/contact review 06",
+      "status": "Accept bounded diagnostic instrumentation and narrow centreline traversal records. No sustained performance, motion/audio or artistic approval. Follow-up migration coverage added.",
+      "file": "reviews/diagnostic-06.md"
+    },
+    {
+      "title": "Paired ridge rendering review 07",
+      "status": "Diagnostic scene GPU times improve; 48 sampled main-camera views have identical pixels with/without sector culling. Sustained improvement unverified and 730.54 MB diagnostic heap peak exceeds budget.",
+      "file": "reviews/paired-render-07.md"
+    },
+    {
+      "title": "Neutral deer runtime review 10",
+      "status": "R preferred after matched rest-pose comparison and official reference inspection. Craft remains 2–3/5; continuous motion/audio not approved.",
+      "file": "reviews/wildlife-10.md"
+    },
+    {
+      "title": "Independent wardrobe ownership review 07",
+      "status": "Narrow structural PASS. All 74 static geometry/material signatures match, with 52.54 MB fewer counted geometry buffers. Whole-runtime memory, animation and repeated lifecycle gates remain open.",
+      "file": "reviews/wardrobe-07.md"
+    },
+    {
+      "title": "Independent sustained-performance review 07",
+      "status": "12 complete runs accepted narrowly; 60 FPS missed. P1/P3/P4 remain incomplete; city home/rest and resolution limits recorded.",
+      "file": "reviews/performance-07.md"
+    },
+    {
+      "title": "Independent sampler source review 08",
+      "status": "Narrow source-method PASS after concurrency and braking repairs. Runtime recovery, sustained activity measurement, animation/audio and journey approval remain open.",
+      "file": "reviews/sampler-08.md"
+    },
+    {
+      "title": "Independent nature comparison A",
+      "status": "Partial preferences only. Cream pool regression and mismatched upper-bank evidence identified; both addressed for comparison B.",
+      "file": "reviews/nature-09.md"
+    },
+    {
+      "title": "Independent nature comparison B",
+      "status": "Current variant preferred in all eight pairs, narrowly. River seam strongly improved; bank contact, lip stripe and vegetation hierarchy remain below craft acceptance. Motion/performance unverified.",
+      "file": "reviews/nature-09-b.md"
+    },
+    {
+      "title": "Nature performance and motion evidence audit",
+      "status": "J audit confirms narrow static/contact improvements, but flags the1.65s forest burst,3.677m/256ms inward camera correction and walking-trace pacing inconsistency. No broad performance or temporal approval.",
+      "file": "reviews/nature-verification-09.md"
+    },
+    {
+      "title": "Neutral water refinement G",
+      "status": "G preferred at impact, join and upper channel; full falls tie. Bank contact and impact craft remain below the frozen target.",
+      "file": "reviews/water-g09.md"
+    },
+    {
+      "title": "Neutral village-bank I comparison",
+      "status": "I preferred narrowly over G. Raised H rejected; bank craft remains3/5.",
+      "file": "reviews/bank-i09.md"
+    },
+    {
+      "title": "Current foliage-camera J review",
+      "status": "Specific leaf-obstruction fix accepted narrowly; cropped close framing and abrupt inward correction remain.",
+      "file": "reviews/canopy-j09.md"
+    }
+  ],
+  "tests": [
+    {
+      "name": "Published baseline",
+      "result": "22 unit/asset, 208 gameplay and 18 focused checks recorded before this expansion. These do not approve new regions.",
+      "file": "../QA-FLUENCY.md"
+    },
+    {
+      "name": "Fresh hardware baseline",
+      "result": "Three populated scenarios measured; no sustained expansion certification.",
+      "file": "evidence/baseline-performance.json"
+    },
+    {
+      "name": "Complete candidate test run",
+      "result": "62/62 tests pass in 62.81 seconds; strict TypeScript and production build pass. Mechanical evidence only.",
+      "file": "evidence/full-tests-04.txt"
+    },
+    {
+      "name": "Actual runtime observations 04",
+      "result": "Compact city, saved histories, authored gorge, three room entries and letter interaction observed. Whole-world acceptance remains open.",
+      "file": "evidence/runtime-04.md"
+    },
+    {
+      "name": "Complete outbound ferry recording",
+      "result": "Approximately 122 seconds from boarding to exit, with audio. Low at 896×504 and 140m distance. Audio track and motion still need independent verdicts.",
+      "file": "evidence/ferry-journey-02.webm"
+    },
+    {
+      "name": "City life mechanical contract",
+      "result": "Twelve city/resident tests pass against the new full runtime collision capture; live schedule review remains required.",
+      "file": "city-life-contract.md"
+    },
+    {
+      "name": "Fauna/water candidate full run",
+      "result": "79/79 tests pass in52.337 seconds; TypeScript and build pass for C2ECmFV1. Subsequent gait/glade/second-dragon changes need their own record.",
+      "file": "evidence/full-tests-05.txt"
+    },
+    {
+      "name": "Actual runtime observations05",
+      "result": "Matched gorge/fauna views, 75s and90s continuous recordings, live save/reload and unfavorable camera/hoof evidence retained.",
+      "file": "evidence/runtime-05.md"
+    },
+    {
+      "name": "Wildlife save/reload",
+      "result": "All14 records, flight/ground phase, appearance and city histories retained exactly by deep value comparison.",
+      "file": "evidence/wildlife-reload-05.json"
+    },
+    {
+      "name": "Final candidate 05 tests",
+      "result": "96/96 pass in 51.799 seconds; strict TypeScript and build pass for 7hgK5CKM. Five focused habitat tests also pass against the final runtime collision capture.",
+      "file": "evidence/full-tests-final-05.txt"
+    },
+    {
+      "name": "Continuous temple-to-bank walk",
+      "result": "70.012-second recording. Real controller and collisions, scripted camera steering; five waypoints reached in 28.111 seconds. Diagnostic initial placement; not the complete world journey.",
+      "file": "evidence/temple-bank-arrival-05.webm"
+    },
+    {
+      "name": "Vesper encounter and actual reload",
+      "result": "One encounter, all 14 habitat records, appearance, settings, clock and position retained exactly. Loaded title state; resumed behavior still needs observation.",
+      "file": "evidence/siltfin-reload-after-05.json"
+    },
+    {
+      "name": "Sustained performance attempt 1",
+      "result": "Three complete market runs retained. Forest sample aborted on a real perch-rock obstacle; incomplete data excluded. Safe detour validated before restarting the remaining scenes.",
+      "file": "evidence/performance-05-attempt1.json"
+    },
+    {
+      "name": "Twelve sustained scene measurements",
+      "result": "Three complete one-minute runs in each populated scene. Raw intervals, traces and hardware retained; 60 FPS target missed and peak memory budget exceeded.",
+      "file": "evidence/performance-05-summary.json"
+    },
+    {
+      "name": "Candidate 06 complete test suite",
+      "result": "117/117 pass in 65.130 seconds; both controlled builds pass TypeScript. State and structural checks do not approve motion, craft or performance.",
+      "file": "evidence/full-tests-06.txt"
+    },
+    {
+      "name": "Direct forest and ridge walks",
+      "result": "Forest 38.009 s and ridge 36.710 s, ordinary W movement and real collision with scripted camera steering. Initial QA placement; both return trips completed without the former detour. Videos retained; not performance measurements.",
+      "file": "evidence/forest-trail-route-06.json"
+    },
+    {
+      "name": "Four-region CPU/GPU diagnosis",
+      "result": "One 30-second diagnostic window per region. Scene rendering is the largest measured GPU pass; these instrumented windows do not certify sustained FPS or memory.",
+      "file": "evidence/profile-06.json"
+    },
+    {
+      "name": "Integrated candidate 06 regression",
+      "result": "122/122 pass in 87.033 seconds; strict TypeScript/build pass for DC1G58qr. Both body creator examples inspected; one confirmed outfit survives actual reload. Later trail junction source is not included.",
+      "file": "evidence/tests-integrated-06.txt"
+    },
+    {
+      "name": "Integrated runtime evidence 06",
+      "result": "Matched deer revision comparison, 75-second encounter, 48-second forest camera/return walk and wardrobe save/reload retained with explicit inspection limits.",
+      "file": "evidence/runtime-06.md"
+    },
+    {
+      "name": "Packaged trail candidate",
+      "result": "125/125 production tests pass in 79.475 s; strict TypeScript/build pass for rs5CDbKv. Loads and enters actual game; moving seam inspection paused.",
+      "file": "evidence/tests-trail-07.txt"
+    },
+    {
+      "name": "Complete current project handoff",
+      "result": "131/131 gameplay tests and 7/7 separate draft asset tests pass; strict TypeScript/build pass for BoqztZFN. No new complete runtime or artistic approval.",
+      "file": "RESUME-08.md"
+    },
+    {
+      "name": "Water/nature mechanical regression",
+      "result": "136/136 pass in88.707s on C. Later E/F/G TypeScript/build pass; two focused F wildlife visibility/state tests pass. See runtime evidence for precisely versioned limitations.",
+      "file": "evidence/runtime-nature-09.md"
+    },
+    {
+      "name": "Current paused handoff J",
+      "result": "146 full-suite tests pass in97.337s; TypeScript/build pass. Later test-only wind fixture passes4 focused canopy tests; no later runtime change. Loop paused.",
+      "file": "HANDOFF-09.md"
+    },
+    {
+      "file": "HANDOFF-10.md",
+      "name": "Living water round",
+      "result": "150 full-suite tests passed before final shader refinements; final strict TypeScript/build and Low/Ultra runtime checked. Connected geometry, gravity and buffer contracts unchanged. Exact evidence and limits in HANDOFF-10."
+    }
+  ],
+  "next": "Owner playtest of polish/living-water. Water-only changes are packaged with raw evidence; no automatic restart of the broader world loop.",
+  "constraints": "Preserve world bounds, regions, paths and population. Water-only runtime work. GitHub PR handoff; no hosting or paid service. Whole-world artistic, audio and journey acceptance remains open.",
+  "comparisons": [
+    {
+      "title": "Forest contact",
+      "image": "evidence/contact-comparison-08/D-75.png",
+      "alt": "Deer standing in the Mosswood clearing",
+      "before": "evidence/contact-comparison-08/F-75.png",
+      "after": "evidence/contact-comparison-08/D-75.png",
+      "review": "reviews/contact-08.md",
+      "result": "D preferred narrowly. Body and limb craft, ground contact lighting and vegetation hierarchy remain below the frozen criteria."
+    },
+    {
+      "title": "Vesper at the waterline",
+      "image": "evidence/contact-comparison-08/P-close.png",
+      "alt": "Close view of the original aquatic dragon Vesper Siltfin",
+      "before": "evidence/contact-comparison-08/S-close.png",
+      "after": "evidence/contact-comparison-08/P-close.png",
+      "review": "reviews/contact-08.md",
+      "result": "P preferred modestly for facial volume. Surface and water integration remain 2/5; motion and audio unverified."
+    },
+    {
+      "title": "Silverveil approach",
+      "image": "evidence/world-comparison-05/L-approach.png",
+      "alt": "The layered waterfall approach in Silverveil",
+      "before": "evidence/world-comparison-05/N-approach.png",
+      "after": "evidence/world-comparison-05/L-approach.png",
+      "review": "reviews/world-05.md",
+      "result": "L preferred for the approach and base. This comparison predates the corrected dry bank; gorge craft and outlet continuity remain open."
+    },
+    {
+      "title": "Existing river connection",
+      "image": "evidence/nature-09/candidate-c-river-join.png",
+      "alt": "A continuous teal river at the village and valley join",
+      "before": "evidence/nature-09/baseline-river-join.png",
+      "after": "evidence/nature-09/candidate-c-river-join.png",
+      "review": "reviews/nature-09-b.md",
+      "result": "Current version strongly preferred for removing the pale upstream surface seam. This static comparison has planar reflections disabled; later High reflection testing exposed a separate transition now under review."
+    }
+  ],
+  "performance": {
+    "file": "HANDOFF-10.md",
+    "configuration": "Low; 1120x630 internal, 1280x720 viewport, DPR 1.25; nearby 90m, shadows 512, vegetation 0.3, FXAA, reflections/post off; two 30-second samples per route/build after 10-second warmup.",
+    "verdict": "Means remain close or improve; fall tail latency worsens with a 631.8ms frame. Sequential one-GPU samples do not certify zero cost, 60 FPS or native 1080p/High.",
+    "hardware": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+    "scenes": [
+      {
+        "scene": "Silverveil lower approach",
+        "before": {
+          "runs": 2,
+          "seconds": 60.0161,
+          "meanMs": 19.76163977609483,
+          "fps": 50.60308817134069,
+          "p95": 27.79999999998836,
+          "p99": 34.69999999999709,
+          "max": 111.09999999999854,
+          "over50": 8,
+          "over100": 2,
+          "maxConsecutiveOver50": 4,
+          "perRun": [
+            {
+              "fps": 49.96450153826668,
+              "p95": 27.799999999995634,
+              "max": 111.09999999999854,
+              "laps": 1,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            },
+            {
+              "fps": 51.241387582126144,
+              "p95": 27.69999999999709,
+              "max": 104.19999999999709,
+              "laps": 1,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            }
+          ]
+        },
+        "after": {
+          "runs": 2,
+          "seconds": 60.015899999999995,
+          "meanMs": 19.820310435931304,
+          "fps": 50.45329654308276,
+          "p95": 27.80000000000291,
+          "p99": 55.5,
+          "max": 631.8000000000029,
+          "over50": 33,
+          "over100": 11,
+          "maxConsecutiveOver50": 7,
+          "perRun": [
+            {
+              "fps": 44.98815311967849,
+              "p95": 34.69999999999709,
+              "max": 631.8000000000029,
+              "laps": 1,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            },
+            {
+              "fps": 55.91842175419888,
+              "p95": 27.69999999999709,
+              "max": 132,
+              "laps": 1,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            }
+          ]
+        },
+        "meanMsChangePercent": 0.29689165727757594
+      },
+      {
+        "scene": "Village riverside",
+        "before": {
+          "runs": 2,
+          "seconds": 60.015800000000006,
+          "meanMs": 22.302415458937197,
+          "fps": 44.83819260927956,
+          "p95": 27.89999999999418,
+          "p99": 48.60000000000582,
+          "max": 506.79999999998836,
+          "over50": 20,
+          "over100": 6,
+          "maxConsecutiveOver50": 3,
+          "perRun": [
+            {
+              "fps": 43.8986830395088,
+              "p95": 27.89999999999418,
+              "max": 104.09999999997672,
+              "laps": 2,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            },
+            {
+              "fps": 45.77726395890043,
+              "p95": 28,
+              "max": 506.79999999998836,
+              "laps": 2,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            }
+          ]
+        },
+        "after": {
+          "runs": 2,
+          "seconds": 60.016,
+          "meanMs": 21.014005602240896,
+          "fps": 47.58731005065316,
+          "p95": 27.800000000017462,
+          "p99": 34.79999999998836,
+          "max": 138.90000000002328,
+          "over50": 10,
+          "over100": 5,
+          "maxConsecutiveOver50": 1,
+          "perRun": [
+            {
+              "fps": 48.120501199680085,
+              "p95": 27.800000000017462,
+              "max": 138.90000000002328,
+              "laps": 2,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            },
+            {
+              "fps": 47.05411890162623,
+              "p95": 27.800000000017462,
+              "max": 138.89999999999418,
+              "laps": 2,
+              "inputRecoveries": 0,
+              "internal": [
+                1120,
+                630
+              ],
+              "targets": {
+                "scene": [
+                  1120,
+                  630
+                ],
+                "post": [
+                  1120,
+                  630
+                ]
+              }
+            }
+          ]
+        },
+        "meanMsChangePercent": -5.776996931424305
+      }
+    ]
+  }
+}

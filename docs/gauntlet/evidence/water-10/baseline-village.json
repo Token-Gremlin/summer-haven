@@ -1,0 +1,92 @@
+{
+  "appearance": {
+    "accessories": [
+      false,
+      false,
+      true
+    ],
+    "body": "feminine",
+    "bottom": 0,
+    "bottomColor": 3,
+    "eyes": 1,
+    "face": 0,
+    "hair": 0,
+    "hairColor": 0,
+    "name": "Haru",
+    "shoes": 0,
+    "skin": 1,
+    "top": 1,
+    "topColor": 0
+  },
+  "build": [
+    "http://127.0.0.1:4177/assets/index-DMYTnp5a.js"
+  ],
+  "camera": [
+    40.02326386985144,
+    4.519224676036803,
+    -118.55112106298522
+  ],
+  "dpr": 1.25,
+  "drops": 0,
+  "internal": [
+    1600,
+    900
+  ],
+  "profilerEnabled": false,
+  "settings": {
+    "aa": 1,
+    "ambience": 0.7,
+    "distance": 240,
+    "effects": 0.7,
+    "freezeTime": true,
+    "hints": true,
+    "invertY": false,
+    "master": 0.65,
+    "post": true,
+    "quality": "high",
+    "reflections": true,
+    "resolution": 1,
+    "sensitivity": 1,
+    "shadows": 1024,
+    "timeSpeed": 1,
+    "vegetation": 1,
+    "visibility": "nearby"
+  },
+  "stats": {
+    "calls": 361,
+    "cycling": false,
+    "frameMs": 69.77833333333335,
+    "frames": 600,
+    "inside": null,
+    "mode": "play",
+    "position": [
+      43,
+      0.036770447246422255,
+      -124
+    ],
+    "state": "idle",
+    "triangles": 3006071
+  },
+  "target": [
+    43,
+    1.2867704472464223,
+    -124
+  ],
+  "time": 0.18,
+  "view": {
+    "name": "village",
+    "quality": "high",
+    "time": 0.18,
+    "view": {
+      "distance": 7,
+      "pitch": 0.48,
+      "x": 43,
+      "yaw": -0.5,
+      "z": -124
+    }
+  },
+  "viewport": [
+    1280,
+    720
+  ]
+}

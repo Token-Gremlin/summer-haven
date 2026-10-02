@@ -1,0 +1,42 @@
+[
+  {
+    "path": "src/world/sky.ts",
+    "bytes": 12208,
+    "sha256": "0E345883BCFCC2C2D49540A89DB43929A62185288EEAC95B8321E4E3B9EBB2CF"
+  },
+  {
+    "path": "src/render/angular-sectors.ts",
+    "bytes": 3392,
+    "sha256": "DFF0A39360EB848CAF52B42582690A259D8C29709008589CE0AE50A12AC58995"
+  },
+  {
+    "path": "src/render/profiler.ts",
+    "bytes": 8862,
+    "sha256": "C84F698180DB640595E43F37C2BFCC34A09E751D42D28BE86ED9AD2A6D7C1462"
+  },
+  {
+    "path": "public/assets/creatures/haven-wildlife.glb",
+    "bytes": 493412,
+    "sha256": "7A36480ABC2D184D6714E80E358E7CA7EC785B3473A78FA7EA16422FDF56AD99"
+  },
+  {
+    "path": ".cache/releases/candidate-06-control/assets/index-EN8KKUz1.js",
+    "bytes": 1143227,
+    "sha256": "F99E88CE9D28D1BEFADB3DC4A06EF5E1A28910D9F66CB96048618C454F0D8B02"
+  },
+  {
+    "path": ".cache/releases/candidate-06-sector/assets/index-CeBVBOAx.js",
+    "bytes": 1144683,
+    "sha256": "6A6030AE25CF0DEF6E05F583EDC4AB5DC9384ABBBF66B71844984E0C50A0647E"
+  },
+  {
+    "path": "tools/qa/world-performance.js",
+    "bytes": 7286,
+    "sha256": "3869C9BFF052D1850826877BA3A43EF515A38695F877A16875168F70E784425B"
+  },
+  {
+    "path": ".cache/qa-encounter-save-05.json",
+    "bytes": 6910,
+    "sha256": "A0F2D4B4E6C2F15EF79D4C2280D3998831CE411E70B59A47A8F5E1E82805EC64"
+  }
+]

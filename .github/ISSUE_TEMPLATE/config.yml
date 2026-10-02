@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Local playtest guide
+    url: https://github.com/Token-Gremlin/summer-haven/blob/main/docs/PLAYTEST.md
+    about: Setup, controls, places to visit and known limitations.
+  - name: Security reporting
+    url: https://github.com/Token-Gremlin/summer-haven/blob/main/SECURITY.md
+    about: Please keep sensitive reports out of public issues.

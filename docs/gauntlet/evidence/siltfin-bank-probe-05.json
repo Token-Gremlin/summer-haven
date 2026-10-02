@@ -1,0 +1,55 @@
+{
+  "hits": [
+    {
+      "name": "GEO_Silverveil_moss",
+      "parent": "GEO_Silverveil",
+      "y": 56.55024863405747
+    },
+    {
+      "name": "GEO_Silverveil_wet",
+      "parent": "GEO_Silverveil",
+      "y": 56.072061112375565
+    },
+    {
+      "name": "GEO_Silverveil_wet",
+      "parent": "GEO_Silverveil",
+      "y": 56.072061112375565
+    },
+    {
+      "name": "",
+      "parent": "Valley cell 352,-740",
+      "y": 55.95500183105469
+    },
+    {
+      "name": "",
+      "parent": "Valley cell 352,-740",
+      "y": 55.95500183105469
+    },
+    {
+      "name": "",
+      "parent": "Valley cell 352,-740",
+      "y": 55.95500183105469
+    },
+    {
+      "name": "",
+      "parent": "Valley cell 352,-740",
+      "y": 55.95500183105469
+    },
+    {
+      "name": "",
+      "parent": "Valley cell 352,-740",
+      "y": 55.95500183105469
+    },
+    {
+      "name": "",
+      "parent": "Valley cell 352,-740",
+      "y": 55.95500183105469
+    }
+  ],
+  "player": [
+    356,
+    56.02,
+    -742
+  ],
+  "terrain": 56
+}

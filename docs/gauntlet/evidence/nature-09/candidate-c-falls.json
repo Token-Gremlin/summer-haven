@@ -1,0 +1,73 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "camera": [
+        339.5876867717342,
+        19.140500188076263,
+        -670.8195019433732
+      ],
+      "dpr": 1.25,
+      "internal": [
+        1600,
+        900
+      ],
+      "scripts": [
+        "http://127.0.0.1:4177/assets/index-D_QWdtrh.js"
+      ],
+      "settings": {
+        "aa": 1,
+        "ambience": 0.7,
+        "distance": 240,
+        "effects": 0.7,
+        "freezeTime": true,
+        "hints": true,
+        "invertY": false,
+        "master": 0.65,
+        "post": true,
+        "quality": "high",
+        "reflections": false,
+        "resolution": 1,
+        "sensitivity": 1,
+        "shadows": 1024,
+        "timeSpeed": 1,
+        "vegetation": 1,
+        "visibility": "nearby"
+      },
+      "stats": {
+        "calls": 442,
+        "cycling": false,
+        "frameMs": 103.28000000000004,
+        "frames": 375,
+        "inside": null,
+        "mode": "play",
+        "position": [
+          344,
+          17.890500188076263,
+          -677
+        ],
+        "state": "idle",
+        "triangles": 881116
+      },
+      "target": [
+        344,
+        21.657032673005205,
+        -677
+      ],
+      "time": 0.18,
+      "view": {
+        "distance": 8,
+        "id": "falls",
+        "pitch": -0.32,
+        "x": 344,
+        "yaw": -0.62,
+        "z": -677
+      },
+      "viewport": [
+        1280,
+        720
+      ],
+      "visualClock": 84
+    }
+  }
+}

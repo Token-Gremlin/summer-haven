@@ -1,0 +1,13 @@
+{"oldDistance":6,"newDistance":1.381845917446359}
+✔ village camera volumes contain actual foliage in both detail levels under rotation and scale (1164.106ms)
+✔ a nonzero world-space wind displacement remains inside the scaled canopy envelope (139.3129ms)
+✔ the reproduced village-bank camera stops before the cedar crown that fixed-radius proxies missed (27.406ms)
+✔ convex camera collision permits empty crown corners and handles parallel, inside and departing rays (0.9813ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 4
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2354.6837

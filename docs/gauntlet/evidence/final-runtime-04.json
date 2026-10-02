@@ -1,0 +1,262 @@
+{
+  "runtime": {
+    "build": "http://127.0.0.1:4175/assets/index-CLsWHzg_.js",
+    "started": 1790722511497.1,
+    "viewport": [
+      1280,
+      720,
+      1.0000000149011612
+    ],
+    "canvas": [
+      1280,
+      720
+    ],
+    "stats": {
+      "mode": "play",
+      "inside": null,
+      "position": [
+        20,
+        5.061152263374486,
+        -273
+      ],
+      "state": "idle",
+      "cycling": false,
+      "frameMs": 47.560833333333235,
+      "calls": 483,
+      "triangles": 1455157,
+      "frames": 600
+    },
+    "settings": {
+      "quality": "high",
+      "resolution": 1,
+      "shadows": 1024,
+      "vegetation": 1,
+      "reflections": false,
+      "aa": 1,
+      "post": true,
+      "distance": 240,
+      "visibility": "nearby",
+      "master": 0.65,
+      "ambience": 0.7,
+      "effects": 0.7,
+      "sensitivity": 1,
+      "invertY": false,
+      "freezeTime": true,
+      "timeSpeed": 1,
+      "hints": true
+    },
+    "time": 0.12,
+    "save": {
+      "version": 1,
+      "created": true,
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "settings": {
+        "quality": "high",
+        "resolution": 1,
+        "shadows": 1024,
+        "vegetation": 1,
+        "reflections": false,
+        "aa": 1,
+        "post": true,
+        "distance": 240,
+        "visibility": "nearby",
+        "master": 0.65,
+        "ambience": 0.7,
+        "effects": 0.7,
+        "sensitivity": 1,
+        "invertY": false,
+        "freezeTime": true,
+        "timeSpeed": 1,
+        "hints": true
+      },
+      "activities": {
+        "cat": 0,
+        "delivery": 0,
+        "photo": 0
+      },
+      "position": [
+        102.6,
+        -338.46
+      ],
+      "time": 0.12,
+      "discoveries": [
+        "aldermere",
+        "silverveil",
+        "landing-haven",
+        "lantern-market",
+        "landing-aldermere",
+        "reedbank",
+        "makers-court"
+      ],
+      "world": {
+        "elapsedSeconds": 362.7158999999531,
+        "reedwingSeen": false,
+        "cityLife": {
+          "version": 1,
+          "layoutRevision": 2,
+          "residents": [
+            {
+              "id": "iona",
+              "x": 26.2,
+              "z": -300.2,
+              "yaw": 7.853981633974483,
+              "activity": "home",
+              "settled": 557.3006000000313,
+              "taskProgress": 0,
+              "tasksCompleted": 32,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "mira",
+              "x": -17.7,
+              "z": -335.5,
+              "yaw": 9.42477796076938,
+              "activity": "home",
+              "settled": 557.1547000000311,
+              "taskProgress": 0.18050000000000002,
+              "tasksCompleted": 32,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "oren",
+              "x": -32.50255006988791,
+              "z": -292.3189264402032,
+              "yaw": -1.570796326794897,
+              "activity": "home",
+              "settled": 556.9533000000306,
+              "taskProgress": 0,
+              "tasksCompleted": 32,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "lio",
+              "x": 101.5,
+              "z": -325.3,
+              "yaw": 4.71238898038469,
+              "activity": "home",
+              "settled": 557.7379000000318,
+              "taskProgress": 1.1316999999999828,
+              "tasksCompleted": 31,
+              "conversations": 1,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "mara",
+              "x": 26.49932729585809,
+              "z": -298.40141267869797,
+              "yaw": 1.5707963267948966,
+              "activity": "home",
+              "settled": 571.1242000000457,
+              "taskProgress": 13.990299999999973,
+              "tasksCompleted": 33,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "rowan",
+              "x": 40.488241711135416,
+              "z": -348.6933369696434,
+              "yaw": -4.71238898038469,
+              "activity": "home",
+              "settled": 556.52290000003,
+              "taskProgress": 0,
+              "tasksCompleted": 28,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "tamsin",
+              "x": 16.5,
+              "z": -320.6,
+              "yaw": 4.71238898038469,
+              "activity": "home",
+              "settled": 571.1658000000458,
+              "taskProgress": 14.455599999999965,
+              "tasksCompleted": 33,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "sela",
+              "x": 15.499217689728201,
+              "z": -285.3026598549242,
+              "yaw": 4.71238898038469,
+              "activity": "home",
+              "settled": 556.6201000000301,
+              "taskProgress": 0,
+              "tasksCompleted": 29,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "neri",
+              "x": 40.510168681380534,
+              "z": -345.48983131861945,
+              "yaw": -4.71238898038469,
+              "activity": "home",
+              "settled": 556.54370000003,
+              "taskProgress": 0,
+              "tasksCompleted": 31,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            },
+            {
+              "id": "bram",
+              "x": 119.49940373538215,
+              "z": -360.2992248559968,
+              "yaw": 10.995574287564276,
+              "activity": "home",
+              "settled": 559.7653000000338,
+              "taskProgress": 0,
+              "tasksCompleted": 32,
+              "conversations": 0,
+              "meetingProgress": 0,
+              "meetingsCompleted": 0,
+              "meetingCounted": false
+            }
+          ]
+        }
+      }
+    }
+  },
+  "console": []
+}

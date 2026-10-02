@@ -1,0 +1,382 @@
+[
+  {
+    "animal": {
+      "age": 7.899999999999988,
+      "cooldown": 0,
+      "cycle": 6,
+      "duration": 12,
+      "id": "mosswood-glade-0",
+      "node": 4,
+      "origin": {
+        "x": 207,
+        "y": 12.47539341531716,
+        "z": -507
+      },
+      "position": {
+        "x": 202,
+        "y": 10.960701007240967,
+        "z": -510
+      },
+      "state": "rest",
+      "target": 4
+    },
+    "build": [
+      "http://127.0.0.1:4175/assets/index-CeBVBOAx.js"
+    ],
+    "camera": {
+      "distance": 4.4,
+      "offset": [
+        -4,
+        -1.6367559254467885,
+        -3
+      ],
+      "photo": true,
+      "pitch": 0.08,
+      "position": [
+        202,
+        12.312325660705328,
+        -505.61407249226846
+      ],
+      "quaternion": [
+        -0.03998933418663398,
+        0,
+        0,
+        0.999200106660978
+      ],
+      "target": [
+        202,
+        11.960701007240967,
+        -510
+      ],
+      "yaw": 0
+    },
+    "created": "2026-09-30T01:18:16.429Z",
+    "dpr": 1.25,
+    "player": [
+      206,
+      12.347456932687756,
+      -507
+    ],
+    "render": [
+      1150,
+      835
+    ],
+    "rootQuaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "settings": {
+      "aa": 1,
+      "ambience": 0.7,
+      "distance": 240,
+      "effects": 0.7,
+      "freezeTime": true,
+      "hints": true,
+      "invertY": false,
+      "master": 0.65,
+      "post": true,
+      "quality": "high",
+      "reflections": false,
+      "resolution": 1,
+      "sensitivity": 1,
+      "shadows": 1024,
+      "timeSpeed": 1,
+      "vegetation": 1,
+      "visibility": "nearby"
+    },
+    "time": 0.12,
+    "view": "front",
+    "viewport": [
+      920,
+      668
+    ],
+    "worldSeconds": 168.2450999999978
+  },
+  {
+    "animal": {
+      "age": 7.899999999999988,
+      "cooldown": 0,
+      "cycle": 6,
+      "duration": 12,
+      "id": "mosswood-glade-0",
+      "node": 4,
+      "origin": {
+        "x": 207,
+        "y": 12.47539341531716,
+        "z": -507
+      },
+      "position": {
+        "x": 202,
+        "y": 10.960701007240967,
+        "z": -510
+      },
+      "state": "rest",
+      "target": 4
+    },
+    "build": [
+      "http://127.0.0.1:4175/assets/index-CeBVBOAx.js"
+    ],
+    "camera": {
+      "distance": 4.4,
+      "offset": [
+        -4,
+        -1.6367559254467885,
+        -3
+      ],
+      "photo": true,
+      "pitch": 0.08,
+      "position": [
+        206.3859275077315,
+        12.312325660705328,
+        -510
+      ],
+      "quaternion": [
+        -0.02827672937850392,
+        0.7065411711822991,
+        0.02827672937850392,
+        0.7065411711822991
+      ],
+      "target": [
+        202,
+        11.960701007240967,
+        -510
+      ],
+      "yaw": 1.5707963267948966
+    },
+    "created": "2026-09-30T01:18:16.735Z",
+    "dpr": 1.25,
+    "player": [
+      206,
+      12.347456932687756,
+      -507
+    ],
+    "render": [
+      1150,
+      835
+    ],
+    "rootQuaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "settings": {
+      "aa": 1,
+      "ambience": 0.7,
+      "distance": 240,
+      "effects": 0.7,
+      "freezeTime": true,
+      "hints": true,
+      "invertY": false,
+      "master": 0.65,
+      "post": true,
+      "quality": "high",
+      "reflections": false,
+      "resolution": 1,
+      "sensitivity": 1,
+      "shadows": 1024,
+      "timeSpeed": 1,
+      "vegetation": 1,
+      "visibility": "nearby"
+    },
+    "time": 0.12,
+    "view": "side",
+    "viewport": [
+      920,
+      668
+    ],
+    "worldSeconds": 168.2450999999978
+  },
+  {
+    "animal": {
+      "age": 7.899999999999988,
+      "cooldown": 0,
+      "cycle": 6,
+      "duration": 12,
+      "id": "mosswood-glade-0",
+      "node": 4,
+      "origin": {
+        "x": 207,
+        "y": 12.47539341531716,
+        "z": -507
+      },
+      "position": {
+        "x": 202,
+        "y": 10.960701007240967,
+        "z": -510
+      },
+      "state": "rest",
+      "target": 4
+    },
+    "build": [
+      "http://127.0.0.1:4175/assets/index-CeBVBOAx.js"
+    ],
+    "camera": {
+      "distance": 4.4,
+      "offset": [
+        -4,
+        -1.6367559254467885,
+        -3
+      ],
+      "photo": true,
+      "pitch": 0.08,
+      "position": [
+        205.27945072045964,
+        12.313656135571636,
+        -507.397588116487
+      ],
+      "quaternion": [
+        -0.037856098234085006,
+        0.4345809669738985,
+        0.018286580016453512,
+        0.8996509878624178
+      ],
+      "target": [
+        202,
+        11.960701007240967,
+        -510
+      ],
+      "yaw": 0.9
+    },
+    "created": "2026-09-30T01:18:16.931Z",
+    "dpr": 1.25,
+    "player": [
+      206,
+      12.347456932687756,
+      -507
+    ],
+    "render": [
+      1150,
+      835
+    ],
+    "rootQuaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "settings": {
+      "aa": 1,
+      "ambience": 0.7,
+      "distance": 240,
+      "effects": 0.7,
+      "freezeTime": true,
+      "hints": true,
+      "invertY": false,
+      "master": 0.65,
+      "post": true,
+      "quality": "high",
+      "reflections": false,
+      "resolution": 1,
+      "sensitivity": 1,
+      "shadows": 1024,
+      "timeSpeed": 1,
+      "vegetation": 1,
+      "visibility": "nearby"
+    },
+    "time": 0.12,
+    "view": "threequarter",
+    "viewport": [
+      920,
+      668
+    ],
+    "worldSeconds": 168.2450999999978
+  },
+  {
+    "animal": {
+      "age": 7.899999999999988,
+      "cooldown": 0,
+      "cycle": 6,
+      "duration": 12,
+      "id": "mosswood-glade-0",
+      "node": 4,
+      "origin": {
+        "x": 207,
+        "y": 12.47539341531716,
+        "z": -507
+      },
+      "position": {
+        "x": 202,
+        "y": 10.960701007240967,
+        "z": -510
+      },
+      "state": "rest",
+      "target": 4
+    },
+    "build": [
+      "http://127.0.0.1:4175/assets/index-CeBVBOAx.js"
+    ],
+    "camera": {
+      "distance": 7.2,
+      "offset": [
+        -4,
+        -1.6367559254467885,
+        -3
+      ],
+      "photo": true,
+      "pitch": 0.08,
+      "position": [
+        205.27945072045964,
+        12.313656135571636,
+        -507.397588116487
+      ],
+      "quaternion": [
+        -0.037856098234085006,
+        0.4345809669738985,
+        0.018286580016453512,
+        0.8996509878624178
+      ],
+      "target": [
+        202,
+        11.960701007240967,
+        -510
+      ],
+      "yaw": 0.9
+    },
+    "created": "2026-09-30T01:18:17.113Z",
+    "dpr": 1.25,
+    "player": [
+      206,
+      12.347456932687756,
+      -507
+    ],
+    "render": [
+      1150,
+      835
+    ],
+    "rootQuaternion": [
+      0,
+      0,
+      0,
+      1
+    ],
+    "settings": {
+      "aa": 1,
+      "ambience": 0.7,
+      "distance": 240,
+      "effects": 0.7,
+      "freezeTime": true,
+      "hints": true,
+      "invertY": false,
+      "master": 0.65,
+      "post": true,
+      "quality": "high",
+      "reflections": false,
+      "resolution": 1,
+      "sensitivity": 1,
+      "shadows": 1024,
+      "timeSpeed": 1,
+      "vegetation": 1,
+      "visibility": "nearby"
+    },
+    "time": 0.12,
+    "view": "medium",
+    "viewport": [
+      920,
+      668
+    ],
+    "worldSeconds": 168.2450999999978
+  }
+]

@@ -1,0 +1,6 @@
+{
+  "before": "46e075749d14876c05d320327f6a1a3e181b92f3d8474fb97e766ba71d50a63e",
+  "after": "46e075749d14876c05d320327f6a1a3e181b92f3d8474fb97e766ba71d50a63e",
+  "identical": true,
+  "method": "Complete rebuild through live Blender MCP; no manual geometry state reused"
+}

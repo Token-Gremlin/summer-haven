@@ -1,0 +1,29 @@
+{
+  "author": "Summer Haven",
+  "units": "metres",
+  "Blender": "5.2.1 LTS",
+  "forward": "Blender -Y; glTF +Z",
+  "assets": {
+    "characters": {
+      "meshes": 576,
+      "vertices": 57118,
+      "triangles": 111036,
+      "rigs": [
+        {
+          "name": "RIG_feminine",
+          "bones": 22
+        },
+        {
+          "name": "RIG_masculine",
+          "bones": 22
+        }
+      ]
+    },
+    "village": {
+      "meshes": 102,
+      "vertices": 26803,
+      "triangles": 49836,
+      "rigs": []
+    }
+  }
+}

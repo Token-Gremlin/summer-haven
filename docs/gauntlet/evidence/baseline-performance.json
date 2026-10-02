@@ -1,0 +1,103 @@
+{
+  "date": "2026-09-29T21:32:13.707Z",
+  "memory": {
+    "jsHeapSizeLimit": 4395630592,
+    "totalJSHeapSize": 198879289,
+    "usedJSHeapSize": 188692973
+  },
+  "method": "4000 ms populated-scene RAF samples after 24 warmup frames. No screenshot during measurement.",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "rendererMemory": {
+    "geometries": 451,
+    "textures": 74
+  },
+  "resources": [
+    {
+      "bytes": 300,
+      "durationMs": 15.399999976158142,
+      "name": "feminine.glb"
+    },
+    {
+      "bytes": 300,
+      "durationMs": 20.59999990463257,
+      "name": "masculine.glb"
+    },
+    {
+      "bytes": 300,
+      "durationMs": 47.89999997615814,
+      "name": "village-kit.glb"
+    }
+  ],
+  "results": [
+    {
+      "distance": 9.293544999999996,
+      "dpr": 1.0000000149011612,
+      "drawCalls": 387.03731343283584,
+      "elapsedMs": 4027,
+      "fps": 33.27539111000745,
+      "meanMs": 30.05223880597015,
+      "p95Ms": 34.80000000000291,
+      "quality": "low",
+      "render": [
+        896,
+        504
+      ],
+      "samples": 134,
+      "scene": "town walk",
+      "triangles": 1165739.9402985077,
+      "viewport": [
+        1280,
+        720
+      ],
+      "visibility": "nearby"
+    },
+    {
+      "distance": 0,
+      "dpr": 1.0000000149011612,
+      "drawCalls": 225.8987341772152,
+      "elapsedMs": 4020.100000000006,
+      "fps": 39.302504912813056,
+      "meanMs": 25.443670886075985,
+      "p95Ms": 27.90000000000873,
+      "quality": "low",
+      "render": [
+        896,
+        504
+      ],
+      "samples": 158,
+      "scene": "river view",
+      "triangles": 854958.0632911392,
+      "viewport": [
+        1280,
+        720
+      ],
+      "visibility": "nearby"
+    },
+    {
+      "distance": 0,
+      "dpr": 1.0000000149011612,
+      "drawCalls": 136.2958579881657,
+      "elapsedMs": 4006.199999999997,
+      "fps": 84.3692276970696,
+      "meanMs": 11.852662721893482,
+      "p95Ms": 14,
+      "quality": "low",
+      "render": [
+        896,
+        504
+      ],
+      "samples": 338,
+      "scene": "home interior",
+      "triangles": 44137.15976331361,
+      "viewport": [
+        1280,
+        720
+      ],
+      "visibility": "nearby"
+    }
+  ],
+  "viewport": [
+    1280,
+    720
+  ]
+}

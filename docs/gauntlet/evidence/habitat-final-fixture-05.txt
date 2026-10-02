@@ -1,0 +1,13 @@
+✔ authored habitats reach multiple contacts on actual world terrain without water or ground penetration (518.3747ms)
+✔ all habitat residents find routes against captured world solid obstacles (826.4315ms)
+✔ authored terrapins reach dry basking banks and bird feet sit on supported stone tops (447.8583ms)
+✔ ground residents clear the rendered bird perch clusters, including old overlapping saves (306.8236ms)
+✔ public support descriptors cover actual perch mesh vertices and remain stable across reset (24.2566ms)
+ℹ tests 5
+ℹ suites 0
+ℹ pass 5
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2612.5667

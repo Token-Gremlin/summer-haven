@@ -1,0 +1,306 @@
+{
+  "checks": [
+    {
+      "detail": {
+        "catchmentRebuilds": 9,
+        "counts": [
+          0,
+          0,
+          52,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "name": "spring state reaches the running shaders",
+      "ok": true
+    },
+    {
+      "name": "spring survives save validation",
+      "ok": true
+    },
+    {
+      "detail": {
+        "catchmentRebuilds": 9,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "name": "summer state reaches the running shaders",
+      "ok": true
+    },
+    {
+      "name": "summer survives save validation",
+      "ok": true
+    },
+    {
+      "detail": {
+        "catchmentRebuilds": 9,
+        "counts": [
+          595,
+          0,
+          52,
+          77
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "name": "autumn state reaches the running shaders",
+      "ok": true
+    },
+    {
+      "name": "autumn survives save validation",
+      "ok": true
+    },
+    {
+      "detail": {
+        "catchmentRebuilds": 9,
+        "counts": [
+          0,
+          298,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "name": "winter state reaches the running shaders",
+      "ok": true
+    },
+    {
+      "name": "winter survives save validation",
+      "ok": true
+    },
+    {
+      "detail": {
+        "precipitation": [
+          0,
+          298,
+          0,
+          0
+        ],
+        "sky": {
+          "bands": 1,
+          "hz": 3,
+          "resolution": [
+            384,
+            384
+          ],
+          "steps": 12
+        }
+      },
+      "name": "low has bounded live sky and snow",
+      "ok": true
+    },
+    {
+      "detail": {
+        "precipitation": [
+          0,
+          723,
+          0,
+          0
+        ],
+        "sky": {
+          "bands": 1,
+          "hz": 4,
+          "resolution": [
+            640,
+            640
+          ],
+          "steps": 18
+        }
+      },
+      "name": "medium has bounded live sky and snow",
+      "ok": true
+    },
+    {
+      "detail": {
+        "precipitation": [
+          0,
+          1785,
+          0,
+          0
+        ],
+        "sky": {
+          "bands": 4,
+          "hz": 5,
+          "resolution": [
+            896,
+            896
+          ],
+          "steps": 24
+        }
+      },
+      "name": "high has bounded live sky and snow",
+      "ok": true
+    },
+    {
+      "detail": {
+        "precipitation": [
+          0,
+          3740,
+          0,
+          0
+        ],
+        "sky": {
+          "bands": 4,
+          "hz": 6,
+          "resolution": [
+            1280,
+            1280
+          ],
+          "steps": 32
+        }
+      },
+      "name": "ultra has bounded live sky and snow",
+      "ok": true
+    },
+    {
+      "name": "quality switches reuse precipitation geometry",
+      "ok": true
+    },
+    {
+      "name": "interior is sheltered",
+      "ok": true
+    },
+    {
+      "name": "creator has neutral climate",
+      "ok": true
+    },
+    {
+      "name": "still air settles",
+      "ok": true
+    },
+    {
+      "name": "north wind points toward the northern valley",
+      "ok": true
+    },
+    {
+      "name": "rain has real instances and wet surfaces",
+      "ok": true
+    },
+    {
+      "detail": {
+        "distance": 10.618080000043529,
+        "state": "jog"
+      },
+      "name": "jog works during rain",
+      "ok": true
+    },
+    {
+      "detail": {
+        "distance": 8.564381443495641,
+        "state": "cycle"
+      },
+      "name": "bicycle works during rain",
+      "ok": true
+    },
+    {
+      "name": "moving rain refreshes catchment",
+      "ok": true
+    },
+    {
+      "name": "all compiled shaders runnable",
+      "ok": true
+    },
+    {
+      "name": "camera stays finite",
+      "ok": true
+    }
+  ],
+  "date": "2026-10-02T00:39:33.825Z",
+  "passed": 23
+}

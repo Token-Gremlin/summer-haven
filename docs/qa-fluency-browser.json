@@ -1,0 +1,1115 @@
+{
+  "checks": [
+    {
+      "name": "W moves the character through the game input layer",
+      "pass": true,
+      "detail": 2.7722547798482866
+    },
+    {
+      "name": "Shift produces a faster jog",
+      "pass": true,
+      "detail": 5.558732373575936
+    },
+    {
+      "name": "Pause stops player motion",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "F mounts the nearby bicycle",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Bicycle propulsion and crank are active",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hands and shoes stay attached throughout pedalling and steering",
+      "pass": true,
+      "detail": {
+        "handGap": 0.07762101625605392,
+        "footGap": 0.08321684250547694
+      }
+    },
+    {
+      "name": "masculine: hands and shoes stay attached throughout pedalling and steering",
+      "pass": true,
+      "detail": {
+        "handGap": 0.07762090719777573,
+        "footGap": 0.08321664189103845
+      }
+    },
+    {
+      "name": "F dismounts and leaves the bicycle parked",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "A villager acknowledges the player and opens dialogue",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Conversation returns to exploration",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape closes dialogue and releases the villager routine",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 1, top 1, fitted outfit",
+      "pass": true,
+      "detail": "4 draw batches"
+    },
+    {
+      "name": "feminine/0: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/0: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 2, top 2, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/1: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/1: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 3, top 3, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/2: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/2: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 4, top 4, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/3: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/3: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 5, top 5, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/4: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/4: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 6, top 6, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/5: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/5: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 7, top 1, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/6: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/6: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: hairstyle 8, top 2, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "feminine/7: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine/7: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "feminine: creator confirms exact appearance in the world",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 1, top 1, fitted outfit",
+      "pass": true,
+      "detail": "4 draw batches"
+    },
+    {
+      "name": "masculine/0: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/0: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 2, top 2, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/1: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/1: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 3, top 3, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/2: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/2: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 4, top 4, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/3: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/3: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 5, top 5, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/4: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/4: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 6, top 6, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/5: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/5: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 7, top 1, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/6: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/6: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: hairstyle 8, top 2, fitted outfit",
+      "pass": true,
+      "detail": "5 draw batches"
+    },
+    {
+      "name": "masculine/7: idle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: walk has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: jog has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: sit has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: mount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: cycle has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: brake has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: dismount has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine/7: interact has finite bones",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "masculine: creator confirms exact appearance in the world",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Door enters the home",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Wardrobe reopens the creator from home",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "home exit returns safely outside",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Door enters the cafe",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "cafe exit returns safely outside",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Door enters the shop",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "shop exit returns safely outside",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mikan interaction completes the lost-cat activity",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Mori gives the optional parcel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Ren receives the parcel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Walkable route to fields with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 798,
+        "end": [
+          -63.30447860375003,
+          0.02000165641933294,
+          17.399999999999984
+        ]
+      }
+    },
+    {
+      "name": "Walkable route to river with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 772,
+        "end": [
+          38.732937161012934,
+          0.19999999999999998,
+          -25.90459641209768
+        ]
+      }
+    },
+    {
+      "name": "Walkable route to shrine with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 1694,
+        "end": [
+          76.69220238881562,
+          3.6932173587160713,
+          -69.29503281025293
+        ]
+      }
+    },
+    {
+      "name": "Walkable route to hill with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 1597,
+        "end": [
+          -60.692529665979244,
+          17.787988288496948,
+          -83.29652438605962
+        ]
+      }
+    },
+    {
+      "name": "Walkable route to Hibiscus lane with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 1200,
+        "end": [
+          -0.4000000000000057,
+          0.02,
+          112.46447860374933
+        ]
+      }
+    },
+    {
+      "name": "Walkable route to community garden with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 1196,
+        "end": [
+          -29.892947903506208,
+          0.02,
+          94.29492837779415
+        ]
+      }
+    },
+    {
+      "name": "Walkable route to Apricot neighborhood with actual player collision",
+      "pass": true,
+      "detail": {
+        "steps": 2482,
+        "end": [
+          80.71119981236916,
+          0.020000000000004868,
+          87.36833335854912
+        ]
+      }
+    },
+    {
+      "name": "Shrine stone steps elevate the player onto the platform",
+      "pass": true,
+      "detail": [
+        77,
+        5.491501093152633,
+        -76.6658333333438
+      ]
+    },
+    {
+      "name": "Time changes produce purposeful NPC routes",
+      "pass": true,
+      "detail": 11
+    },
+    {
+      "name": "Villagers finish their afternoon routes",
+      "pass": true,
+      "detail": []
+    },
+    {
+      "name": "Rewinding time restores a workplace even when its route is already complete",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Photo mode opens and freezes simulation time",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Photo mode holds the clock",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Photo button creates a PNG and records the hill photograph",
+      "pass": true,
+      "detail": {
+        "pngBytes": 1003514,
+        "activity": 2
+      }
+    },
+    {
+      "name": "T opens the daylight panel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Daylight preset 0.05 updates live lighting",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Daylight preset 0.38 updates live lighting",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Daylight preset 0.67 updates live lighting",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Daylight preset 0.86 updates live lighting",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Daylight preset 1 updates live lighting",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Continuous time slider reaches 17:15",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Time speed and hold preference persist",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Escape returns from daylight panel",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "HUD clock opens the same controls",
+      "pass": true,
+      "detail": ""
+    },
+    {
+      "name": "Audio starts after interaction",
+      "pass": true,
+      "detail": ""
+    }
+  ],
+  "metrics": [],
+  "date": "2026-09-29T19:59:19.459Z",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "audio": {
+    "state": "running",
+    "enabled": true
+  },
+  "passed": 208,
+  "failed": []
+}

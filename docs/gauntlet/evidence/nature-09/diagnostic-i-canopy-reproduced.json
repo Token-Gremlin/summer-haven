@@ -1,0 +1,73 @@
+{
+  "result": {
+    "type": "object",
+    "value": {
+      "camera": [
+        39.60787474971314,
+        4.192257458180167,
+        -111.97272700304626
+      ],
+      "dpr": 1.25,
+      "internal": [
+        1600,
+        900
+      ],
+      "scripts": [
+        "http://127.0.0.1:4177/assets/index-xdBiS9mR.js"
+      ],
+      "settings": {
+        "aa": 1,
+        "ambience": 0.7,
+        "distance": 240,
+        "effects": 0.7,
+        "freezeTime": true,
+        "hints": true,
+        "invertY": false,
+        "master": 0.65,
+        "post": true,
+        "quality": "high",
+        "reflections": false,
+        "resolution": 1,
+        "sensitivity": 1,
+        "shadows": 1024,
+        "timeSpeed": 1,
+        "vegetation": 1,
+        "visibility": "nearby"
+      },
+      "stats": {
+        "calls": 349,
+        "cycling": false,
+        "frameMs": 62.833333333333336,
+        "frames": 600,
+        "inside": null,
+        "mode": "play",
+        "position": [
+          43,
+          0.0657042265549491,
+          -116
+        ],
+        "state": "idle",
+        "triangles": 1092343
+      },
+      "target": [
+        43,
+        1.315704226554949,
+        -116
+      ],
+      "time": 0.18,
+      "view": {
+        "distance": 6,
+        "id": "village-bank-south",
+        "pitch": 0.5,
+        "x": 43,
+        "yaw": -0.7,
+        "z": -116
+      },
+      "viewport": [
+        1280,
+        720
+      ],
+      "visualClock": 84
+    }
+  }
+}

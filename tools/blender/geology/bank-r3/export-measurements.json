@@ -1,0 +1,73 @@
+{
+  "mode": "Raycast final GLB in Three.js; visual meshes only, double sided conservative check",
+  "sampled": 3080,
+  "failures": 0,
+  "maxDelta": -0.15062522888183594,
+  "where": {
+    "x": 353.75,
+    "z": -737.25,
+    "mesh": "GEO_Silverveil_moss",
+    "y": 55.849374771118164
+  },
+  "target": [
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_moss",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_wet",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_wet",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_wet",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_wet",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_wet",
+      "y": 55.81999969482422
+    },
+    {
+      "mesh": "GEO_Silverveil_wet",
+      "y": 55.81999969482422
+    }
+  ],
+  "targetTerrain": 56,
+  "targetWater": null,
+  "sha256": "7557f4c608d6e7e549fc0f33adac394ae7417724e9c96f7ee374492a5deeb8ec"
+}

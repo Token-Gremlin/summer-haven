@@ -1,0 +1,42 @@
+{
+  "date": "2026-09-29T20:03:35.715Z",
+  "before": {
+    "quality": "medium",
+    "resolution": 0.85,
+    "shadows": 1024,
+    "vegetation": 0.65,
+    "reflections": true,
+    "aa": 1,
+    "post": false,
+    "distance": 500,
+    "visibility": "full",
+    "master": 0.65,
+    "ambience": 0.7,
+    "effects": 0.7,
+    "sensitivity": 1,
+    "invertY": false,
+    "freezeTime": true,
+    "timeSpeed": 1,
+    "hints": true
+  },
+  "after": {
+    "quality": "medium",
+    "resolution": 0.85,
+    "shadows": 1024,
+    "vegetation": 0.65,
+    "reflections": true,
+    "aa": 1,
+    "post": false,
+    "distance": 500,
+    "visibility": "full",
+    "master": 0.65,
+    "ambience": 0.7,
+    "effects": 0.7,
+    "sensitivity": 1,
+    "invertY": false,
+    "freezeTime": true,
+    "timeSpeed": 1,
+    "hints": true
+  },
+  "pass": true
+}

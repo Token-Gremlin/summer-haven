@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="theme-color" content="#314e43" />
+    <meta name="author" content="Token Gremlin" />
+    <meta
+      name="description"
+      content="A little village. A long summer. Make yourself at home in a living, illustrated countryside."
+    />
+    <title>Summer Haven · A place to stay a while</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect rx='16' width='64' height='64' fill='%23314e43'/%3E%3Cpath d='M12 41L32 20l20 21M19 35v18h26V35' fill='none' stroke='%23f3e8cb' stroke-width='4'/%3E%3Ccircle cx='48' cy='15' r='6' fill='%23f0c17b'/%3E%3C/svg%3E"
+    />
+  </head>
+  <body>
+    <canvas id="game" aria-label="Summer Haven 3D world"></canvas>
+    <main id="ui">
+      <section id="loading" class="loading">
+        <div class="sun-mark">✳</div>
+        <p class="eyebrow">A LITTLE VILLAGE. A LONG SUMMER.</p>
+        <h1>Summer Haven</h1>
+        <p>There is nowhere you need to be.</p>
+        <div class="progress"><i id="progress"></i></div>
+        <p id="load-message" class="small">Opening the shutters…</p>
+      </section>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

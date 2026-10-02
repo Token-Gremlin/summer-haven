@@ -1,0 +1,162 @@
+{
+  "cameraFinite": true,
+  "dismountMessage": null,
+  "dismounted": true,
+  "full": {
+    "regions": {
+      "levels": [
+        0,
+        3,
+        57,
+        663
+      ],
+      "shadows": 581,
+      "templates": [
+        {
+          "species": "Ash",
+          "triangles": [
+            20100,
+            9188,
+            1608,
+            530
+          ]
+        },
+        {
+          "species": "Oak",
+          "triangles": [
+            13906,
+            7206,
+            1878,
+            540
+          ]
+        },
+        {
+          "species": "Pine",
+          "triangles": [
+            19972,
+            8360,
+            1840,
+            464
+          ]
+        },
+        {
+          "species": "Ash",
+          "triangles": [
+            20100,
+            9188,
+            1590,
+            536
+          ]
+        },
+        {
+          "species": "Aspen",
+          "triangles": [
+            7300,
+            2928,
+            1122,
+            230
+          ]
+        },
+        {
+          "species": "Pine",
+          "triangles": [
+            19972,
+            8360,
+            1840,
+            464
+          ]
+        }
+      ],
+      "total": 2123,
+      "visible": 2123
+    },
+    "village": {
+      "levels": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "shadows": 0,
+      "templates": [
+        {
+          "species": "Oak",
+          "triangles": [
+            13906,
+            7206,
+            1824,
+            546
+          ]
+        },
+        {
+          "species": "Ash",
+          "triangles": [
+            20100,
+            9188,
+            1602,
+            530
+          ]
+        },
+        {
+          "species": "Pine",
+          "triangles": [
+            19972,
+            8360,
+            1840,
+            464
+          ]
+        },
+        {
+          "species": "Ash",
+          "triangles": [
+            20100,
+            9188,
+            1572,
+            536
+          ]
+        },
+        {
+          "species": "Aspen",
+          "triangles": [
+            7300,
+            2928,
+            1122,
+            230
+          ]
+        },
+        {
+          "species": "Pine",
+          "triangles": [
+            19972,
+            8360,
+            1858,
+            464
+          ]
+        }
+      ],
+      "total": 245,
+      "visible": 245
+    }
+  },
+  "jog": {
+    "distance": 9.054509902982884,
+    "position": [
+      201.47805051558785,
+      12.23986854475492,
+      -499.206023171966
+    ],
+    "state": "jog"
+  },
+  "mountMessage": null,
+  "recovered": true,
+  "ride": {
+    "cycling": true,
+    "distance": 10.42979177229502,
+    "position": [
+      204.73076670831455,
+      12.32451162275282,
+      -498.9945032122844
+    ]
+  },
+  "shaderErrors": []
+}

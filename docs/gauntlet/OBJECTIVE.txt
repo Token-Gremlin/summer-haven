@@ -1,0 +1,73 @@
+/goal Transform Summer Haven into a beautiful, expansive, living fantasy world, using GPT-6 Astra, Blender MCP, and a continuous Gauntlet Loop. Evolve the existing game into a coherent world with a bustling city, distinctive regions, believable inhabitants, vehicles, wildlife, waterfalls, ancient temples, and magnificent dragons. Pursue AAA-level artistic craftsmanship, animation, atmosphere, and interaction quality, demonstrated through the actual playable game.
+
+Repository: [Token-Gremlin/summer-haven](https://github.com/Token-Gremlin/summer-haven).
+
+WORLD VISION
+
+Use the current village as the beginning of a much larger world. Preserve its warmth, painterly character, existing customization, and sense of belonging while expanding its scale and fantasy substantially. Expansion and new systems are explicitly authorized.
+
+Create a city with distinct neighborhoods, lively streets, markets, workshops, public spaces, homes, and meaningful interiors. Connect it naturally to forests, rivers, a spectacular waterfall, mountains, ancient temples, ruins, and places that invite exploration. Give regions their own architecture, vegetation, creatures, soundscape, atmosphere, and recognizable landmarks. Make travel reveal new compositions, encounters, and discoveries.
+
+Build density through meaningful detail and activity. Make important landmarks reachable and worth visiting. The world should reward curiosity, with paths, secrets, viewpoints, local stories, and environmental interactions.
+
+Make inhabitants appear to have lives beyond the player. NPCs should have identities, homes, occupations, schedules, destinations, social interactions, and contextual reactions. Their movement should serve understandable purposes: opening a shop, delivering goods, meeting someone, resting, traveling, or returning home. Use animation, dialogue, sound, and environmental behavior to communicate these lives. Maintain coherent state when inhabitants leave the immediate area.
+
+Introduce vehicles and transportation that belong to this fantasy setting. Preserve the bicycle and expand transportation thoughtfully. Vehicles should have a purpose, believable movement, usable routes, appropriate collision behavior, and interactions with passengers or pedestrians where relevant.
+
+Create wildlife with habitats and observable behavior. Animals should wander, feed, rest, react, and interact with their surroundings. Birds should take off, flock, land, and perch. Dragons must be distinctive, beautifully authored creatures with convincing anatomy, animation, scale, sound, and behavior. Give them a place in the world: territories, flight paths, resting places, encounters, and reactions that make their presence meaningful.
+
+Keep exploration welcoming and wondrous. Combat is optional and must not displace this vision. You may develop the world’s lore and activities as needed to connect its places and inhabitants.
+
+All player-facing content must be polished English: interfaces, dialogue, place names, signs, journals, quests, tutorials, settings, notifications, and accessibility text.
+
+QUALITY REFERENCES
+
+Study concrete official gameplay footage and images from [Ni no Kuni II](https://www.bandainamcoent.com/games/ni-no-kuni-ii) for fantasy art direction and [The Legend of Zelda: Tears of the Kingdom](https://www.zelda.com/tears-of-the-kingdom/) for exploration, spatial composition, and environmental coherence. Retain the strongest visual qualities of Summer Haven and its documented Summer Cycle reference.
+
+Select specific comparisons for the work being evaluated. Establish observable acceptance criteria and freeze them before iteration. Create original characters, architecture, creatures, and lore. Reference imagery guides quality; it is not game content to copy.
+
+GAUNTLET LOOP
+
+Inspect the current repository, applicable instructions, existing production pipeline, and running game. Establish a reproducible baseline. Confirm Blender MCP connectivity and preserve any unrelated Blender work.
+
+Choose the architecture, priorities, and decomposition yourself. You are explicitly authorized to delegate to specialist subagents within the available concurrency limits. Give work clear ownership and coordinate shared files and Blender access.
+
+Each significant contribution must pass an independent critic with fresh context. The critic receives the objective, fixed criteria, references, and actual output without the builder’s persuasive explanation. Use shuffled, neutrally labeled A/B comparisons where practical. Compare representative views and disclose any limits to blinding.
+
+The critic identifies the largest remaining gap and provides evidence. The builder addresses it, and evaluation repeats. Require evaluation of the integrated world as well as individual assets. A strong dragon, city, or forest must fit the same artistic universe.
+
+Do not finish after a predetermined number of rounds or after completing a small demonstration area. Use completed regions and systems as foundations for the broader world described above.
+
+BLENDER AND PLAYABLE INTEGRATION
+
+Use Blender MCP actively for original production assets, including characters, creatures, architecture, props, rigs, and animation. Preserve editable sources and reproducible exports. Keep runtime asset contracts working or migrate them deliberately with validation.
+
+Inspect results in Blender and again inside the game. The current importer replaces materials with custom stylized shaders, so verify that intended visual improvements survive export and runtime rendering. Coordinate access to the shared Blender instance so simultaneous agents cannot overwrite each other’s work.
+
+Use available research, visual inspection, browser interaction, coding, profiling, and audio tools whenever they contribute to the result. Match tool use to the work; never claim a capability or inspection that was unavailable.
+
+LIVING-WORLD ACCEPTANCE
+
+Validate an actual journey through the world: leave home, encounter a functioning city, observe inhabitants carrying out different activities, use transportation, enter a forest, follow water to a waterfall, explore a temple, encounter wildlife and a dragon, and return with discoveries and persistent state intact.
+
+Evaluate movement, transitions, camera behavior, interaction, navigation, dialogue, sound, and persistence through real gameplay. Check different times, viewpoints, outfits, crowded locations, and unfavorable conditions. Verify that the world continues to behave coherently over time.
+
+A screenshot cannot approve a simulation. A passing unit test cannot approve animation or atmosphere. Approval requires the appropriate evidence for each claim.
+
+SCALE AND PERFORMANCE
+
+Make the world’s scale compatible with sustained play on the available hardware. Establish explicit, hardware-specific performance and memory budgets from measured baselines. Work toward 60 FPS on the declared target configuration and report achieved results honestly.
+
+Choose suitable rendering, asset, loading, and simulation strategies. Preserve the impression of a populated, continuous world while controlling the cost of distant detail and activity. Maintain a high-quality visual mode and usable settings for weaker hardware.
+
+Measure representative busy-city, forest, waterfall, and dragon scenarios. Record hardware, resolution, quality settings, frame-time distribution, memory, loading behavior, and stalls. Compare equivalent conditions. Disclose reductions in resolution, density, or fidelity.
+
+CONTINUITY AND DELIVERY
+
+Keep a playable version available throughout development. Work on a dedicated branch, preserve existing changes and saves, maintain recoverable checkpoints, and integrate improvements only when supported by evidence.
+
+Maintain a simple local progress dashboard with playable status, region and system coverage, matched comparisons, critic decisions, test results, performance measurements, unresolved gaps, and the next experiment. Record enough state to resume after interruptions or context compaction.
+
+Proceed autonomously with local implementation, asset production, testing, and iteration within this scope. Do not request approval for every routine step. Publishing, merging into main, and additional paid services require separate authorization.
+
+Continue toward the complete world vision while the Goal remains active and within configured resource limits. When progress stalls, investigate and change the approach. Finish only when the defined world and quality criteria are supported by independent evidence. If interrupted or genuinely blocked, preserve the latest approved state and report precisely what remains.

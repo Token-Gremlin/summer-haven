@@ -1,0 +1,6007 @@
+{
+  "date": "2026-10-01T23:24:58.935Z",
+  "method": "2200ms rAF per populated view, 24 warmup frames, frozen afternoon; same viewport and presets before/after. Local browser, not hardware certification.",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "results": [
+    {
+      "averageFps": 40.3,
+      "calls": 285,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          2,
+          8,
+          38
+        ],
+        "shadows": 73,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 73
+      },
+      "meanMs": 24.81,
+      "name": "village grove",
+      "p95Ms": 27.9,
+      "passes": {
+        "calls": {
+          "frame-total": 386.378,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 285.467,
+          "shadow": 133.515
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.123,
+          "audio": 1.077,
+          "camera/sky": 0.057,
+          "dragons": 0.147,
+          "frame-total": 11.717,
+          "habitat": 0.517,
+          "input/time": 0.052,
+          "lighting": 2.769,
+          "pass:fxaa": 0.017,
+          "pass:grade": 0.018,
+          "pass:ink+kuwahara": 0.042,
+          "pass:scene": 4.302,
+          "pass:shadow": 3.762,
+          "persistence/input-end": 0.006,
+          "player/ferry": 0.81,
+          "post": 4.402,
+          "residents:city": 1.374,
+          "residents:village": 0.231,
+          "scenery": 0.077,
+          "wildlife": 0.032
+        },
+        "diagnostic": true,
+        "elapsedMs": 2230,
+        "enabled": true,
+        "frames": 90,
+        "gpuMs": {
+          "fxaa": 0.639,
+          "grade": 0.87,
+          "ink+kuwahara": 0.801,
+          "scene": 13.473,
+          "shadow": 6.703
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 28,
+          "pooled": 2,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "frame-total": {
+              "max": 423,
+              "mean": 386.378,
+              "min": 285,
+              "samples": 90
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 90
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 90
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 90
+            },
+            "scene": {
+              "max": 286,
+              "mean": 285.467,
+              "min": 282,
+              "samples": 90
+            },
+            "shadow": {
+              "max": 134,
+              "mean": 133.515,
+              "min": 130,
+              "samples": 66
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.123,
+              "min": 0,
+              "samples": 90
+            },
+            "audio": {
+              "max": 2,
+              "mean": 1.077,
+              "min": 0.9,
+              "samples": 90
+            },
+            "camera/sky": {
+              "max": 0.2,
+              "mean": 0.057,
+              "min": 0,
+              "samples": 90
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.147,
+              "min": 0,
+              "samples": 90
+            },
+            "frame-total": {
+              "max": 27.8,
+              "mean": 11.717,
+              "min": 7.5,
+              "samples": 90
+            },
+            "habitat": {
+              "max": 0.8,
+              "mean": 0.517,
+              "min": 0.3,
+              "samples": 90
+            },
+            "input/time": {
+              "max": 0.3,
+              "mean": 0.052,
+              "min": 0,
+              "samples": 90
+            },
+            "lighting": {
+              "max": 7.7,
+              "mean": 2.769,
+              "min": 0,
+              "samples": 90
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.017,
+              "min": 0,
+              "samples": 90
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.018,
+              "min": 0,
+              "samples": 90
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.042,
+              "min": 0,
+              "samples": 90
+            },
+            "pass:scene": {
+              "max": 6.8,
+              "mean": 4.302,
+              "min": 3.5,
+              "samples": 90
+            },
+            "pass:shadow": {
+              "max": 7.7,
+              "mean": 3.762,
+              "min": 3.1,
+              "samples": 66
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.006,
+              "min": 0,
+              "samples": 90
+            },
+            "player/ferry": {
+              "max": 1.8,
+              "mean": 0.81,
+              "min": 0.4,
+              "samples": 90
+            },
+            "post": {
+              "max": 6.9,
+              "mean": 4.402,
+              "min": 3.5,
+              "samples": 90
+            },
+            "residents:city": {
+              "max": 12.3,
+              "mean": 1.374,
+              "min": 0.8,
+              "samples": 90
+            },
+            "residents:village": {
+              "max": 0.8,
+              "mean": 0.231,
+              "min": 0,
+              "samples": 90
+            },
+            "scenery": {
+              "max": 0.4,
+              "mean": 0.077,
+              "min": 0,
+              "samples": 90
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.032,
+              "min": 0,
+              "samples": 90
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 34.7,
+              "mean": 24.808,
+              "min": 20.5,
+              "samples": 89
+            }
+          },
+          "gpuMs": {
+            "fxaa": {
+              "max": 0.731,
+              "mean": 0.639,
+              "min": 0.611,
+              "samples": 84
+            },
+            "grade": {
+              "max": 0.905,
+              "mean": 0.87,
+              "min": 0.863,
+              "samples": 84
+            },
+            "ink+kuwahara": {
+              "max": 0.917,
+              "mean": 0.801,
+              "min": 0.753,
+              "samples": 84
+            },
+            "scene": {
+              "max": 15.011,
+              "mean": 13.473,
+              "min": 12.917,
+              "samples": 84
+            },
+            "shadow": {
+              "max": 6.997,
+              "mean": 6.703,
+              "min": 5.324,
+              "samples": 62
+            }
+          },
+          "tris": {
+            "frame-total": {
+              "max": 981305,
+              "mean": 861478.333,
+              "min": 529853,
+              "samples": 90
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 90
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 90
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 90
+            },
+            "scene": {
+              "max": 542462,
+              "mean": 540780.4,
+              "min": 529850,
+              "samples": 90
+            },
+            "shadow": {
+              "max": 438840,
+              "mean": 437311.273,
+              "min": 426228,
+              "samples": 66
+            }
+          }
+        },
+        "tris": {
+          "frame-total": 861478.333,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 540780.4,
+          "shadow": 437311.273
+        }
+      },
+      "quality": "low",
+      "regionForest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 0
+      },
+      "render": [
+        805,
+        584
+      ],
+      "samples": 89,
+      "triangles": 529853
+    },
+    {
+      "averageFps": 43.9,
+      "calls": 157,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 22.76,
+      "name": "Mosswood path",
+      "p95Ms": 27.9,
+      "passes": {
+        "calls": {
+          "frame-total": 243.878,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 154,
+          "shadow": 129
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.112,
+          "audio": 1.263,
+          "camera/sky": 0.177,
+          "dragons": 0.151,
+          "frame-total": 11.197,
+          "habitat": 0.611,
+          "input/time": 0.041,
+          "lighting": 2.522,
+          "pass:fxaa": 0.028,
+          "pass:grade": 0.013,
+          "pass:ink+kuwahara": 0.042,
+          "pass:scene": 3.915,
+          "pass:shadow": 3.726,
+          "persistence/input-end": 0.005,
+          "player/ferry": 0.966,
+          "post": 4.038,
+          "residents:city": 1.036,
+          "residents:village": 0.101,
+          "scenery": 0.079,
+          "wildlife": 0.038
+        },
+        "diagnostic": true,
+        "elapsedMs": 2222.7,
+        "enabled": true,
+        "frames": 98,
+        "gpuMs": {
+          "fxaa": 0.618,
+          "grade": 0.886,
+          "ink+kuwahara": 0.695,
+          "scene": 12.118,
+          "shadow": 6.612
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 28,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "frame-total": {
+              "max": 286,
+              "mean": 243.878,
+              "min": 157,
+              "samples": 98
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 98
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 98
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 98
+            },
+            "scene": {
+              "max": 154,
+              "mean": 154,
+              "min": 154,
+              "samples": 98
+            },
+            "shadow": {
+              "max": 129,
+              "mean": 129,
+              "min": 129,
+              "samples": 66
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.112,
+              "min": 0,
+              "samples": 98
+            },
+            "audio": {
+              "max": 3.2,
+              "mean": 1.263,
+              "min": 0.9,
+              "samples": 98
+            },
+            "camera/sky": {
+              "max": 0.5,
+              "mean": 0.177,
+              "min": 0,
+              "samples": 98
+            },
+            "dragons": {
+              "max": 0.4,
+              "mean": 0.151,
+              "min": 0,
+              "samples": 98
+            },
+            "frame-total": {
+              "max": 24.1,
+              "mean": 11.197,
+              "min": 6.8,
+              "samples": 98
+            },
+            "habitat": {
+              "max": 1.1,
+              "mean": 0.611,
+              "min": 0.3,
+              "samples": 98
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.041,
+              "min": 0,
+              "samples": 98
+            },
+            "lighting": {
+              "max": 7.4,
+              "mean": 2.522,
+              "min": 0,
+              "samples": 98
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.028,
+              "min": 0,
+              "samples": 98
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.013,
+              "min": 0,
+              "samples": 98
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.5,
+              "mean": 0.042,
+              "min": 0,
+              "samples": 98
+            },
+            "pass:scene": {
+              "max": 9.8,
+              "mean": 3.915,
+              "min": 2.6,
+              "samples": 98
+            },
+            "pass:shadow": {
+              "max": 7.4,
+              "mean": 3.726,
+              "min": 2.6,
+              "samples": 66
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.005,
+              "min": 0,
+              "samples": 98
+            },
+            "player/ferry": {
+              "max": 1.7,
+              "mean": 0.966,
+              "min": 0.4,
+              "samples": 98
+            },
+            "post": {
+              "max": 9.9,
+              "mean": 4.038,
+              "min": 2.8,
+              "samples": 98
+            },
+            "residents:city": {
+              "max": 1.8,
+              "mean": 1.036,
+              "min": 0.6,
+              "samples": 98
+            },
+            "residents:village": {
+              "max": 0.3,
+              "mean": 0.101,
+              "min": 0,
+              "samples": 98
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.079,
+              "min": 0,
+              "samples": 98
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.038,
+              "min": 0,
+              "samples": 98
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 28,
+              "mean": 22.76,
+              "min": 13.8,
+              "samples": 97
+            }
+          },
+          "gpuMs": {
+            "fxaa": {
+              "max": 0.76,
+              "mean": 0.618,
+              "min": 0.58,
+              "samples": 92
+            },
+            "grade": {
+              "max": 1.043,
+              "mean": 0.886,
+              "min": 0.864,
+              "samples": 92
+            },
+            "ink+kuwahara": {
+              "max": 0.859,
+              "mean": 0.695,
+              "min": 0.639,
+              "samples": 92
+            },
+            "scene": {
+              "max": 13.915,
+              "mean": 12.118,
+              "min": 11.386,
+              "samples": 92
+            },
+            "shadow": {
+              "max": 7.027,
+              "mean": 6.612,
+              "min": 6.368,
+              "samples": 62
+            }
+          },
+          "tris": {
+            "frame-total": {
+              "max": 687763,
+              "mean": 573425.367,
+              "min": 337604,
+              "samples": 98
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 98
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 98
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 98
+            },
+            "scene": {
+              "max": 337601,
+              "mean": 337601,
+              "min": 337601,
+              "samples": 98
+            },
+            "shadow": {
+              "max": 350159,
+              "mean": 350159,
+              "min": 350159,
+              "samples": 66
+            }
+          }
+        },
+        "tris": {
+          "frame-total": 573425.367,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 337601,
+          "shadow": 350159
+        }
+      },
+      "quality": "low",
+      "regionForest": {
+        "levels": [
+          0,
+          2,
+          51,
+          154
+        ],
+        "shadows": 526,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 526
+      },
+      "render": [
+        805,
+        584
+      ],
+      "samples": 97,
+      "triangles": 337604
+    },
+    {
+      "averageFps": 40.6,
+      "calls": 347,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 24.61,
+      "name": "river approach",
+      "p95Ms": 28,
+      "passes": {
+        "calls": {
+          "frame-total": 297.418,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 156,
+          "shadow": 188
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.112,
+          "audio": 1.291,
+          "camera/sky": 0.169,
+          "dragons": 0.169,
+          "frame-total": 11.509,
+          "habitat": 0.751,
+          "input/time": 0.047,
+          "lighting": 2.966,
+          "pass:fxaa": 0.023,
+          "pass:grade": 0.011,
+          "pass:ink+kuwahara": 0.027,
+          "pass:scene": 3.698,
+          "pass:shadow": 4.009,
+          "persistence/input-end": 0.002,
+          "player/ferry": 0.987,
+          "post": 3.801,
+          "residents:city": 0.945,
+          "residents:village": 0.103,
+          "scenery": 0.078,
+          "wildlife": 0.044
+        },
+        "diagnostic": true,
+        "elapsedMs": 2237,
+        "enabled": true,
+        "frames": 91,
+        "gpuMs": {
+          "fxaa": 0.574,
+          "grade": 0.883,
+          "ink+kuwahara": 0.66,
+          "scene": 13.302,
+          "shadow": 6.926
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 28,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "frame-total": {
+              "max": 347,
+              "mean": 297.418,
+              "min": 159,
+              "samples": 91
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 91
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 91
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 91
+            },
+            "scene": {
+              "max": 156,
+              "mean": 156,
+              "min": 156,
+              "samples": 91
+            },
+            "shadow": {
+              "max": 188,
+              "mean": 188,
+              "min": 188,
+              "samples": 67
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.112,
+              "min": 0,
+              "samples": 91
+            },
+            "audio": {
+              "max": 4.1,
+              "mean": 1.291,
+              "min": 0.9,
+              "samples": 91
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.169,
+              "min": 0,
+              "samples": 91
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.169,
+              "min": 0,
+              "samples": 91
+            },
+            "frame-total": {
+              "max": 21.1,
+              "mean": 11.509,
+              "min": 6.9,
+              "samples": 91
+            },
+            "habitat": {
+              "max": 5,
+              "mean": 0.751,
+              "min": 0.4,
+              "samples": 91
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.047,
+              "min": 0,
+              "samples": 91
+            },
+            "lighting": {
+              "max": 6.3,
+              "mean": 2.966,
+              "min": 0,
+              "samples": 91
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.023,
+              "min": 0,
+              "samples": 91
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.011,
+              "min": 0,
+              "samples": 91
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.027,
+              "min": 0,
+              "samples": 91
+            },
+            "pass:scene": {
+              "max": 6.3,
+              "mean": 3.698,
+              "min": 2.7,
+              "samples": 91
+            },
+            "pass:shadow": {
+              "max": 6.2,
+              "mean": 4.009,
+              "min": 2.7,
+              "samples": 67
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.002,
+              "min": 0,
+              "samples": 91
+            },
+            "player/ferry": {
+              "max": 2.1,
+              "mean": 0.987,
+              "min": 0.4,
+              "samples": 91
+            },
+            "post": {
+              "max": 6.4,
+              "mean": 3.801,
+              "min": 2.8,
+              "samples": 91
+            },
+            "residents:city": {
+              "max": 2.4,
+              "mean": 0.945,
+              "min": 0.5,
+              "samples": 91
+            },
+            "residents:village": {
+              "max": 0.3,
+              "mean": 0.103,
+              "min": 0,
+              "samples": 91
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.078,
+              "min": 0,
+              "samples": 91
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.044,
+              "min": 0,
+              "samples": 91
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 28.1,
+              "mean": 24.608,
+              "min": 13.9,
+              "samples": 90
+            }
+          },
+          "gpuMs": {
+            "fxaa": {
+              "max": 0.672,
+              "mean": 0.574,
+              "min": 0.544,
+              "samples": 85
+            },
+            "grade": {
+              "max": 0.979,
+              "mean": 0.883,
+              "min": 0.863,
+              "samples": 85
+            },
+            "ink+kuwahara": {
+              "max": 0.832,
+              "mean": 0.66,
+              "min": 0.601,
+              "samples": 85
+            },
+            "scene": {
+              "max": 14.854,
+              "mean": 13.302,
+              "min": 12.576,
+              "samples": 85
+            },
+            "shadow": {
+              "max": 7.23,
+              "mean": 6.926,
+              "min": 5.479,
+              "samples": 63
+            }
+          },
+          "tris": {
+            "frame-total": {
+              "max": 813818,
+              "mean": 713390.659,
+              "min": 433031,
+              "samples": 91
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 91
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 91
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 91
+            },
+            "scene": {
+              "max": 433028,
+              "mean": 433028,
+              "min": 433028,
+              "samples": 91
+            },
+            "shadow": {
+              "max": 380787,
+              "mean": 380787,
+              "min": 380787,
+              "samples": 67
+            }
+          }
+        },
+        "tris": {
+          "frame-total": 713390.659,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 433028,
+          "shadow": 380787
+        }
+      },
+      "quality": "low",
+      "regionForest": {
+        "levels": [
+          0,
+          12,
+          75,
+          113
+        ],
+        "shadows": 520,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 514
+      },
+      "render": [
+        805,
+        584
+      ],
+      "samples": 90,
+      "triangles": 813818
+    },
+    {
+      "averageFps": 23,
+      "calls": 490,
+      "camera": [
+        13.11669723895472,
+        2.2520662538778025,
+        6.214511960018987
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          1,
+          3,
+          24,
+          72
+        ],
+        "shadows": 94,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 219
+      },
+      "meanMs": 43.43,
+      "name": "village grove",
+      "p95Ms": 48.7,
+      "passes": {
+        "calls": {
+          "frame-total": 599,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 109,
+          "scene": 338,
+          "shadow": 149
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.102,
+          "audio": 1.133,
+          "camera/sky": 0.106,
+          "dragons": 0.281,
+          "frame-total": 17.246,
+          "habitat": 0.781,
+          "input/time": 0.05,
+          "lighting": 7.14,
+          "pass:fxaa": 0.015,
+          "pass:grade": 0.015,
+          "pass:ink+kuwahara": 0.046,
+          "pass:reflection": 2.217,
+          "pass:scene": 4.7,
+          "pass:shadow": 4.906,
+          "persistence/input-end": 0.006,
+          "player/ferry": 1.11,
+          "post": 4.8,
+          "residents:city": 1.075,
+          "residents:village": 0.356,
+          "scenery": 0.188,
+          "wildlife": 0.06
+        },
+        "diagnostic": true,
+        "elapsedMs": 2263,
+        "enabled": true,
+        "frames": 52,
+        "gpuMs": {
+          "fxaa": 1.005,
+          "grade": 1.272,
+          "ink+kuwahara": 1.208,
+          "reflection": 4.975,
+          "scene": 22.642,
+          "shadow": 7.777
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 31,
+          "pooled": 3,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "frame-total": {
+              "max": 708,
+              "mean": 599,
+              "min": 490,
+              "samples": 52
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 52
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 52
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 52
+            },
+            "reflection": {
+              "max": 218,
+              "mean": 109,
+              "min": 0,
+              "samples": 52
+            },
+            "scene": {
+              "max": 338,
+              "mean": 338,
+              "min": 338,
+              "samples": 52
+            },
+            "shadow": {
+              "max": 149,
+              "mean": 149,
+              "min": 149,
+              "samples": 52
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.2,
+              "mean": 0.102,
+              "min": 0,
+              "samples": 52
+            },
+            "audio": {
+              "max": 1.5,
+              "mean": 1.133,
+              "min": 0.9,
+              "samples": 52
+            },
+            "camera/sky": {
+              "max": 0.2,
+              "mean": 0.106,
+              "min": 0,
+              "samples": 52
+            },
+            "dragons": {
+              "max": 0.6,
+              "mean": 0.281,
+              "min": 0.1,
+              "samples": 52
+            },
+            "frame-total": {
+              "max": 22.8,
+              "mean": 17.246,
+              "min": 12.5,
+              "samples": 52
+            },
+            "habitat": {
+              "max": 1.3,
+              "mean": 0.781,
+              "min": 0.3,
+              "samples": 52
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 52
+            },
+            "lighting": {
+              "max": 13,
+              "mean": 7.14,
+              "min": 3.5,
+              "samples": 52
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.015,
+              "min": 0,
+              "samples": 52
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.015,
+              "min": 0,
+              "samples": 52
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.046,
+              "min": 0,
+              "samples": 52
+            },
+            "pass:reflection": {
+              "max": 6.4,
+              "mean": 2.217,
+              "min": 0,
+              "samples": 52
+            },
+            "pass:scene": {
+              "max": 7.6,
+              "mean": 4.7,
+              "min": 3.8,
+              "samples": 52
+            },
+            "pass:shadow": {
+              "max": 8,
+              "mean": 4.906,
+              "min": 3.5,
+              "samples": 52
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.006,
+              "min": 0,
+              "samples": 52
+            },
+            "player/ferry": {
+              "max": 1.7,
+              "mean": 1.11,
+              "min": 0.4,
+              "samples": 52
+            },
+            "post": {
+              "max": 7.8,
+              "mean": 4.8,
+              "min": 3.8,
+              "samples": 52
+            },
+            "residents:city": {
+              "max": 1.8,
+              "mean": 1.075,
+              "min": 0.5,
+              "samples": 52
+            },
+            "residents:village": {
+              "max": 1,
+              "mean": 0.356,
+              "min": 0,
+              "samples": 52
+            },
+            "scenery": {
+              "max": 0.9,
+              "mean": 0.188,
+              "min": 0,
+              "samples": 52
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.06,
+              "min": 0,
+              "samples": 52
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 48.8,
+              "mean": 43.425,
+              "min": 34.6,
+              "samples": 51
+            }
+          },
+          "gpuMs": {
+            "fxaa": {
+              "max": 1.162,
+              "mean": 1.005,
+              "min": 0.953,
+              "samples": 46
+            },
+            "grade": {
+              "max": 1.29,
+              "mean": 1.272,
+              "min": 1.267,
+              "samples": 47
+            },
+            "ink+kuwahara": {
+              "max": 1.368,
+              "mean": 1.208,
+              "min": 1.13,
+              "samples": 47
+            },
+            "reflection": {
+              "max": 9.796,
+              "mean": 4.975,
+              "min": 0,
+              "samples": 47
+            },
+            "scene": {
+              "max": 23.221,
+              "mean": 22.642,
+              "min": 22.204,
+              "samples": 47
+            },
+            "shadow": {
+              "max": 8.11,
+              "mean": 7.777,
+              "min": 7.428,
+              "samples": 47
+            }
+          },
+          "tris": {
+            "frame-total": {
+              "max": 1864902,
+              "mean": 1591785.5,
+              "min": 1318669,
+              "samples": 52
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 52
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 52
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 52
+            },
+            "reflection": {
+              "max": 546233,
+              "mean": 273116.5,
+              "min": 0,
+              "samples": 52
+            },
+            "scene": {
+              "max": 819650,
+              "mean": 819650,
+              "min": 819650,
+              "samples": 52
+            },
+            "shadow": {
+              "max": 499016,
+              "mean": 499016,
+              "min": 499016,
+              "samples": 52
+            }
+          }
+        },
+        "tris": {
+          "frame-total": 1591785.5,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 273116.5,
+          "scene": 819650,
+          "shadow": 499016
+        }
+      },
+      "quality": "medium",
+      "regionForest": {
+        "levels": [
+          0,
+          0,
+          0,
+          7
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 12
+      },
+      "render": [
+        977,
+        709
+      ],
+      "samples": 51,
+      "triangles": 1318669
+    },
+    {
+      "averageFps": 24.9,
+      "calls": 409,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 40.14,
+      "name": "Mosswood path",
+      "p95Ms": 48.7,
+      "passes": {
+        "calls": {
+          "frame-total": 504.5,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 95.5,
+          "scene": 274,
+          "shadow": 132
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.112,
+          "audio": 1.116,
+          "camera/sky": 0.136,
+          "dragons": 0.143,
+          "frame-total": 12.232,
+          "habitat": 0.741,
+          "input/time": 0.043,
+          "lighting": 4.782,
+          "pass:fxaa": 0.016,
+          "pass:grade": 0.013,
+          "pass:ink+kuwahara": 0.041,
+          "pass:reflection": 1.857,
+          "pass:scene": 3.466,
+          "pass:shadow": 2.904,
+          "persistence/input-end": 0.009,
+          "player/ferry": 0.698,
+          "post": 3.557,
+          "residents:city": 0.652,
+          "residents:village": 0.061,
+          "scenery": 0.098,
+          "wildlife": 0.034
+        },
+        "diagnostic": true,
+        "elapsedMs": 2252.7,
+        "enabled": true,
+        "frames": 56,
+        "gpuMs": {
+          "fxaa": 0.995,
+          "grade": 1.288,
+          "ink+kuwahara": 1.072,
+          "reflection": 5.936,
+          "scene": 19.164,
+          "shadow": 7.158
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 35,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "frame-total": {
+              "max": 600,
+              "mean": 504.5,
+              "min": 409,
+              "samples": 56
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 56
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 56
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 56
+            },
+            "reflection": {
+              "max": 191,
+              "mean": 95.5,
+              "min": 0,
+              "samples": 56
+            },
+            "scene": {
+              "max": 274,
+              "mean": 274,
+              "min": 274,
+              "samples": 56
+            },
+            "shadow": {
+              "max": 132,
+              "mean": 132,
+              "min": 132,
+              "samples": 56
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.2,
+              "mean": 0.112,
+              "min": 0,
+              "samples": 56
+            },
+            "audio": {
+              "max": 2,
+              "mean": 1.116,
+              "min": 0.9,
+              "samples": 56
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.136,
+              "min": 0,
+              "samples": 56
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.143,
+              "min": 0,
+              "samples": 56
+            },
+            "frame-total": {
+              "max": 17.6,
+              "mean": 12.232,
+              "min": 8.9,
+              "samples": 56
+            },
+            "habitat": {
+              "max": 4.9,
+              "mean": 0.741,
+              "min": 0.4,
+              "samples": 56
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.043,
+              "min": 0,
+              "samples": 56
+            },
+            "lighting": {
+              "max": 9.2,
+              "mean": 4.782,
+              "min": 2.5,
+              "samples": 56
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.016,
+              "min": 0,
+              "samples": 56
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.013,
+              "min": 0,
+              "samples": 56
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.041,
+              "min": 0,
+              "samples": 56
+            },
+            "pass:reflection": {
+              "max": 6.1,
+              "mean": 1.857,
+              "min": 0,
+              "samples": 56
+            },
+            "pass:scene": {
+              "max": 5,
+              "mean": 3.466,
+              "min": 2.9,
+              "samples": 56
+            },
+            "pass:shadow": {
+              "max": 3.9,
+              "mean": 2.904,
+              "min": 2.5,
+              "samples": 56
+            },
+            "persistence/input-end": {
+              "max": 0.2,
+              "mean": 0.009,
+              "min": 0,
+              "samples": 56
+            },
+            "player/ferry": {
+              "max": 1.4,
+              "mean": 0.698,
+              "min": 0.4,
+              "samples": 56
+            },
+            "post": {
+              "max": 5.1,
+              "mean": 3.557,
+              "min": 3,
+              "samples": 56
+            },
+            "residents:city": {
+              "max": 1.4,
+              "mean": 0.652,
+              "min": 0.3,
+              "samples": 56
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.061,
+              "min": 0,
+              "samples": 56
+            },
+            "scenery": {
+              "max": 0.4,
+              "mean": 0.098,
+              "min": 0,
+              "samples": 56
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.034,
+              "min": 0,
+              "samples": 56
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 48.8,
+              "mean": 40.142,
+              "min": 27.6,
+              "samples": 55
+            }
+          },
+          "gpuMs": {
+            "fxaa": {
+              "max": 1.067,
+              "mean": 0.995,
+              "min": 0.956,
+              "samples": 50
+            },
+            "grade": {
+              "max": 1.388,
+              "mean": 1.288,
+              "min": 1.268,
+              "samples": 50
+            },
+            "ink+kuwahara": {
+              "max": 1.31,
+              "mean": 1.072,
+              "min": 1.008,
+              "samples": 50
+            },
+            "reflection": {
+              "max": 12.492,
+              "mean": 5.936,
+              "min": 0,
+              "samples": 50
+            },
+            "scene": {
+              "max": 20.015,
+              "mean": 19.164,
+              "min": 18.785,
+              "samples": 50
+            },
+            "shadow": {
+              "max": 8.253,
+              "mean": 7.158,
+              "min": 5.874,
+              "samples": 51
+            }
+          },
+          "tris": {
+            "frame-total": {
+              "max": 1633507,
+              "mean": 1298283,
+              "min": 963059,
+              "samples": 56
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 56
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 56
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 56
+            },
+            "reflection": {
+              "max": 670448,
+              "mean": 335224,
+              "min": 0,
+              "samples": 56
+            },
+            "scene": {
+              "max": 571271,
+              "mean": 571271,
+              "min": 571271,
+              "samples": 56
+            },
+            "shadow": {
+              "max": 391785,
+              "mean": 391785,
+              "min": 391785,
+              "samples": 56
+            }
+          }
+        },
+        "tris": {
+          "frame-total": 1298283,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 335224,
+          "scene": 571271,
+          "shadow": 391785
+        }
+      },
+      "quality": "medium",
+      "regionForest": {
+        "levels": [
+          0,
+          12,
+          105,
+          263
+        ],
+        "shadows": 589,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 889
+      },
+      "render": [
+        977,
+        709
+      ],
+      "samples": 55,
+      "triangles": 963059
+    },
+    {
+      "averageFps": 23.6,
+      "calls": 513,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 42.33,
+      "name": "river approach",
+      "p95Ms": 48.7,
+      "passes": {
+        "calls": {
+          "frame-total": 441.868,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 73.868,
+          "scene": 176,
+          "shadow": 189
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.102,
+          "audio": 1.126,
+          "camera/sky": 0.136,
+          "dragons": 0.138,
+          "frame-total": 11.677,
+          "habitat": 0.608,
+          "input/time": 0.045,
+          "lighting": 4.874,
+          "pass:fxaa": 0.015,
+          "pass:grade": 0.015,
+          "pass:ink+kuwahara": 0.028,
+          "pass:reflection": 1.787,
+          "pass:scene": 3.102,
+          "pass:shadow": 3.057,
+          "persistence/input-end": 0.002,
+          "player/ferry": 0.653,
+          "post": 3.189,
+          "residents:city": 0.557,
+          "residents:village": 0.034,
+          "scenery": 0.117,
+          "wildlife": 0.045
+        },
+        "diagnostic": true,
+        "elapsedMs": 2247.9,
+        "enabled": true,
+        "frames": 53,
+        "gpuMs": {
+          "fxaa": 0.928,
+          "grade": 1.29,
+          "ink+kuwahara": 0.984,
+          "reflection": 6.234,
+          "scene": 20.697,
+          "shadow": 7.755
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 36,
+          "pooled": 0,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "frame-total": {
+              "max": 513,
+              "mean": 441.868,
+              "min": 368,
+              "samples": 53
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 53
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 53
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 53
+            },
+            "reflection": {
+              "max": 145,
+              "mean": 73.868,
+              "min": 0,
+              "samples": 53
+            },
+            "scene": {
+              "max": 176,
+              "mean": 176,
+              "min": 176,
+              "samples": 53
+            },
+            "shadow": {
+              "max": 189,
+              "mean": 189,
+              "min": 189,
+              "samples": 53
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.102,
+              "min": 0,
+              "samples": 53
+            },
+            "audio": {
+              "max": 1.5,
+              "mean": 1.126,
+              "min": 0.9,
+              "samples": 53
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.136,
+              "min": 0,
+              "samples": 53
+            },
+            "dragons": {
+              "max": 0.2,
+              "mean": 0.138,
+              "min": 0,
+              "samples": 53
+            },
+            "frame-total": {
+              "max": 16,
+              "mean": 11.677,
+              "min": 8.6,
+              "samples": 53
+            },
+            "habitat": {
+              "max": 1,
+              "mean": 0.608,
+              "min": 0.4,
+              "samples": 53
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.045,
+              "min": 0,
+              "samples": 53
+            },
+            "lighting": {
+              "max": 9.1,
+              "mean": 4.874,
+              "min": 2.6,
+              "samples": 53
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.015,
+              "min": 0,
+              "samples": 53
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.015,
+              "min": 0,
+              "samples": 53
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.028,
+              "min": 0,
+              "samples": 53
+            },
+            "pass:reflection": {
+              "max": 4.8,
+              "mean": 1.787,
+              "min": 0,
+              "samples": 53
+            },
+            "pass:scene": {
+              "max": 4.3,
+              "mean": 3.102,
+              "min": 2.6,
+              "samples": 53
+            },
+            "pass:shadow": {
+              "max": 4.4,
+              "mean": 3.057,
+              "min": 2.6,
+              "samples": 53
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.002,
+              "min": 0,
+              "samples": 53
+            },
+            "player/ferry": {
+              "max": 1,
+              "mean": 0.653,
+              "min": 0.4,
+              "samples": 53
+            },
+            "post": {
+              "max": 4.4,
+              "mean": 3.189,
+              "min": 2.7,
+              "samples": 53
+            },
+            "residents:city": {
+              "max": 0.9,
+              "mean": 0.557,
+              "min": 0.3,
+              "samples": 53
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.034,
+              "min": 0,
+              "samples": 53
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.117,
+              "min": 0,
+              "samples": 53
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.045,
+              "min": 0,
+              "samples": 53
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 48.8,
+              "mean": 42.329,
+              "min": 34.6,
+              "samples": 52
+            }
+          },
+          "gpuMs": {
+            "fxaa": {
+              "max": 1.002,
+              "mean": 0.928,
+              "min": 0.893,
+              "samples": 47
+            },
+            "grade": {
+              "max": 1.345,
+              "mean": 1.29,
+              "min": 1.268,
+              "samples": 47
+            },
+            "ink+kuwahara": {
+              "max": 1.058,
+              "mean": 0.984,
+              "min": 0.936,
+              "samples": 47
+            },
+            "reflection": {
+              "max": 13.16,
+              "mean": 6.234,
+              "min": 0,
+              "samples": 47
+            },
+            "scene": {
+              "max": 22.165,
+              "mean": 20.697,
+              "min": 20.278,
+              "samples": 47
+            },
+            "shadow": {
+              "max": 8.199,
+              "mean": 7.755,
+              "min": 6.491,
+              "samples": 47
+            }
+          },
+          "tris": {
+            "frame-total": {
+              "max": 1834695,
+              "mean": 1497719.792,
+              "min": 1147784,
+              "samples": 53
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 53
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 53
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 53
+            },
+            "reflection": {
+              "max": 686911,
+              "mean": 349935.792,
+              "min": 0,
+              "samples": 53
+            },
+            "scene": {
+              "max": 723212,
+              "mean": 723212,
+              "min": 723212,
+              "samples": 53
+            },
+            "shadow": {
+              "max": 424569,
+              "mean": 424569,
+              "min": 424569,
+              "samples": 53
+            }
+          }
+        },
+        "tris": {
+          "frame-total": 1497719.792,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 349935.792,
+          "scene": 723212,
+          "shadow": 424569
+        }
+      },
+      "quality": "medium",
+      "regionForest": {
+        "levels": [
+          3,
+          37,
+          114,
+          110
+        ],
+        "shadows": 599,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 911
+      },
+      "render": [
+        977,
+        709
+      ],
+      "samples": 52,
+      "triangles": 1834695
+    },
+    {
+      "averageFps": 13.4,
+      "calls": 574,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          2,
+          6,
+          58,
+          48
+        ],
+        "shadows": 96,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 245
+      },
+      "meanMs": 74.75,
+      "name": "village grove",
+      "p95Ms": 83.5,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "frame-total": 694,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 120,
+          "scene": 403,
+          "shadow": 155,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.097,
+          "audio": 1.223,
+          "camera/sky": 0.058,
+          "dragons": 0.129,
+          "frame-total": 17.319,
+          "habitat": 0.552,
+          "input/time": 0.061,
+          "lighting": 7.277,
+          "pass:bloom": 0.113,
+          "pass:grade": 0.016,
+          "pass:ink+kuwahara": 0.039,
+          "pass:reflection": 2.1,
+          "pass:scene": 5.439,
+          "pass:shadow": 5.158,
+          "pass:sharpen": 0.023,
+          "persistence/input-end": 0.013,
+          "player/ferry": 0.884,
+          "post": 5.655,
+          "residents:city": 0.748,
+          "residents:village": 0.352,
+          "scenery": 0.155,
+          "wildlife": 0.042
+        },
+        "diagnostic": true,
+        "elapsedMs": 2321.9,
+        "enabled": true,
+        "frames": 31,
+        "gpuMs": {
+          "bloom": 1.266,
+          "grade": 1.781,
+          "ink+kuwahara": 4.929,
+          "reflection": 5.981,
+          "scene": 45.382,
+          "shadow": 10.11,
+          "sharpen": 0.688
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 35,
+          "pooled": 0,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 31
+            },
+            "frame-total": {
+              "max": 822,
+              "mean": 694,
+              "min": 574,
+              "samples": 31
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 31
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 31
+            },
+            "reflection": {
+              "max": 248,
+              "mean": 120,
+              "min": 0,
+              "samples": 31
+            },
+            "scene": {
+              "max": 403,
+              "mean": 403,
+              "min": 403,
+              "samples": 31
+            },
+            "shadow": {
+              "max": 155,
+              "mean": 155,
+              "min": 155,
+              "samples": 31
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 31
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.2,
+              "mean": 0.097,
+              "min": 0,
+              "samples": 31
+            },
+            "audio": {
+              "max": 1.6,
+              "mean": 1.223,
+              "min": 1,
+              "samples": 31
+            },
+            "camera/sky": {
+              "max": 0.2,
+              "mean": 0.058,
+              "min": 0,
+              "samples": 31
+            },
+            "dragons": {
+              "max": 0.2,
+              "mean": 0.129,
+              "min": 0,
+              "samples": 31
+            },
+            "frame-total": {
+              "max": 21.7,
+              "mean": 17.319,
+              "min": 14.3,
+              "samples": 31
+            },
+            "habitat": {
+              "max": 1,
+              "mean": 0.552,
+              "min": 0.3,
+              "samples": 31
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.061,
+              "min": 0,
+              "samples": 31
+            },
+            "lighting": {
+              "max": 11.6,
+              "mean": 7.277,
+              "min": 4.5,
+              "samples": 31
+            },
+            "pass:bloom": {
+              "max": 0.3,
+              "mean": 0.113,
+              "min": 0,
+              "samples": 31
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.016,
+              "min": 0,
+              "samples": 31
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.039,
+              "min": 0,
+              "samples": 31
+            },
+            "pass:reflection": {
+              "max": 5.5,
+              "mean": 2.1,
+              "min": 0,
+              "samples": 31
+            },
+            "pass:scene": {
+              "max": 7.1,
+              "mean": 5.439,
+              "min": 4,
+              "samples": 31
+            },
+            "pass:shadow": {
+              "max": 8.5,
+              "mean": 5.158,
+              "min": 3.6,
+              "samples": 31
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.023,
+              "min": 0,
+              "samples": 31
+            },
+            "persistence/input-end": {
+              "max": 0.2,
+              "mean": 0.013,
+              "min": 0,
+              "samples": 31
+            },
+            "player/ferry": {
+              "max": 1.7,
+              "mean": 0.884,
+              "min": 0.5,
+              "samples": 31
+            },
+            "post": {
+              "max": 7.3,
+              "mean": 5.655,
+              "min": 4.1,
+              "samples": 31
+            },
+            "residents:city": {
+              "max": 1.9,
+              "mean": 0.748,
+              "min": 0.5,
+              "samples": 31
+            },
+            "residents:village": {
+              "max": 1.2,
+              "mean": 0.352,
+              "min": 0.2,
+              "samples": 31
+            },
+            "scenery": {
+              "max": 0.5,
+              "mean": 0.155,
+              "min": 0,
+              "samples": 31
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.042,
+              "min": 0,
+              "samples": 31
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 90.2,
+              "mean": 74.753,
+              "min": 62.5,
+              "samples": 30
+            }
+          },
+          "gpuMs": {
+            "bloom": {
+              "max": 1.42,
+              "mean": 1.266,
+              "min": 1.229,
+              "samples": 26
+            },
+            "grade": {
+              "max": 1.848,
+              "mean": 1.781,
+              "min": 1.749,
+              "samples": 26
+            },
+            "ink+kuwahara": {
+              "max": 5.17,
+              "mean": 4.929,
+              "min": 4.823,
+              "samples": 26
+            },
+            "reflection": {
+              "max": 12.952,
+              "mean": 5.981,
+              "min": 0,
+              "samples": 26
+            },
+            "scene": {
+              "max": 47.051,
+              "mean": 45.382,
+              "min": 44.612,
+              "samples": 26
+            },
+            "shadow": {
+              "max": 10.957,
+              "mean": 10.11,
+              "min": 8.364,
+              "samples": 26
+            },
+            "sharpen": {
+              "max": 0.831,
+              "mean": 0.688,
+              "min": 0.65,
+              "samples": 26
+            }
+          },
+          "tris": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 31
+            },
+            "frame-total": {
+              "max": 2408658,
+              "mean": 2063731.032,
+              "min": 1740362,
+              "samples": 31
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 31
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 31
+            },
+            "reflection": {
+              "max": 668296,
+              "mean": 323369.032,
+              "min": 0,
+              "samples": 31
+            },
+            "scene": {
+              "max": 1224847,
+              "mean": 1224847,
+              "min": 1224847,
+              "samples": 31
+            },
+            "shadow": {
+              "max": 515499,
+              "mean": 515499,
+              "min": 515499,
+              "samples": 31
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 31
+            }
+          }
+        },
+        "tris": {
+          "bloom": 13,
+          "frame-total": 2063731.032,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 323369.032,
+          "scene": 1224847,
+          "shadow": 515499,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "regionForest": {
+        "levels": [
+          0,
+          0,
+          0,
+          84
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 124
+      },
+      "render": [
+        1150,
+        835
+      ],
+      "samples": 30,
+      "triangles": 1740362
+    },
+    {
+      "averageFps": 13,
+      "calls": 483,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 77.09,
+      "name": "Mosswood path",
+      "p95Ms": 118.1,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "frame-total": 624,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 141,
+          "scene": 330,
+          "shadow": 137,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.093,
+          "audio": 1.347,
+          "camera/sky": 0.157,
+          "dragons": 0.14,
+          "frame-total": 14.787,
+          "habitat": 0.623,
+          "input/time": 0.043,
+          "lighting": 6.083,
+          "pass:bloom": 0.133,
+          "pass:grade": 0.01,
+          "pass:ink+kuwahara": 0.033,
+          "pass:reflection": 2.113,
+          "pass:scene": 4.343,
+          "pass:shadow": 3.95,
+          "pass:sharpen": 0.01,
+          "persistence/input-end": 0.007,
+          "player/ferry": 0.717,
+          "post": 4.543,
+          "residents:city": 0.75,
+          "residents:village": 0.067,
+          "scenery": 0.143,
+          "wildlife": 0.033
+        },
+        "diagnostic": true,
+        "elapsedMs": 2269.6,
+        "enabled": true,
+        "frames": 30,
+        "gpuMs": {
+          "bloom": 1.279,
+          "grade": 1.778,
+          "ink+kuwahara": 4.898,
+          "reflection": 7.464,
+          "scene": 45.81,
+          "shadow": 10.758,
+          "sharpen": 0.67
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 40,
+          "pooled": 0,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 30
+            },
+            "frame-total": {
+              "max": 765,
+              "mean": 624,
+              "min": 483,
+              "samples": 30
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "reflection": {
+              "max": 282,
+              "mean": 141,
+              "min": 0,
+              "samples": 30
+            },
+            "scene": {
+              "max": 330,
+              "mean": 330,
+              "min": 330,
+              "samples": 30
+            },
+            "shadow": {
+              "max": 137,
+              "mean": 137,
+              "min": 137,
+              "samples": 30
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.2,
+              "mean": 0.093,
+              "min": 0,
+              "samples": 30
+            },
+            "audio": {
+              "max": 1.9,
+              "mean": 1.347,
+              "min": 1.1,
+              "samples": 30
+            },
+            "camera/sky": {
+              "max": 0.2,
+              "mean": 0.157,
+              "min": 0,
+              "samples": 30
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.14,
+              "min": 0.1,
+              "samples": 30
+            },
+            "frame-total": {
+              "max": 21.6,
+              "mean": 14.787,
+              "min": 10,
+              "samples": 30
+            },
+            "habitat": {
+              "max": 1.1,
+              "mean": 0.623,
+              "min": 0.4,
+              "samples": 30
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.043,
+              "min": 0,
+              "samples": 30
+            },
+            "lighting": {
+              "max": 11.4,
+              "mean": 6.083,
+              "min": 2.7,
+              "samples": 30
+            },
+            "pass:bloom": {
+              "max": 0.3,
+              "mean": 0.133,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.033,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:reflection": {
+              "max": 7.5,
+              "mean": 2.113,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:scene": {
+              "max": 8.2,
+              "mean": 4.343,
+              "min": 3.3,
+              "samples": 30
+            },
+            "pass:shadow": {
+              "max": 7.3,
+              "mean": 3.95,
+              "min": 2.7,
+              "samples": 30
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 30
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.007,
+              "min": 0,
+              "samples": 30
+            },
+            "player/ferry": {
+              "max": 1.2,
+              "mean": 0.717,
+              "min": 0.4,
+              "samples": 30
+            },
+            "post": {
+              "max": 8.5,
+              "mean": 4.543,
+              "min": 3.5,
+              "samples": 30
+            },
+            "residents:city": {
+              "max": 1.2,
+              "mean": 0.75,
+              "min": 0.4,
+              "samples": 30
+            },
+            "residents:village": {
+              "max": 0.2,
+              "mean": 0.067,
+              "min": 0,
+              "samples": 30
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.143,
+              "min": 0,
+              "samples": 30
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.033,
+              "min": 0,
+              "samples": 30
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 118.1,
+              "mean": 77.093,
+              "min": 34.7,
+              "samples": 29
+            }
+          },
+          "gpuMs": {
+            "bloom": {
+              "max": 1.416,
+              "mean": 1.279,
+              "min": 1.22,
+              "samples": 24
+            },
+            "grade": {
+              "max": 1.977,
+              "mean": 1.778,
+              "min": 1.75,
+              "samples": 24
+            },
+            "ink+kuwahara": {
+              "max": 5.062,
+              "mean": 4.898,
+              "min": 4.795,
+              "samples": 24
+            },
+            "reflection": {
+              "max": 14.9,
+              "mean": 7.464,
+              "min": 0,
+              "samples": 25
+            },
+            "scene": {
+              "max": 47.826,
+              "mean": 45.81,
+              "min": 44.476,
+              "samples": 24
+            },
+            "shadow": {
+              "max": 11.694,
+              "mean": 10.758,
+              "min": 9.325,
+              "samples": 25
+            },
+            "sharpen": {
+              "max": 0.802,
+              "mean": 0.67,
+              "min": 0.643,
+              "samples": 24
+            }
+          },
+          "tris": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 30
+            },
+            "frame-total": {
+              "max": 2189368,
+              "mean": 1791033,
+              "min": 1392698,
+              "samples": 30
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "reflection": {
+              "max": 796670,
+              "mean": 398335,
+              "min": 0,
+              "samples": 30
+            },
+            "scene": {
+              "max": 974153,
+              "mean": 974153,
+              "min": 974153,
+              "samples": 30
+            },
+            "shadow": {
+              "max": 418529,
+              "mean": 418529,
+              "min": 418529,
+              "samples": 30
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            }
+          }
+        },
+        "tris": {
+          "bloom": 13,
+          "frame-total": 1791033,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 398335,
+          "scene": 974153,
+          "shadow": 418529,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "regionForest": {
+        "levels": [
+          3,
+          37,
+          185,
+          290
+        ],
+        "shadows": 595,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 1069
+      },
+      "render": [
+        1150,
+        835
+      ],
+      "samples": 29,
+      "triangles": 1392698
+    },
+    {
+      "averageFps": 13.2,
+      "calls": 447,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 75.9,
+      "name": "river approach",
+      "p95Ms": 118,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "frame-total": 533.5,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 86.5,
+          "scene": 234,
+          "shadow": 197,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.14,
+          "audio": 1.557,
+          "camera/sky": 0.13,
+          "dragons": 0.193,
+          "frame-total": 15.817,
+          "habitat": 0.667,
+          "input/time": 0.067,
+          "lighting": 6.2,
+          "pass:bloom": 0.19,
+          "pass:grade": 0.007,
+          "pass:ink+kuwahara": 0.04,
+          "pass:reflection": 1.903,
+          "pass:scene": 4.507,
+          "pass:shadow": 4.283,
+          "pass:sharpen": 0.01,
+          "persistence/input-end": 0.01,
+          "player/ferry": 0.883,
+          "post": 4.78,
+          "residents:city": 0.857,
+          "residents:village": 0.05,
+          "scenery": 0.177,
+          "wildlife": 0.047
+        },
+        "diagnostic": true,
+        "elapsedMs": 2265.7,
+        "enabled": true,
+        "frames": 30,
+        "gpuMs": {
+          "bloom": 1.288,
+          "grade": 1.781,
+          "ink+kuwahara": 4.965,
+          "reflection": 7.498,
+          "scene": 42.526,
+          "shadow": 13.152,
+          "sharpen": 0.686
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 40,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 30
+            },
+            "frame-total": {
+              "max": 620,
+              "mean": 533.5,
+              "min": 447,
+              "samples": 30
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "reflection": {
+              "max": 173,
+              "mean": 86.5,
+              "min": 0,
+              "samples": 30
+            },
+            "scene": {
+              "max": 234,
+              "mean": 234,
+              "min": 234,
+              "samples": 30
+            },
+            "shadow": {
+              "max": 197,
+              "mean": 197,
+              "min": 197,
+              "samples": 30
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.14,
+              "min": 0,
+              "samples": 30
+            },
+            "audio": {
+              "max": 3,
+              "mean": 1.557,
+              "min": 1.1,
+              "samples": 30
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.13,
+              "min": 0,
+              "samples": 30
+            },
+            "dragons": {
+              "max": 0.5,
+              "mean": 0.193,
+              "min": 0.1,
+              "samples": 30
+            },
+            "frame-total": {
+              "max": 23.2,
+              "mean": 15.817,
+              "min": 9.4,
+              "samples": 30
+            },
+            "habitat": {
+              "max": 1.8,
+              "mean": 0.667,
+              "min": 0.5,
+              "samples": 30
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.067,
+              "min": 0,
+              "samples": 30
+            },
+            "lighting": {
+              "max": 12.7,
+              "mean": 6.2,
+              "min": 2.9,
+              "samples": 30
+            },
+            "pass:bloom": {
+              "max": 0.6,
+              "mean": 0.19,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.007,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.04,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:reflection": {
+              "max": 5.7,
+              "mean": 1.903,
+              "min": 0,
+              "samples": 30
+            },
+            "pass:scene": {
+              "max": 8.8,
+              "mean": 4.507,
+              "min": 3.1,
+              "samples": 30
+            },
+            "pass:shadow": {
+              "max": 7.5,
+              "mean": 4.283,
+              "min": 2.8,
+              "samples": 30
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 30
+            },
+            "persistence/input-end": {
+              "max": 0.3,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 30
+            },
+            "player/ferry": {
+              "max": 2.8,
+              "mean": 0.883,
+              "min": 0.4,
+              "samples": 30
+            },
+            "post": {
+              "max": 9.1,
+              "mean": 4.78,
+              "min": 3.2,
+              "samples": 30
+            },
+            "residents:city": {
+              "max": 2.5,
+              "mean": 0.857,
+              "min": 0.5,
+              "samples": 30
+            },
+            "residents:village": {
+              "max": 0.2,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 30
+            },
+            "scenery": {
+              "max": 0.8,
+              "mean": 0.177,
+              "min": 0,
+              "samples": 30
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.047,
+              "min": 0,
+              "samples": 30
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 118.1,
+              "mean": 75.897,
+              "min": 34.8,
+              "samples": 29
+            }
+          },
+          "gpuMs": {
+            "bloom": {
+              "max": 1.451,
+              "mean": 1.288,
+              "min": 1.234,
+              "samples": 24
+            },
+            "grade": {
+              "max": 1.915,
+              "mean": 1.781,
+              "min": 1.75,
+              "samples": 24
+            },
+            "ink+kuwahara": {
+              "max": 5.826,
+              "mean": 4.965,
+              "min": 4.747,
+              "samples": 24
+            },
+            "reflection": {
+              "max": 14.937,
+              "mean": 7.498,
+              "min": 0,
+              "samples": 25
+            },
+            "scene": {
+              "max": 43.972,
+              "mean": 42.526,
+              "min": 41.552,
+              "samples": 24
+            },
+            "shadow": {
+              "max": 14.192,
+              "mean": 13.152,
+              "min": 11.78,
+              "samples": 25
+            },
+            "sharpen": {
+              "max": 0.766,
+              "mean": 0.686,
+              "min": 0.647,
+              "samples": 24
+            }
+          },
+          "tris": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 30
+            },
+            "frame-total": {
+              "max": 2412932,
+              "mean": 2006835.5,
+              "min": 1600739,
+              "samples": 30
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            },
+            "reflection": {
+              "max": 812193,
+              "mean": 406096.5,
+              "min": 0,
+              "samples": 30
+            },
+            "scene": {
+              "max": 1128894,
+              "mean": 1128894,
+              "min": 1128894,
+              "samples": 30
+            },
+            "shadow": {
+              "max": 471829,
+              "mean": 471829,
+              "min": 471829,
+              "samples": 30
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 30
+            }
+          }
+        },
+        "tris": {
+          "bloom": 13,
+          "frame-total": 2006835.5,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 406096.5,
+          "scene": 1128894,
+          "shadow": 471829,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "regionForest": {
+        "levels": [
+          14,
+          55,
+          135,
+          130
+        ],
+        "shadows": 607,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 1125
+      },
+      "render": [
+        1150,
+        835
+      ],
+      "samples": 29,
+      "triangles": 1600739
+    },
+    {
+      "averageFps": 9.8,
+      "calls": 863,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          4,
+          7,
+          75,
+          9
+        ],
+        "shadows": 96,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 245
+      },
+      "meanMs": 102.26,
+      "name": "village grove",
+      "p95Ms": 111.2,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "frame-total": 736.261,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 138.261,
+          "scene": 427,
+          "shadow": 155,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.113,
+          "audio": 1.865,
+          "camera/sky": 0.061,
+          "dragons": 0.17,
+          "frame-total": 23.07,
+          "habitat": 0.617,
+          "input/time": 0.043,
+          "lighting": 10.252,
+          "pass:bloom": 0.126,
+          "pass:grade": 0.017,
+          "pass:ink+kuwahara": 0.065,
+          "pass:reflection": 4.365,
+          "pass:scene": 7.096,
+          "pass:shadow": 5.843,
+          "pass:sharpen": 0.013,
+          "persistence/input-end": 0,
+          "player/ferry": 0.896,
+          "post": 7.33,
+          "residents:city": 0.896,
+          "residents:village": 0.452,
+          "scenery": 0.274,
+          "wildlife": 0.035
+        },
+        "diagnostic": true,
+        "elapsedMs": 2343.6,
+        "enabled": true,
+        "frames": 23,
+        "gpuMs": {
+          "bloom": 1.853,
+          "grade": 2.605,
+          "ink+kuwahara": 7.192,
+          "reflection": 6.849,
+          "scene": 58.879,
+          "shadow": 19.128,
+          "sharpen": 0.972
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 35,
+          "pooled": 0,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 23
+            },
+            "frame-total": {
+              "max": 863,
+              "mean": 736.261,
+              "min": 598,
+              "samples": 23
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 23
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 23
+            },
+            "reflection": {
+              "max": 265,
+              "mean": 138.261,
+              "min": 0,
+              "samples": 23
+            },
+            "scene": {
+              "max": 427,
+              "mean": 427,
+              "min": 427,
+              "samples": 23
+            },
+            "shadow": {
+              "max": 155,
+              "mean": 155,
+              "min": 155,
+              "samples": 23
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 23
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.5,
+              "mean": 0.113,
+              "min": 0,
+              "samples": 23
+            },
+            "audio": {
+              "max": 5.3,
+              "mean": 1.865,
+              "min": 1,
+              "samples": 23
+            },
+            "camera/sky": {
+              "max": 0.1,
+              "mean": 0.061,
+              "min": 0,
+              "samples": 23
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.17,
+              "min": 0.1,
+              "samples": 23
+            },
+            "frame-total": {
+              "max": 28.3,
+              "mean": 23.07,
+              "min": 18,
+              "samples": 23
+            },
+            "habitat": {
+              "max": 1.2,
+              "mean": 0.617,
+              "min": 0.4,
+              "samples": 23
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.043,
+              "min": 0,
+              "samples": 23
+            },
+            "lighting": {
+              "max": 16.3,
+              "mean": 10.252,
+              "min": 3.7,
+              "samples": 23
+            },
+            "pass:bloom": {
+              "max": 0.2,
+              "mean": 0.126,
+              "min": 0,
+              "samples": 23
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.017,
+              "min": 0,
+              "samples": 23
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.3,
+              "mean": 0.065,
+              "min": 0,
+              "samples": 23
+            },
+            "pass:reflection": {
+              "max": 10.7,
+              "mean": 4.365,
+              "min": 0,
+              "samples": 23
+            },
+            "pass:scene": {
+              "max": 11.3,
+              "mean": 7.096,
+              "min": 4.2,
+              "samples": 23
+            },
+            "pass:shadow": {
+              "max": 12.1,
+              "mean": 5.843,
+              "min": 3.3,
+              "samples": 23
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.013,
+              "min": 0,
+              "samples": 23
+            },
+            "persistence/input-end": {
+              "max": 0,
+              "mean": 0,
+              "min": 0,
+              "samples": 23
+            },
+            "player/ferry": {
+              "max": 1.7,
+              "mean": 0.896,
+              "min": 0.6,
+              "samples": 23
+            },
+            "post": {
+              "max": 11.5,
+              "mean": 7.33,
+              "min": 4.4,
+              "samples": 23
+            },
+            "residents:city": {
+              "max": 1.5,
+              "mean": 0.896,
+              "min": 0.5,
+              "samples": 23
+            },
+            "residents:village": {
+              "max": 0.8,
+              "mean": 0.452,
+              "min": 0.2,
+              "samples": 23
+            },
+            "scenery": {
+              "max": 0.6,
+              "mean": 0.274,
+              "min": 0.1,
+              "samples": 23
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.035,
+              "min": 0,
+              "samples": 23
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 111.4,
+              "mean": 102.259,
+              "min": 90.3,
+              "samples": 22
+            }
+          },
+          "gpuMs": {
+            "bloom": {
+              "max": 2.08,
+              "mean": 1.853,
+              "min": 1.744,
+              "samples": 18
+            },
+            "grade": {
+              "max": 2.724,
+              "mean": 2.605,
+              "min": 2.509,
+              "samples": 18
+            },
+            "ink+kuwahara": {
+              "max": 7.508,
+              "mean": 7.192,
+              "min": 6.941,
+              "samples": 18
+            },
+            "reflection": {
+              "max": 14.345,
+              "mean": 6.849,
+              "min": 0.001,
+              "samples": 18
+            },
+            "scene": {
+              "max": 61.099,
+              "mean": 58.879,
+              "min": 56.768,
+              "samples": 18
+            },
+            "shadow": {
+              "max": 20.097,
+              "mean": 19.128,
+              "min": 17.338,
+              "samples": 18
+            },
+            "sharpen": {
+              "max": 1.162,
+              "mean": 0.972,
+              "min": 0.912,
+              "samples": 18
+            }
+          },
+          "tris": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 23
+            },
+            "frame-total": {
+              "max": 2629088,
+              "mean": 2271286.696,
+              "min": 1880958,
+              "samples": 23
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 23
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 23
+            },
+            "reflection": {
+              "max": 748130,
+              "mean": 390328.696,
+              "min": 0,
+              "samples": 23
+            },
+            "scene": {
+              "max": 1365443,
+              "mean": 1365443,
+              "min": 1365443,
+              "samples": 23
+            },
+            "shadow": {
+              "max": 515499,
+              "mean": 515499,
+              "min": 515499,
+              "samples": 23
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 23
+            }
+          }
+        },
+        "tris": {
+          "bloom": 13,
+          "frame-total": 2271286.696,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 390328.696,
+          "scene": 1365443,
+          "shadow": 515499,
+          "sharpen": 1
+        }
+      },
+      "quality": "ultra",
+      "regionForest": {
+        "levels": [
+          0,
+          0,
+          10,
+          122
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 187
+      },
+      "render": [
+        1380,
+        1002
+      ],
+      "samples": 22,
+      "triangles": 2629088
+    },
+    {
+      "averageFps": 8.5,
+      "calls": 885,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 117.31,
+      "name": "Mosswood path",
+      "p95Ms": 132,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "frame-total": 718.9,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 166,
+          "scene": 391.9,
+          "shadow": 145,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.16,
+          "audio": 2.335,
+          "camera/sky": 0.205,
+          "dragons": 0.245,
+          "frame-total": 24.925,
+          "habitat": 0.955,
+          "input/time": 0.05,
+          "lighting": 11.315,
+          "pass:bloom": 0.225,
+          "pass:grade": 0.01,
+          "pass:ink+kuwahara": 0.055,
+          "pass:reflection": 3.645,
+          "pass:scene": 7.365,
+          "pass:shadow": 7.625,
+          "pass:sharpen": 0.01,
+          "persistence/input-end": 0.005,
+          "player/ferry": 0.72,
+          "post": 7.735,
+          "residents:city": 0.61,
+          "residents:village": 0.035,
+          "scenery": 0.47,
+          "wildlife": 0.035
+        },
+        "diagnostic": true,
+        "elapsedMs": 2351.7,
+        "enabled": true,
+        "frames": 20,
+        "gpuMs": {
+          "bloom": 1.941,
+          "grade": 2.577,
+          "ink+kuwahara": 7.211,
+          "reflection": 7.723,
+          "scene": 66.012,
+          "shadow": 26.662,
+          "sharpen": 1.012
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 38,
+          "pooled": 2,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 20
+            },
+            "frame-total": {
+              "max": 885,
+              "mean": 718.9,
+              "min": 551,
+              "samples": 20
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "reflection": {
+              "max": 332,
+              "mean": 166,
+              "min": 0,
+              "samples": 20
+            },
+            "scene": {
+              "max": 392,
+              "mean": 391.9,
+              "min": 390,
+              "samples": 20
+            },
+            "shadow": {
+              "max": 145,
+              "mean": 145,
+              "min": 145,
+              "samples": 20
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.16,
+              "min": 0,
+              "samples": 20
+            },
+            "audio": {
+              "max": 3.5,
+              "mean": 2.335,
+              "min": 1.4,
+              "samples": 20
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.205,
+              "min": 0.1,
+              "samples": 20
+            },
+            "dragons": {
+              "max": 0.6,
+              "mean": 0.245,
+              "min": 0.1,
+              "samples": 20
+            },
+            "frame-total": {
+              "max": 43.3,
+              "mean": 24.925,
+              "min": 17.5,
+              "samples": 20
+            },
+            "habitat": {
+              "max": 2.3,
+              "mean": 0.955,
+              "min": 0.4,
+              "samples": 20
+            },
+            "input/time": {
+              "max": 0.1,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 20
+            },
+            "lighting": {
+              "max": 24.5,
+              "mean": 11.315,
+              "min": 4,
+              "samples": 20
+            },
+            "pass:bloom": {
+              "max": 0.4,
+              "mean": 0.225,
+              "min": 0.1,
+              "samples": 20
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.055,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:reflection": {
+              "max": 13.5,
+              "mean": 3.645,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:scene": {
+              "max": 11.7,
+              "mean": 7.365,
+              "min": 4.9,
+              "samples": 20
+            },
+            "pass:shadow": {
+              "max": 11.9,
+              "mean": 7.625,
+              "min": 3.9,
+              "samples": 20
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 20
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.005,
+              "min": 0,
+              "samples": 20
+            },
+            "player/ferry": {
+              "max": 1,
+              "mean": 0.72,
+              "min": 0.5,
+              "samples": 20
+            },
+            "post": {
+              "max": 12.3,
+              "mean": 7.735,
+              "min": 5.1,
+              "samples": 20
+            },
+            "residents:city": {
+              "max": 1.2,
+              "mean": 0.61,
+              "min": 0.3,
+              "samples": 20
+            },
+            "residents:village": {
+              "max": 0.2,
+              "mean": 0.035,
+              "min": 0,
+              "samples": 20
+            },
+            "scenery": {
+              "max": 1,
+              "mean": 0.47,
+              "min": 0.2,
+              "samples": 20
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.035,
+              "min": 0,
+              "samples": 20
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 132,
+              "mean": 117.305,
+              "min": 90.4,
+              "samples": 19
+            }
+          },
+          "gpuMs": {
+            "bloom": {
+              "max": 2.052,
+              "mean": 1.941,
+              "min": 1.806,
+              "samples": 14
+            },
+            "grade": {
+              "max": 2.708,
+              "mean": 2.577,
+              "min": 2.512,
+              "samples": 14
+            },
+            "ink+kuwahara": {
+              "max": 8.122,
+              "mean": 7.211,
+              "min": 6.86,
+              "samples": 15
+            },
+            "reflection": {
+              "max": 16.835,
+              "mean": 7.723,
+              "min": 0,
+              "samples": 15
+            },
+            "scene": {
+              "max": 71.256,
+              "mean": 66.012,
+              "min": 64.101,
+              "samples": 15
+            },
+            "shadow": {
+              "max": 28.191,
+              "mean": 26.662,
+              "min": 24.965,
+              "samples": 15
+            },
+            "sharpen": {
+              "max": 1.101,
+              "mean": 1.012,
+              "min": 0.931,
+              "samples": 14
+            }
+          },
+          "tris": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 20
+            },
+            "frame-total": {
+              "max": 2802970,
+              "mean": 2340719.4,
+              "min": 1878440,
+              "samples": 20
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "reflection": {
+              "max": 924498,
+              "mean": 462249,
+              "min": 0,
+              "samples": 20
+            },
+            "scene": {
+              "max": 1437873,
+              "mean": 1437871.4,
+              "min": 1437841,
+              "samples": 20
+            },
+            "shadow": {
+              "max": 440583,
+              "mean": 440583,
+              "min": 440583,
+              "samples": 20
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            }
+          }
+        },
+        "tris": {
+          "bloom": 13,
+          "frame-total": 2340719.4,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 462249,
+          "scene": 1437871.4,
+          "shadow": 440583,
+          "sharpen": 1
+        }
+      },
+      "quality": "ultra",
+      "regionForest": {
+        "levels": [
+          11,
+          55,
+          284,
+          272
+        ],
+        "shadows": 595,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 1240
+      },
+      "render": [
+        1380,
+        1002
+      ],
+      "samples": 19,
+      "triangles": 2802970
+    },
+    {
+      "averageFps": 8.6,
+      "calls": 639,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "display": [
+        920,
+        668
+      ],
+      "forest": {
+        "levels": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "shadows": 0,
+        "templates": [
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1824,
+              546
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1602,
+              530
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1572,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1858,
+              464
+            ]
+          }
+        ],
+        "total": 245,
+        "visible": 0
+      },
+      "meanMs": 116.2,
+      "name": "river approach",
+      "p95Ms": 173.7,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "frame-total": 547.5,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 91.5,
+          "scene": 243,
+          "shadow": 197,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.12,
+          "audio": 1.53,
+          "camera/sky": 0.16,
+          "dragons": 0.21,
+          "frame-total": 15.715,
+          "habitat": 0.675,
+          "input/time": 0.04,
+          "lighting": 6.485,
+          "pass:bloom": 0.14,
+          "pass:grade": 0.01,
+          "pass:ink+kuwahara": 0.04,
+          "pass:reflection": 1.77,
+          "pass:scene": 4.59,
+          "pass:shadow": 4.695,
+          "pass:sharpen": 0.005,
+          "persistence/input-end": 0.005,
+          "player/ferry": 0.805,
+          "post": 4.805,
+          "residents:city": 0.54,
+          "residents:village": 0.06,
+          "scenery": 0.195,
+          "wildlife": 0.045
+        },
+        "diagnostic": true,
+        "elapsedMs": 2376.9,
+        "enabled": true,
+        "frames": 20,
+        "gpuMs": {
+          "bloom": 1.873,
+          "grade": 2.57,
+          "ink+kuwahara": 7.065,
+          "reflection": 7.295,
+          "scene": 60.227,
+          "shadow": 33.189,
+          "sharpen": 0.981
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 40,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 20
+            },
+            "frame-total": {
+              "max": 639,
+              "mean": 547.5,
+              "min": 456,
+              "samples": 20
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "reflection": {
+              "max": 183,
+              "mean": 91.5,
+              "min": 0,
+              "samples": 20
+            },
+            "scene": {
+              "max": 243,
+              "mean": 243,
+              "min": 243,
+              "samples": 20
+            },
+            "shadow": {
+              "max": 197,
+              "mean": 197,
+              "min": 197,
+              "samples": 20
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.4,
+              "mean": 0.12,
+              "min": 0,
+              "samples": 20
+            },
+            "audio": {
+              "max": 2.7,
+              "mean": 1.53,
+              "min": 1.1,
+              "samples": 20
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.16,
+              "min": 0.1,
+              "samples": 20
+            },
+            "dragons": {
+              "max": 0.4,
+              "mean": 0.21,
+              "min": 0,
+              "samples": 20
+            },
+            "frame-total": {
+              "max": 22.4,
+              "mean": 15.715,
+              "min": 10.3,
+              "samples": 20
+            },
+            "habitat": {
+              "max": 1,
+              "mean": 0.675,
+              "min": 0.4,
+              "samples": 20
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.04,
+              "min": 0,
+              "samples": 20
+            },
+            "lighting": {
+              "max": 12.5,
+              "mean": 6.485,
+              "min": 3.2,
+              "samples": 20
+            },
+            "pass:bloom": {
+              "max": 0.6,
+              "mean": 0.14,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.01,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.04,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:reflection": {
+              "max": 5,
+              "mean": 1.77,
+              "min": 0,
+              "samples": 20
+            },
+            "pass:scene": {
+              "max": 8.5,
+              "mean": 4.59,
+              "min": 3.2,
+              "samples": 20
+            },
+            "pass:shadow": {
+              "max": 9.6,
+              "mean": 4.695,
+              "min": 2.9,
+              "samples": 20
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.005,
+              "min": 0,
+              "samples": 20
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.005,
+              "min": 0,
+              "samples": 20
+            },
+            "player/ferry": {
+              "max": 2.5,
+              "mean": 0.805,
+              "min": 0.5,
+              "samples": 20
+            },
+            "post": {
+              "max": 9.3,
+              "mean": 4.805,
+              "min": 3.3,
+              "samples": 20
+            },
+            "residents:city": {
+              "max": 0.9,
+              "mean": 0.54,
+              "min": 0.3,
+              "samples": 20
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.06,
+              "min": 0,
+              "samples": 20
+            },
+            "scenery": {
+              "max": 0.7,
+              "mean": 0.195,
+              "min": 0,
+              "samples": 20
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.045,
+              "min": 0,
+              "samples": 20
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 173.7,
+              "mean": 116.2,
+              "min": 62.4,
+              "samples": 19
+            }
+          },
+          "gpuMs": {
+            "bloom": {
+              "max": 2.113,
+              "mean": 1.873,
+              "min": 1.753,
+              "samples": 14
+            },
+            "grade": {
+              "max": 2.733,
+              "mean": 2.57,
+              "min": 2.51,
+              "samples": 14
+            },
+            "ink+kuwahara": {
+              "max": 7.669,
+              "mean": 7.065,
+              "min": 6.861,
+              "samples": 14
+            },
+            "reflection": {
+              "max": 16.198,
+              "mean": 7.295,
+              "min": 0,
+              "samples": 15
+            },
+            "scene": {
+              "max": 62.052,
+              "mean": 60.227,
+              "min": 58.442,
+              "samples": 14
+            },
+            "shadow": {
+              "max": 34.218,
+              "mean": 33.189,
+              "min": 32.209,
+              "samples": 15
+            },
+            "sharpen": {
+              "max": 1.091,
+              "mean": 0.981,
+              "min": 0.922,
+              "samples": 14
+            }
+          },
+          "tris": {
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 20
+            },
+            "frame-total": {
+              "max": 2903848,
+              "mean": 2459025.5,
+              "min": 2014203,
+              "samples": 20
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            },
+            "reflection": {
+              "max": 889645,
+              "mean": 444822.5,
+              "min": 0,
+              "samples": 20
+            },
+            "scene": {
+              "max": 1542358,
+              "mean": 1542358,
+              "min": 1542358,
+              "samples": 20
+            },
+            "shadow": {
+              "max": 471829,
+              "mean": 471829,
+              "min": 471829,
+              "samples": 20
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 20
+            }
+          }
+        },
+        "tris": {
+          "bloom": 13,
+          "frame-total": 2459025.5,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 444822.5,
+          "scene": 1542358,
+          "shadow": 471829,
+          "sharpen": 1
+        }
+      },
+      "quality": "ultra",
+      "regionForest": {
+        "levels": [
+          33,
+          69,
+          133,
+          148
+        ],
+        "shadows": 607,
+        "templates": [
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1608,
+              530
+            ]
+          },
+          {
+            "species": "Oak",
+            "triangles": [
+              13906,
+              7206,
+              1878,
+              540
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          },
+          {
+            "species": "Ash",
+            "triangles": [
+              20100,
+              9188,
+              1590,
+              536
+            ]
+          },
+          {
+            "species": "Aspen",
+            "triangles": [
+              7300,
+              2928,
+              1122,
+              230
+            ]
+          },
+          {
+            "species": "Pine",
+            "triangles": [
+              19972,
+              8360,
+              1840,
+              464
+            ]
+          }
+        ],
+        "total": 2123,
+        "visible": 1283
+      },
+      "render": [
+        1380,
+        1002
+      ],
+      "samples": 19,
+      "triangles": 2903848
+    }
+  ]
+}

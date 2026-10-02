@@ -1,0 +1,2081 @@
+{
+  "candidate": "Silverveil gorge 03 — observation bank fit",
+  "created_utc": "2026-09-29T23:59:28.945800+00:00",
+  "source_terrain_sha256": "0e2261eab37cf2dbeb56a97bca8fe0ee2244de960e5e444fca3522e19663e7b9",
+  "placement_three": {
+    "position": [
+      366,
+      0,
+      -713
+    ],
+    "rotation": [
+      0,
+      0,
+      0
+    ],
+    "scale": [
+      1,
+      1,
+      1
+    ]
+  },
+  "visual_root": "GEO_Silverveil",
+  "visual_triangles": 18590,
+  "material_meshes": 9,
+  "bounds_local_three": {
+    "min": [
+      -88,
+      12.770434379577637,
+      -50
+    ],
+    "max": [
+      94.70001220703125,
+      59.266841888427734,
+      34.01959991455078
+    ]
+  },
+  "materials": [
+    "stone_Silverveil_earth",
+    "stone_Silverveil_leaf",
+    "stone_Silverveil_leaf_light",
+    "stone_Silverveil_light.001",
+    "stone_Silverveil_moss",
+    "stone_Silverveil_shadow",
+    "stone_Silverveil_stone",
+    "stone_Silverveil_warm",
+    "stone_Silverveil_wet"
+  ],
+  "water_aperture": "20m drop opening preserved. Main wall keeps +.65m margin; thin wet bank margins begin .12m outside water half-width and .18m below its Y. No visual water exported.",
+  "route_protection": "Cross-section quads require vertices >2.7m beyond route half-width; rounded blocks >3m at all perimeter points. Proxy distances and runtime traversal require separate inspection.",
+  "collision_proxies": [
+    {
+      "name": "COL_Lip_West",
+      "bounds_world": {
+        "min": [
+          346.9615293473131,
+          51.354583067473136,
+          -735.4584252812641
+        ],
+        "max": [
+          354.38638468864696,
+          58.83126315101617,
+          -726.5835315853026
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          -19.038470652686897,
+          51.354583067473136,
+          -22.458425281264113
+        ],
+        "max": [
+          -11.613615311353044,
+          58.83126315101617,
+          -13.58353158530258
+        ]
+      }
+    },
+    {
+      "name": "COL_Lip_East",
+      "bounds_world": {
+        "min": [
+          376.8388755909978,
+          50.83078787599402,
+          -736.8868666276736
+        ],
+        "max": [
+          385.9736421275351,
+          59.16097699548799,
+          -727.0086280037834
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          10.838875590997816,
+          50.83078787599402,
+          -23.886866627673612
+        ],
+        "max": [
+          19.973642127535072,
+          59.16097699548799,
+          -14.008628003783429
+        ]
+      }
+    },
+    {
+      "name": "COL_Upstream_West",
+      "bounds_world": {
+        "min": [
+          346.3818446862268,
+          52.06288691793725,
+          -751.8454695475922
+        ],
+        "max": [
+          353.3695587368426,
+          58.38731049136013,
+          -739.9024238851978
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          -19.618155313773173,
+          52.06288691793725,
+          -38.84546954759219
+        ],
+        "max": [
+          -12.630441263157422,
+          58.38731049136013,
+          -26.902423885197777
+        ]
+      }
+    },
+    {
+      "name": "COL_Upstream_East",
+      "bounds_world": {
+        "min": [
+          379.06523847823564,
+          51.7040142848881,
+          -758.2512386208647
+        ],
+        "max": [
+          389.0433029643822,
+          58.5957673681221,
+          -745.4907354930493
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          13.065238478235642,
+          51.7040142848881,
+          -45.25123862086468
+        ],
+        "max": [
+          23.04330296438218,
+          58.5957673681221,
+          -32.49073549304933
+        ]
+      }
+    },
+    {
+      "name": "COL_Eastern_Lookout",
+      "bounds_world": {
+        "min": [
+          394.9554699516463,
+          50.64248678375494,
+          -741.0310462835147
+        ],
+        "max": [
+          408.85733210554224,
+          59.26684209732634,
+          -731.3466443360185
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          28.955469951646307,
+          50.64248678375494,
+          -28.031046283514684
+        ],
+        "max": [
+          42.85733210554224,
+          59.26684209732634,
+          -18.34664433601847
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_0",
+      "bounds_world": {
+        "min": [
+          342.6287034879345,
+          13.05243742485838,
+          -709.0109886529582
+        ],
+        "max": [
+          349.3600520734039,
+          20.525185711002695,
+          -703.0086321517109
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          -23.3712965120655,
+          13.05243742485838,
+          3.98901134704181
+        ],
+        "max": [
+          -16.639947926596108,
+          20.525185711002695,
+          9.991367848289087
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_1",
+      "bounds_world": {
+        "min": [
+          341.96966493345195,
+          13.941012811140272,
+          -703.3118231605334
+        ],
+        "max": [
+          347.952850100032,
+          19.98047741394558,
+          -696.5092534671008
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          -24.030335066548048,
+          13.941012811140272,
+          9.688176839466564
+        ],
+        "max": [
+          -18.04714989996802,
+          19.98047741394558,
+          16.490746532899152
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_4",
+      "bounds_world": {
+        "min": [
+          386.7580531420214,
+          13.452811532579984,
+          -712.9898878504481
+        ],
+        "max": [
+          396.9095028704491,
+          23.511116602033873,
+          -706.9660926878757
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          20.758053142021424,
+          13.452811532579984,
+          0.010112149551900984
+        ],
+        "max": [
+          30.909502870449103,
+          23.511116602033873,
+          6.033907312124256
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_5",
+      "bounds_world": {
+        "min": [
+          391.529177065479,
+          12.770434458706216,
+          -706.0350997843323
+        ],
+        "max": [
+          398.40870851968543,
+          20.532965672213482,
+          -697.9928862270258
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          25.52917706547902,
+          12.770434458706216,
+          6.96490021566774
+        ],
+        "max": [
+          32.40870851968543,
+          20.532965672213482,
+          15.007113772974208
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_6",
+      "bounds_world": {
+        "min": [
+          389.87202712441,
+          14.24588356371893,
+          -696.5424347118243
+        ],
+        "max": [
+          397.71682064207073,
+          19.42230551460089,
+          -689.6703900757725
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          23.87202712441001,
+          14.24588356371893,
+          16.457565288175715
+        ],
+        "max": [
+          31.71682064207073,
+          19.42230551460089,
+          23.329609924227498
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_7",
+      "bounds_world": {
+        "min": [
+          384.6087621689561,
+          14.884625816104323,
+          -686.5280759318996
+        ],
+        "max": [
+          393.1837543477708,
+          19.195180077584606,
+          -681.455281946661
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          18.608762168956105,
+          14.884625816104323,
+          26.471924068100407
+        ],
+        "max": [
+          27.183754347770787,
+          19.195180077584606,
+          31.54471805333901
+        ]
+      }
+    },
+    {
+      "name": "COL_Basin_Rim_8",
+      "bounds_world": {
+        "min": [
+          380.01388845902,
+          15.61547583206519,
+          -683.0075269613706
+        ],
+        "max": [
+          386.04925088488966,
+          18.487335814272267,
+          -678.9804002067951
+        ]
+      },
+      "bounds_local_three": {
+        "min": [
+          14.013888459019995,
+          15.61547583206519,
+          29.99247303862944
+        ],
+        "max": [
+          20.04925088488966,
+          18.487335814272267,
+          34.01959979320486
+        ]
+      }
+    }
+  ],
+  "features": [
+    {
+      "name": "Continuous_bedded_cross_section",
+      "world_x_extent": [
+        278,
+        460.75
+      ],
+      "bedding_levels_y": [
+        17,
+        19.2,
+        20,
+        21.4,
+        22.8,
+        24.2,
+        25.2,
+        25.4,
+        25.6,
+        27,
+        28.4,
+        29.799999999999997,
+        31.2,
+        32.6,
+        32.8,
+        33.05,
+        34,
+        35.4,
+        36.8,
+        38.2,
+        39.599999999999994,
+        41,
+        41.1,
+        41.35,
+        42.4,
+        43.8,
+        45.2,
+        46.599999999999994,
+        48,
+        49.4,
+        50.7,
+        50.8,
+        50.95,
+        52.199999999999996,
+        53.599999999999994,
+        55,
+        57.1
+      ],
+      "note": "Continuous contour-fitted front, shallow connected undercuts and eight eroded joint zones. No detached shelf wedges."
+    },
+    {
+      "name": "Lip_West",
+      "bounds_world": {
+        "min": [
+          346.9615293473131,
+          51.354583067473136,
+          -735.4584252812641
+        ],
+        "max": [
+          354.38638468864696,
+          58.83126315101617,
+          -726.5835315853026
+        ]
+      },
+      "route_edge_clearance_min": 10.36075931172131
+    },
+    {
+      "name": "Lip_East",
+      "bounds_world": {
+        "min": [
+          376.8388755909978,
+          50.83078787599402,
+          -736.8868666276736
+        ],
+        "max": [
+          385.9736421275351,
+          59.16097699548799,
+          -727.0086280037834
+        ]
+      },
+      "route_edge_clearance_min": 39.843818000141376
+    },
+    {
+      "name": "Upstream_West",
+      "bounds_world": {
+        "min": [
+          346.3818446862268,
+          52.06288691793725,
+          -751.8454695475922
+        ],
+        "max": [
+          353.3695587368426,
+          58.38731049136013,
+          -739.9024238851978
+        ]
+      },
+      "route_edge_clearance_min": 10.382420816225089
+    },
+    {
+      "name": "Upstream_East",
+      "bounds_world": {
+        "min": [
+          379.06523847823564,
+          51.7040142848881,
+          -758.2512386208647
+        ],
+        "max": [
+          389.0433029643822,
+          58.5957673681221,
+          -745.4907354930493
+        ]
+      },
+      "route_edge_clearance_min": 43.26196126893757
+    },
+    {
+      "name": "Eastern_Lookout",
+      "bounds_world": {
+        "min": [
+          394.9554699516463,
+          50.64248678375494,
+          -741.0310462835147
+        ],
+        "max": [
+          408.85733210554224,
+          59.26684209732634,
+          -731.3466443360185
+        ]
+      },
+      "route_edge_clearance_min": 57.66395031913399
+    },
+    {
+      "name": "Basin_Rim_0",
+      "bounds_world": {
+        "min": [
+          342.6287034879345,
+          13.05243742485838,
+          -709.0109886529582
+        ],
+        "max": [
+          349.3600520734039,
+          20.525185711002695,
+          -703.0086321517109
+        ]
+      },
+      "route_edge_clearance_min": 9.717659598570732
+    },
+    {
+      "name": "Basin_Rim_1",
+      "bounds_world": {
+        "min": [
+          341.96966493345195,
+          13.941012811140272,
+          -703.3118231605334
+        ],
+        "max": [
+          347.952850100032,
+          19.98047741394558,
+          -696.5092534671008
+        ]
+      },
+      "route_edge_clearance_min": 3.92275318820582
+    },
+    {
+      "name": "Basin_Rim_4",
+      "bounds_world": {
+        "min": [
+          386.7580531420214,
+          13.452811532579984,
+          -712.9898878504481
+        ],
+        "max": [
+          396.9095028704491,
+          23.511116602033873,
+          -706.9660926878757
+        ]
+      },
+      "route_edge_clearance_min": 43.06665438547713
+    },
+    {
+      "name": "Basin_Rim_5",
+      "bounds_world": {
+        "min": [
+          391.529177065479,
+          12.770434458706216,
+          -706.0350997843323
+        ],
+        "max": [
+          398.40870851968543,
+          20.532965672213482,
+          -697.9928862270258
+        ]
+      },
+      "route_edge_clearance_min": 43.78826593047722
+    },
+    {
+      "name": "Basin_Rim_6",
+      "bounds_world": {
+        "min": [
+          389.87202712441,
+          14.24588356371893,
+          -696.5424347118243
+        ],
+        "max": [
+          397.71682064207073,
+          19.42230551460089,
+          -689.6703900757725
+        ]
+      },
+      "route_edge_clearance_min": 40.669499113024
+    },
+    {
+      "name": "Basin_Rim_7",
+      "bounds_world": {
+        "min": [
+          384.6087621689561,
+          14.884625816104323,
+          -686.5280759318996
+        ],
+        "max": [
+          393.1837543477708,
+          19.195180077584606,
+          -681.455281946661
+        ]
+      },
+      "route_edge_clearance_min": 35.32664073164658
+    },
+    {
+      "name": "Basin_Rim_8",
+      "bounds_world": {
+        "min": [
+          380.01388845902,
+          15.61547583206519,
+          -683.0075269613706
+        ],
+        "max": [
+          386.04925088488966,
+          18.487335814272267,
+          -678.9804002067951
+        ]
+      },
+      "route_edge_clearance_min": 31.270246479328677
+    },
+    {
+      "name": "Talus_0_2",
+      "bounds_world": {
+        "min": [
+          328.69288938170826,
+          16.85121616072219,
+          -706.0408822093581
+        ],
+        "max": [
+          333.04382663228216,
+          21.40116380478687,
+          -703.871637766074
+        ]
+      },
+      "route_edge_clearance_min": 3.2914514264725137
+    },
+    {
+      "name": "Talus_0_4",
+      "bounds_world": {
+        "min": [
+          335.8873614864743,
+          16.769890428827075,
+          -705.3030021056659
+        ],
+        "max": [
+          339.71696102572633,
+          20.669671596134982,
+          -703.1619281370307
+        ]
+      },
+      "route_edge_clearance_min": 6.145519439663488
+    },
+    {
+      "name": "Talus_0_5",
+      "bounds_world": {
+        "min": [
+          338.7710253635661,
+          17.40492457184266,
+          -705.4594532629917
+        ],
+        "max": [
+          341.22116581062915,
+          19.64669266180443,
+          -702.5294150816685
+        ]
+      },
+      "route_edge_clearance_min": 6.951404516130208
+    },
+    {
+      "name": "Talus_1_0",
+      "bounds_world": {
+        "min": [
+          394.13656796631494,
+          14.742672519684122,
+          -707.4949542042386
+        ],
+        "max": [
+          398.09480955092823,
+          20.297604372655307,
+          -705.1270409824707
+        ]
+      },
+      "route_edge_clearance_min": 47.970475622029596
+    },
+    {
+      "name": "Talus_1_1",
+      "bounds_world": {
+        "min": [
+          405.09981251694416,
+          17.38068477136857,
+          -704.1517298806286
+        ],
+        "max": [
+          408.55008849074864,
+          20.304197773453247,
+          -700.4518018714673
+        ]
+      },
+      "route_edge_clearance_min": 57.198947817581754
+    },
+    {
+      "name": "Talus_1_2",
+      "bounds_world": {
+        "min": [
+          401.66054294098154,
+          17.444600738637995,
+          -706.779525667538
+        ],
+        "max": [
+          405.1022882917319,
+          20.267725219987508,
+          -703.095880032317
+        ]
+      },
+      "route_edge_clearance_min": 54.554345219327104
+    },
+    {
+      "name": "Talus_1_3",
+      "bounds_world": {
+        "min": [
+          404.396698854733,
+          16.909228739747736,
+          -704.0106242341608
+        ],
+        "max": [
+          406.7772068275084,
+          20.59803879960821,
+          -700.2043669165561
+        ]
+      },
+      "route_edge_clearance_min": 56.326636112668425
+    },
+    {
+      "name": "Talus_1_4",
+      "bounds_world": {
+        "min": [
+          400.84921503694085,
+          17.133389736611267,
+          -707.356190793042
+        ],
+        "max": [
+          404.36154738393213,
+          20.446268744474718,
+          -703.395804549122
+        ]
+      },
+      "route_edge_clearance_min": 53.78038229082189
+    },
+    {
+      "name": "Talus_1_5",
+      "bounds_world": {
+        "min": [
+          403.0786352883092,
+          16.949051934153434,
+          -703.6826069533716
+        ],
+        "max": [
+          407.4161381422865,
+          20.574831855910436,
+          -700.2907151996885
+        ]
+      },
+      "route_edge_clearance_min": 55.265151311267985
+    },
+    {
+      "name": "Talus_1_6",
+      "bounds_world": {
+        "min": [
+          398.0963396166656,
+          15.673939519212828,
+          -706.6942510943136
+        ],
+        "max": [
+          401.27778374329495,
+          20.78333311458802,
+          -703.0142225617557
+        ]
+      },
+      "route_edge_clearance_min": 51.241235643289365
+    },
+    {
+      "name": "Talus_1_7",
+      "bounds_world": {
+        "min": [
+          396.823341395047,
+          16.984211666221007,
+          -707.6025354442002
+        ],
+        "max": [
+          399.1047974190997,
+          19.401804510163878,
+          -703.6760276777994
+        ]
+      },
+      "route_edge_clearance_min": 50.04880507696414
+    },
+    {
+      "name": "Talus_2_0",
+      "bounds_world": {
+        "min": [
+          424.09882002586386,
+          18,
+          -711.14800396142
+        ],
+        "max": [
+          427.8180933503599,
+          25.952901988422518,
+          -707.9858647097955
+        ]
+      },
+      "route_edge_clearance_min": 77.48207630954407
+    },
+    {
+      "name": "Talus_2_1",
+      "bounds_world": {
+        "min": [
+          431.21676752005885,
+          18,
+          -710.4167221164296
+        ],
+        "max": [
+          435.8168262232632,
+          23.161351266761468,
+          -707.1693495214773
+        ]
+      },
+      "route_edge_clearance_min": 84.27485814737464
+    },
+    {
+      "name": "Talus_2_2",
+      "bounds_world": {
+        "min": [
+          429.87313633956177,
+          17.80683695307458,
+          -708.2034945304234
+        ],
+        "max": [
+          433.5732665817318,
+          20.050719044171036,
+          -704.875160252362
+        ]
+      },
+      "route_edge_clearance_min": 82.27069883560661
+    },
+    {
+      "name": "Talus_2_3",
+      "bounds_world": {
+        "min": [
+          430.14641944554967,
+          18,
+          -710.1960333548578
+        ],
+        "max": [
+          433.98094630023456,
+          24.007718305456574,
+          -707.8087943762268
+        ]
+      },
+      "route_edge_clearance_min": 83.24800356778022
+    },
+    {
+      "name": "Talus_2_4",
+      "bounds_world": {
+        "min": [
+          426.888372689762,
+          26.42603153786736,
+          -714.1200440919949
+        ],
+        "max": [
+          430.2004539547311,
+          34.01656388875973,
+          -710.7508542525017
+        ]
+      },
+      "route_edge_clearance_min": 80.88863573142622
+    },
+    {
+      "name": "Talus_2_5",
+      "bounds_world": {
+        "min": [
+          427.4318697988753,
+          18,
+          -710.5121257142955
+        ],
+        "max": [
+          432.35936729596233,
+          22.56283510178058,
+          -706.9884463037638
+        ]
+      },
+      "route_edge_clearance_min": 80.60579446121992
+    },
+    {
+      "name": "Talus_2_6",
+      "bounds_world": {
+        "min": [
+          422.6952765071342,
+          29.021001457286733,
+          -714.9023742152588
+        ],
+        "max": [
+          427.2822030053503,
+          35.39753005988304,
+          -711.6803039815494
+        ]
+      },
+      "route_edge_clearance_min": 77.11789434737398
+    },
+    {
+      "name": "Talus_2_7",
+      "bounds_world": {
+        "min": [
+          420.7058703871031,
+          25.473720910194793,
+          -713.4151890970478
+        ],
+        "max": [
+          424.5530232434185,
+          31.610596492938125,
+          -710.4225647833392
+        ]
+      },
+      "route_edge_clearance_min": 74.70778935985933
+    },
+    {
+      "name": "Talus_3_0",
+      "bounds_world": {
+        "min": [
+          446.9713831392315,
+          23.305918519730845,
+          -712.3936803148406
+        ],
+        "max": [
+          450.54903881550655,
+          29.38075219194675,
+          -709.6911006374735
+        ]
+      },
+      "route_edge_clearance_min": 100.0293679108816
+    },
+    {
+      "name": "Talus_3_1",
+      "bounds_world": {
+        "min": [
+          439.7549747851094,
+          30.322145577138823,
+          -714.4805154902788
+        ],
+        "max": [
+          442.2402799182177,
+          35.225769938444685,
+          -712.1618402051618
+        ]
+      },
+      "route_edge_clearance_min": 93.60113463057436
+    },
+    {
+      "name": "Talus_3_2",
+      "bounds_world": {
+        "min": [
+          441.7339861404669,
+          30.553932574217914,
+          -715.0300903401201
+        ],
+        "max": [
+          445.67628089090016,
+          37.38774111964893,
+          -712.2508758379606
+        ]
+      },
+      "route_edge_clearance_min": 95.68448827626575
+    },
+    {
+      "name": "Talus_3_3",
+      "bounds_world": {
+        "min": [
+          443.11848875016096,
+          18,
+          -710.8275669079378
+        ],
+        "max": [
+          447.0549561411999,
+          24.813074725618378,
+          -707.4581316343094
+        ]
+      },
+      "route_edge_clearance_min": 95.93165687248003
+    },
+    {
+      "name": "Talus_3_4",
+      "bounds_world": {
+        "min": [
+          448.4012770395758,
+          29.954363721442526,
+          -714.712542365757
+        ],
+        "max": [
+          451.4014281017938,
+          35.66421950015967,
+          -712.0205652817773
+        ]
+      },
+      "route_edge_clearance_min": 102.05594985760018
+    },
+    {
+      "name": "Talus_3_5",
+      "bounds_world": {
+        "min": [
+          445.583371965505,
+          15.979864296416277,
+          -709.2241814313351
+        ],
+        "max": [
+          447.9851526986243,
+          21.422869749285034,
+          -706.9243864008695
+        ]
+      },
+      "route_edge_clearance_min": 98.05547805215679
+    },
+    {
+      "name": "Talus_3_6",
+      "bounds_world": {
+        "min": [
+          435.097018746171,
+          31.61874281577828,
+          -715.1660062551181
+        ],
+        "max": [
+          439.74175788468943,
+          36.76585241421413,
+          -712.6598981509582
+        ]
+      },
+      "route_edge_clearance_min": 89.37505697888966
+    },
+    {
+      "name": "Talus_3_7",
+      "bounds_world": {
+        "min": [
+          442.3336419907643,
+          29.51015824563943,
+          -714.5656738976674
+        ],
+        "max": [
+          445.5508715564599,
+          36.05314970387928,
+          -711.8580456448499
+        ]
+      },
+      "route_edge_clearance_min": 96.13582565374232
+    },
+    {
+      "name": "Wet_channel_margins",
+      "note": "Outer lip follows sampled water Y at every metre; inner edge is .12m outside sampled half-width, .18m below water."
+    },
+    {
+      "name": "Vegetation_pocket_400",
+      "center_world_xz": [
+        348,
+        -754
+      ],
+      "soil_plane_y": 56.16
+    },
+    {
+      "name": "Vegetation_pocket_401",
+      "center_world_xz": [
+        387,
+        -760
+      ],
+      "soil_plane_y": 56.16
+    },
+    {
+      "name": "Vegetation_pocket_402",
+      "center_world_xz": [
+        398,
+        -744
+      ],
+      "soil_plane_y": 56.16
+    },
+    {
+      "name": "Vegetation_pocket_403",
+      "center_world_xz": [
+        416,
+        -744
+      ],
+      "soil_plane_y": 56.16
+    },
+    {
+      "name": "Vegetation_pocket_404",
+      "center_world_xz": [
+        438,
+        -739
+      ],
+      "soil_plane_y": 56.16
+    },
+    {
+      "name": "Vegetation_pocket_405",
+      "center_world_xz": [
+        403,
+        -695
+      ],
+      "soil_plane_y": 19.322369000000002
+    },
+    {
+      "name": "Vegetation_pocket_406",
+      "center_world_xz": [
+        389,
+        -682
+      ],
+      "soil_plane_y": 17.976295
+    },
+    {
+      "name": "Fracture_and_spall_hierarchy",
+      "fracture_paths": 14,
+      "spalled_skins": 9,
+      "wet_moss_cracks": 5,
+      "note": "Centimetre relief follows the continuous rock surface, distinct from the large erosion alcoves."
+    }
+  ],
+  "terrain_sampling": {
+    "spacing_m": 1,
+    "source": "src/data/regions.ts",
+    "legacy_height": 0,
+    "range": {
+      "x0": 260,
+      "x1": 480,
+      "z0": -805,
+      "z1": -620,
+      "step": 1
+    }
+  },
+  "verification": {
+    "bytes": 1038204,
+    "sha256": "7557f4c608d6e7e549fc0f33adac394ae7417724e9c96f7ee374492a5deeb8ec",
+    "exported_roots": [
+      "COL_Basin_Rim_0",
+      "COL_Basin_Rim_1",
+      "COL_Basin_Rim_4",
+      "COL_Basin_Rim_5",
+      "COL_Basin_Rim_6",
+      "COL_Basin_Rim_7",
+      "COL_Basin_Rim_8",
+      "COL_Eastern_Lookout",
+      "COL_Lip_East",
+      "COL_Lip_West",
+      "COL_Upstream_East",
+      "COL_Upstream_West",
+      "GEO_Silverveil"
+    ],
+    "roots_identity": true,
+    "single_primitive_per_mesh": true,
+    "proxy_route_clearance": [
+      {
+        "name": "COL_Lip_West",
+        "minimum_route_edge_clearance_m": 9.769398278382255,
+        "route_point_xz": [
+          336,
+          -737
+        ]
+      },
+      {
+        "name": "COL_Lip_East",
+        "minimum_route_edge_clearance_m": 39.53903229383541,
+        "route_point_xz": [
+          336,
+          -737
+        ]
+      },
+      {
+        "name": "COL_Upstream_West",
+        "minimum_route_edge_clearance_m": 9.479924095201355,
+        "route_point_xz": [
+          336,
+          -737
+        ]
+      },
+      {
+        "name": "COL_Upstream_East",
+        "minimum_route_edge_clearance_m": 42.59427473373077,
+        "route_point_xz": [
+          336,
+          -737
+        ]
+      },
+      {
+        "name": "COL_Eastern_Lookout",
+        "minimum_route_edge_clearance_m": 57.65546995164631,
+        "route_point_xz": [
+          336,
+          -737
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_0",
+        "minimum_route_edge_clearance_m": 8.991549367368389,
+        "route_point_xz": [
+          337.57466063348414,
+          -693.8642533936652
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_1",
+        "minimum_route_edge_clearance_m": 2.9946032001583944,
+        "route_point_xz": [
+          339.74660633484166,
+          -692.6425339366516
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_4",
+        "minimum_route_edge_clearance_m": 41.649731809188,
+        "route_point_xz": [
+          348,
+          -688
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_5",
+        "minimum_route_edge_clearance_m": 43.16147143953171,
+        "route_point_xz": [
+          348,
+          -688
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_6",
+        "minimum_route_edge_clearance_m": 40.405332101208394,
+        "route_point_xz": [
+          348,
+          -688
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_7",
+        "minimum_route_edge_clearance_m": 35.13834095596367,
+        "route_point_xz": [
+          348,
+          -688
+        ]
+      },
+      {
+        "name": "COL_Basin_Rim_8",
+        "minimum_route_edge_clearance_m": 30.90083087372939,
+        "route_point_xz": [
+          348,
+          -688
+        ]
+      }
+    ],
+    "minimum_proxy_route_edge_clearance_m": 2.9946032001583944,
+    "terrain_source_unchanged": true,
+    "triangles_including_proxies": 18734
+  },
+  "preserved_scenes": {
+    "Scene": 3,
+    "Haven_Dragons": 15,
+    "Haven_Architecture": 211,
+    "Haven_Transport": 36,
+    "Haven_Wildlife": 98,
+    "Haven_Siltfin": 14
+  },
+  "bank_fit": {
+    "full_clearance_strip_world_xz": [
+      353.4,
+      357.8,
+      -797,
+      -737.2
+    ],
+    "transition_extent_world_xz": [
+      352,
+      359,
+      -799,
+      -735.8
+    ],
+    "target_below_analytic_terrain_m": 0.18,
+    "fit_grid_m": 0.5,
+    "analytic_sample_grid_m": 0.25,
+    "source_sha256": "0e2261eab37cf2dbeb56a97bca8fe0ee2244de960e5e444fca3522e19663e7b9",
+    "geometry_changes": [
+      {
+        "mesh": "GEO_Silverveil_stone",
+        "lowered_vertices": 321,
+        "maximum_lowering_m": 1.1423067970183283,
+        "source_faces_split": 10
+      },
+      {
+        "mesh": "GEO_Silverveil_warm",
+        "lowered_vertices": 208,
+        "maximum_lowering_m": 1.192612080565688,
+        "source_faces_split": 4
+      },
+      {
+        "mesh": "GEO_Silverveil_shadow",
+        "lowered_vertices": 70,
+        "maximum_lowering_m": 0.4383843546497417,
+        "source_faces_split": 4
+      },
+      {
+        "mesh": "GEO_Silverveil_light",
+        "lowered_vertices": 0,
+        "maximum_lowering_m": 0,
+        "source_faces_split": 0
+      },
+      {
+        "mesh": "GEO_Silverveil_wet",
+        "lowered_vertices": 162,
+        "maximum_lowering_m": 0.3199993896484372,
+        "source_faces_split": 24
+      },
+      {
+        "mesh": "GEO_Silverveil_moss",
+        "lowered_vertices": 1228,
+        "maximum_lowering_m": 1.0363917915028722,
+        "source_faces_split": 9
+      },
+      {
+        "mesh": "GEO_Silverveil_leaf",
+        "lowered_vertices": 0,
+        "maximum_lowering_m": 0,
+        "source_faces_split": 0
+      },
+      {
+        "mesh": "GEO_Silverveil_leaf_light",
+        "lowered_vertices": 0,
+        "maximum_lowering_m": 0,
+        "source_faces_split": 0
+      },
+      {
+        "mesh": "GEO_Silverveil_earth",
+        "lowered_vertices": 0,
+        "maximum_lowering_m": 0,
+        "source_faces_split": 0
+      }
+    ],
+    "collision_proxies_changed": false,
+    "fall_lip_south_of_z_unchanged": -735.8,
+    "contact_verification": {
+      "method": "Downward BVH raycast against actual final visual mesh polygons, compared with quarter-metre analytic terrain; .1m inspection grid. Not gameplay.",
+      "tested_strip_xz": [
+        353.7,
+        356.9,
+        -792,
+        -737
+      ],
+      "maximum_visual_above_terrain_m": -0.1218414306640625,
+      "maximum_location": [
+        353.7,
+        -737,
+        "GEO_Silverveil_moss",
+        55.87815856933594,
+        56
+      ],
+      "raised_geometry_samples": [],
+      "inspection_samples": [
+        {
+          "x": 353.8,
+          "z": -792,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 40.15683746928255
+        },
+        {
+          "x": 354,
+          "z": -792,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 40.15947923018472
+        },
+        {
+          "x": 355,
+          "z": -792,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 40.18761817483033
+        },
+        {
+          "x": 356,
+          "z": -792,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 40.24059563540614
+        },
+        {
+          "x": 356.8,
+          "z": -792,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 40.30079705307725
+        },
+        {
+          "x": 357,
+          "z": -792,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 40.31831370008649
+        },
+        {
+          "x": 353.8,
+          "z": -780,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 28.157820666319108
+        },
+        {
+          "x": 354,
+          "z": -780,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 28.16158804438859
+        },
+        {
+          "x": 355,
+          "z": -780,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 28.2017007236827
+        },
+        {
+          "x": 356,
+          "z": -780,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 28.277142823037835
+        },
+        {
+          "x": 356.8,
+          "z": -780,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 28.362748672431803
+        },
+        {
+          "x": 357,
+          "z": -780,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 28.387632672711455
+        },
+        {
+          "x": 353.8,
+          "z": -763,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 11.162832494251708
+        },
+        {
+          "x": 354,
+          "z": -763,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 11.17233215582068
+        },
+        {
+          "x": 355,
+          "z": -763,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 11.273060291078886
+        },
+        {
+          "x": 356,
+          "z": -763,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 11.46048737413093
+        },
+        {
+          "x": 356.8,
+          "z": -763,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 11.670110405376052
+        },
+        {
+          "x": 357,
+          "z": -763,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 11.730458361842869
+        },
+        {
+          "x": 353.8,
+          "z": -755,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 3.1837622486920725
+        },
+        {
+          "x": 354,
+          "z": -755,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 3.216911338762659
+        },
+        {
+          "x": 355,
+          "z": -755,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 3.550971851166185
+        },
+        {
+          "x": 356,
+          "z": -755,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 4.107345080960382
+        },
+        {
+          "x": 356.8,
+          "z": -755,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 4.6603636805662925
+        },
+        {
+          "x": 357,
+          "z": -755,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 4.809487097436097
+        },
+        {
+          "x": 353.8,
+          "z": -750,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 0.4304412631574337
+        },
+        {
+          "x": 354,
+          "z": -750,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 0.6304412631574223
+        },
+        {
+          "x": 355,
+          "z": -750,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 1.6304412631574223
+        },
+        {
+          "x": 356,
+          "z": -750,
+          "terrain": 56,
+          "hits": [],
+          "proxy_clearance": 2.6304412631574223
+        },
+        {
+          "x": 356.8,
+          "z": -750,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 55.69366455078125
+            }
+          ],
+          "proxy_clearance": 3.4304412631574337
+        },
+        {
+          "x": 357,
+          "z": -750,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 55.56291961669922
+            }
+          ],
+          "proxy_clearance": 3.6304412631574223
+        },
+        {
+          "x": 353.8,
+          "z": -746,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 0.4304412631574337
+        },
+        {
+          "x": 354,
+          "z": -746,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 0.6304412631574223
+        },
+        {
+          "x": 355,
+          "z": -746,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 1.6304412631574223
+        },
+        {
+          "x": 356,
+          "z": -746,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 2.6304412631574223
+        },
+        {
+          "x": 356.8,
+          "z": -746,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 55.20863342285156
+            }
+          ],
+          "proxy_clearance": 3.4304412631574337
+        },
+        {
+          "x": 357,
+          "z": -746,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 54.90876007080078
+            }
+          ],
+          "proxy_clearance": 3.6304412631574223
+        },
+        {
+          "x": 353.8,
+          "z": -742,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 0.4304412631574337
+        },
+        {
+          "x": 354,
+          "z": -742,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 0.6304412631574223
+        },
+        {
+          "x": 355,
+          "z": -742,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 1.6304412631574223
+        },
+        {
+          "x": 356,
+          "z": -742,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 55.81999969482422
+            },
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 2.6304412631574223
+        },
+        {
+          "x": 356.8,
+          "z": -742,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 54.64739227294922
+            }
+          ],
+          "proxy_clearance": 3.4304412631574337
+        },
+        {
+          "x": 357,
+          "z": -742,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 54.291229248046875
+            }
+          ],
+          "proxy_clearance": 3.6304412631574223
+        },
+        {
+          "x": 353.8,
+          "z": -740,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 0.4304412631574337
+        },
+        {
+          "x": 354,
+          "z": -740,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 0.6304412631574223
+        },
+        {
+          "x": 355,
+          "z": -740,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 1.6304412631574223
+        },
+        {
+          "x": 356,
+          "z": -740,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 55.81999969482422
+            },
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 2.6304412631574223
+        },
+        {
+          "x": 356.8,
+          "z": -740,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 54.28611755371094
+            }
+          ],
+          "proxy_clearance": 3.4304412631574337
+        },
+        {
+          "x": 357,
+          "z": -740,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 53.88746643066406
+            }
+          ],
+          "proxy_clearance": 3.6304412631574223
+        },
+        {
+          "x": 353.8,
+          "z": -738,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 1.9505118097564986
+        },
+        {
+          "x": 354,
+          "z": -738,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 2.0041638718584194
+        },
+        {
+          "x": 355,
+          "z": -738,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_moss",
+              "y": 55.81999969482422
+            }
+          ],
+          "proxy_clearance": 2.5055050092900184
+        },
+        {
+          "x": 356,
+          "z": -738,
+          "terrain": 56,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 55.58460998535156
+            }
+          ],
+          "proxy_clearance": 3.0105408856134783
+        },
+        {
+          "x": 356.8,
+          "z": -738,
+          "terrain": 55.99799697769686,
+          "hits": [
+            {
+              "mesh": "GEO_Silverveil_wet",
+              "y": 53.826759338378906
+            }
+          ],
+          "proxy_clearance": 3.505016536639351
+        },
+        {
+          "x": 357,
+          "z": -738,
+          "terrain": 55.989984888484294,
+          "hits": [],
+          "proxy_clearance": 3.645625741440895
+        }
+      ],
+      "expanded_interaction_disc_radius_m": 2.47,
+      "expanded_disc_raised_samples": [],
+      "central_route_x_355_5_to_356_5_min_proxy_distance_m": 1.9017338602248128,
+      "player_radius_m": 0.27,
+      "target": {
+        "x": 356,
+        "z": -742,
+        "terrain": 56,
+        "hits": [
+          {
+            "mesh": "GEO_Silverveil_wet",
+            "y": 55.81999969482422
+          },
+          {
+            "mesh": "GEO_Silverveil_moss",
+            "y": 55.81999969482422
+          }
+        ],
+        "proxy_clearance": 2.6304412631574223
+      },
+      "source_sha256": "0e2261eab37cf2dbeb56a97bca8fe0ee2244de960e5e444fca3522e19663e7b9"
+    },
+    "source_sha256_files": {
+      "silverveil.py": "e280a4f665c29927f0e1730a273521d027610103bd90f553e80d2d51cd875fdc",
+      "bank_fit.py": "e246fa6f5560e093a86b770b43ed086b36a8d69c7069c7e0198f172158b23819",
+      "sample-bank.ts": "1c76ae42fff1de7d4d910f84835bb38fdc83f7d90ef6ab9af59a0a1e9136ee10",
+      "bank_inspect.py": "b5f51d5b3517c28759a3bfa4dc69f34f2abedf38c17be3b8664d649bc9f5d171"
+    },
+    "exported_triangle_verification": {
+      "mode": "Raycast final GLB in Three.js; visual meshes only, double sided conservative check",
+      "sampled": 3080,
+      "failures": 0,
+      "maxDelta": -0.15062522888183594,
+      "where": {
+        "x": 353.75,
+        "z": -737.25,
+        "mesh": "GEO_Silverveil_moss",
+        "y": 55.849374771118164
+      },
+      "target": [
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_moss",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        },
+        {
+          "mesh": "GEO_Silverveil_wet",
+          "y": 55.81999969482422
+        }
+      ],
+      "targetTerrain": 56,
+      "targetWater": null,
+      "sha256": "7557f4c608d6e7e549fc0f33adac394ae7417724e9c96f7ee374492a5deeb8ec"
+    }
+  },
+  "review": {
+    "mode": "Blender Eevee diagnostic with sampled terrain and simple water/path context, not gameplay",
+    "resolution": [
+      1080,
+      810
+    ],
+    "views": [
+      {
+        "file": "bank-contact.png",
+        "camera_world_xzy": [
+          350,
+          -746,
+          59
+        ],
+        "target_world_xzy": [
+          356,
+          -742,
+          56.5
+        ],
+        "camera_type": "PERSP",
+        "lens_mm": 45,
+        "orthographic_scale": 12,
+        "rendered_utc": "2026-09-30T00:00:45.843971+00:00",
+        "sha256": "dd9f4ff3e49cf4501e6870c57a00b9d448b106f2c426ef9ea76864a039fd3145"
+      },
+      {
+        "file": "bank-approach.png",
+        "camera_world_xzy": [
+          356,
+          -775,
+          59
+        ],
+        "target_world_xzy": [
+          356,
+          -742,
+          56
+        ],
+        "camera_type": "PERSP",
+        "lens_mm": 32,
+        "orthographic_scale": 36,
+        "rendered_utc": "2026-09-30T00:00:46.779877+00:00",
+        "sha256": "a9839b95b01d9680a04c4847ee0c77dddc6f3b7ae076b57b75ef36d849b05113"
+      },
+      {
+        "file": "bank-overhead.png",
+        "camera_world_xzy": [
+          354,
+          -758,
+          101
+        ],
+        "target_world_xzy": [
+          354,
+          -758,
+          56
+        ],
+        "camera_type": "ORTHO",
+        "lens_mm": 45,
+        "orthographic_scale": 63,
+        "rendered_utc": "2026-09-30T00:00:48.040125+00:00",
+        "sha256": "19e77a8754f0709f326c49761fd49de97bdb6201a4fef05792b5331f0dd780b1"
+      },
+      {
+        "file": "bank-lip.png",
+        "camera_world_xzy": [
+          366,
+          -757,
+          72
+        ],
+        "target_world_xzy": [
+          364,
+          -729,
+          52
+        ],
+        "camera_type": "PERSP",
+        "lens_mm": 45,
+        "orthographic_scale": 59,
+        "rendered_utc": "2026-09-30T00:00:49.212125+00:00",
+        "sha256": "00ba319a5d8b63e88c0a8771f3194a51243bc32b44fb3dde8cb6a25b3a1d0bb4"
+      }
+    ],
+    "context_exported": false,
+    "source_sha256": {
+      "silverveil.py": "e280a4f665c29927f0e1730a273521d027610103bd90f553e80d2d51cd875fdc",
+      "sample-terrain.ts": "4bf77c4e9c11c838fd2f57894cafe7e4ea3ddfa24dfe2ba6e93f5dd7a37b078a",
+      "bank_fit.py": "e246fa6f5560e093a86b770b43ed086b36a8d69c7069c7e0198f172158b23819",
+      "bank_review.py": "a7aeb7b272747209e074c35d358281204ae783db01da2424d9e97db6154cbae1",
+      "inspect.py": "ab3e216089c66745286bb7e04abdb01877850506f6f01a4302b5487228300df3"
+    }
+  },
+  "water_interface": {
+    "center_x": 366,
+    "opening_x": [
+      356,
+      376
+    ],
+    "top_zy": [
+      -730,
+      54
+    ],
+    "bottom_zy": [
+      -708,
+      18
+    ],
+    "profile": "Y=54-36*((Z+730)/22)^2",
+    "basin_center_xz": [
+      370,
+      -698
+    ],
+    "basin_radii_xz": [
+      22,
+      18
+    ],
+    "basin_y": 18,
+    "wet_margin_inner_offset_m": 0.12,
+    "wet_margin_y_below_water_m": 0.18
+  }
+}

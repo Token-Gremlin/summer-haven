@@ -1,0 +1,51 @@
+{
+  "date": "2026-09-29T20:02:23.611Z",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "method": "4000 ms populated-scene RAF samples after 24 warmup frames. No screenshot during measurement.",
+  "results": [
+    {
+      "quality": "low",
+      "visibility": "full",
+      "scene": "town walk",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        896,
+        504
+      ],
+      "meanMs": 35.767857142857146,
+      "p95Ms": 41.70000000000073,
+      "fps": 27.958062905641537,
+      "drawCalls": 634.2410714285714,
+      "triangles": 1749034.0625,
+      "elapsedMs": 4006,
+      "distance": 9.260879999999965,
+      "samples": 112
+    },
+    {
+      "quality": "low",
+      "visibility": "full",
+      "scene": "river view",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        896,
+        504
+      ],
+      "meanMs": 26.014285714285695,
+      "p95Ms": 27.900000000001455,
+      "fps": 38.44041735310272,
+      "drawCalls": 314.77272727272725,
+      "triangles": 1041762.2207792208,
+      "elapsedMs": 4006.199999999997,
+      "distance": 0,
+      "samples": 154
+    }
+  ]
+}

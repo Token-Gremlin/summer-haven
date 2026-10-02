@@ -1,0 +1,1750 @@
+{
+  "created": "2026-09-30T01:25:48.014Z",
+  "files": [
+    {
+      "body": "feminine",
+      "bytes": 1969304,
+      "sha256": "1f54bb91073c811bb15bc1142a345f8fa5f33448b306ae7f909bf8f08ce8c2be"
+    },
+    {
+      "body": "masculine",
+      "bytes": 1969744,
+      "sha256": "eb0b5621fa01decf782db01144255d4d307817d761695212ceda5ec0e739a350"
+    }
+  ],
+  "sourceHashes": {
+    "src/game/assets.ts": "5876cd6ef6af592b66a6898750c59a655dabdf54945e37be5840ac2c9dd277cc",
+    "src/character/character.ts": "919551409f8b1032eb55836e536ee4b8eb60a8c29137ef4eaeb84920c7189fcc"
+  },
+  "method": "Node GLTFLoader + actual Character; all defined residents simultaneous, default player/preview. Full backing buffers deduplicated by identity. Population accounting precedes extra appearance probes.",
+  "limitations": "No browser/rendering. Excludes JS object, skeleton and animation storage, GPU/process/whole-heap and transient peaks. Raw GLTF geometry views retain their complete backing buffers. No stall attribution or visual approval.",
+  "population": {
+    "total": 24,
+    "playerAndPreview": 2,
+    "villagers": 12,
+    "city": 10,
+    "feminine": 13,
+    "masculine": 11
+  },
+  "accounting": {
+    "allWithRawAssets": {
+      "meshes": 7598,
+      "geometries": 1262,
+      "uniqueBackingBytes": 22166672
+    },
+    "wardrobe": {
+      "meshes": 6912,
+      "geometries": 576,
+      "uniqueBackingBytes": 4776408
+    },
+    "batches": {
+      "meshes": 110,
+      "geometries": 110,
+      "uniqueBackingBytes": 14294940
+    }
+  },
+  "signatures": [
+    {
+      "id": "player-default",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "caafb3f880d3f47c17152ac25a32fea00aef579d80968a7b6a6c718de55fde56"
+    },
+    {
+      "id": "preview-default",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "caafb3f880d3f47c17152ac25a32fea00aef579d80968a7b6a6c718de55fde56"
+    },
+    {
+      "id": "village/kaede",
+      "appearance": {
+        "name": "Kaede",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 2,
+        "eyes": 1,
+        "face": 0,
+        "top": 4,
+        "topColor": 1,
+        "bottom": 3,
+        "bottomColor": 4,
+        "shoes": 1,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "38d6682c0a55c4b3c00310cc0a5f2c3d20e0c921bbb4987dc195b4fa1e7e51d1"
+    },
+    {
+      "id": "village/toma",
+      "appearance": {
+        "name": "Toma",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 6,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 5,
+        "topColor": 4,
+        "bottom": 3,
+        "bottomColor": 5,
+        "shoes": 2,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "2af818b5f9e8f5f737b7ef385ab67d67912be8c4279f21624eecc9609dd403d0"
+    },
+    {
+      "id": "village/nao",
+      "appearance": {
+        "name": "Nao",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 2,
+        "hairColor": 4,
+        "eyes": 1,
+        "face": 0,
+        "top": 4,
+        "topColor": 2,
+        "bottom": 1,
+        "bottomColor": 0,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "e2bc10802123df19e24cd60f2d8afee93ca7b546913388987e4a666b4922db87"
+    },
+    {
+      "id": "village/kei",
+      "appearance": {
+        "name": "Kei",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 7,
+        "hairColor": 1,
+        "eyes": 1,
+        "face": 0,
+        "top": 4,
+        "topColor": 3,
+        "bottom": 0,
+        "bottomColor": 4,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "fad3dcf821b09dee45e6f1771f0787f26d2e47853b47f8d73fb6c0f65b84e7ac"
+    },
+    {
+      "id": "village/aya",
+      "appearance": {
+        "name": "Aya",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 3,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 2,
+        "topColor": 2,
+        "bottom": 2,
+        "bottomColor": 0,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "802535ce45f8657182af40d5c2a33c144fddf5746fcb05eb60ceb6aa143267cd"
+    },
+    {
+      "id": "village/mori",
+      "appearance": {
+        "name": "Mori",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 4,
+        "hairColor": 4,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 1,
+        "bottom": 1,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "150046f43008c5f5cbfbead203c30fa5a9bd106cff78b544e3cbdd09d1201639"
+    },
+    {
+      "id": "village/emi",
+      "appearance": {
+        "name": "Emi",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 2,
+        "hairColor": 2,
+        "eyes": 1,
+        "face": 0,
+        "top": 3,
+        "topColor": 1,
+        "bottom": 2,
+        "bottomColor": 3,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "ca618bde0ccd26329486d1911550fb42c9c0d5e111ff8cf4f4983dba2eb3f91c"
+    },
+    {
+      "id": "village/ren",
+      "appearance": {
+        "name": "Ren",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 5,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 0,
+        "topColor": 4,
+        "bottom": 0,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "c35a78920f30a6d18ccab9543ef54212cea34a1c51b2bb0944bc0cc29f318b5d"
+    },
+    {
+      "id": "village/sora",
+      "appearance": {
+        "name": "Sora",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 7,
+        "hairColor": 1,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 1,
+        "bottomColor": 0,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "e6e08f9e7f1a2fbf3add1a5756862860624c6937dbcd4aa49dd3e5c7943d2906"
+    },
+    {
+      "id": "village/ichiro",
+      "appearance": {
+        "name": "Ichiro",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 1,
+        "hairColor": 4,
+        "eyes": 1,
+        "face": 0,
+        "top": 2,
+        "topColor": 0,
+        "bottom": 1,
+        "bottomColor": 2,
+        "shoes": 0,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "f02b53ced5a53c9357a6464b9b506e2cd38359a902d3904e66aff7ee43cff9b6"
+    },
+    {
+      "id": "village/natsu",
+      "appearance": {
+        "name": "Natsu",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 0,
+        "hairColor": 3,
+        "eyes": 1,
+        "face": 0,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 0,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "6f5bd74ecfdef81a8f64ae06d1a65df9e3662a1262f2edc66fad2db83ab2747d"
+    },
+    {
+      "id": "village/yuki",
+      "appearance": {
+        "name": "Yuki",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 2,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 2,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "d3458a6e9d35579e85c7ea63af9ace329ab2843236ac863f9c4e56829561b867"
+    },
+    {
+      "id": "city/iona",
+      "appearance": {
+        "name": "Iona",
+        "body": "feminine",
+        "skin": 3,
+        "hair": 3,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 2,
+        "topColor": 1,
+        "bottom": 1,
+        "bottomColor": 5,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "54b57e2fd7b433b4e10f8f94fae08e9ff0c188daa782a0c6bb5e4f222ee37ad7"
+    },
+    {
+      "id": "city/mira",
+      "appearance": {
+        "name": "Mira",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 2,
+        "hairColor": 2,
+        "eyes": 1,
+        "face": 0,
+        "top": 3,
+        "topColor": 2,
+        "bottom": 2,
+        "bottomColor": 0,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "f56c54ad67df47bf2093d0e941fc207863b42b3657b986fcb1786479c3a78f24"
+    },
+    {
+      "id": "city/oren",
+      "appearance": {
+        "name": "Oren",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 7,
+        "hairColor": 1,
+        "eyes": 1,
+        "face": 1,
+        "top": 4,
+        "topColor": 4,
+        "bottom": 3,
+        "bottomColor": 5,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "785ea8a1223d64541fbf682005fab4f89b9d9c475fdb4592b0d0469cd5738406"
+    },
+    {
+      "id": "city/lio",
+      "appearance": {
+        "name": "Lio",
+        "body": "masculine",
+        "skin": 4,
+        "hair": 6,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 0,
+        "bottomColor": 0,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "02863a18dfcf9fe004598999b6c1d16459658efeee3c0031269edae056796a38"
+    },
+    {
+      "id": "city/mara",
+      "appearance": {
+        "name": "Mara",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 0,
+        "hairColor": 5,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 3,
+        "bottomColor": 0,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "d0e028c53ff7aaaafb7e1d2fa9177cadb96c41f23ccc6f6a464da806b29fce9f"
+    },
+    {
+      "id": "city/rowan",
+      "appearance": {
+        "name": "Rowan",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 4,
+        "hairColor": 2,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 1,
+        "bottomColor": 2,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "faa63d7fff23d858e052845c84d501963cf375ef47c7543eaf4fa9dffa10e8bb"
+    },
+    {
+      "id": "city/tamsin",
+      "appearance": {
+        "name": "Tamsin",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 5,
+        "hairColor": 4,
+        "eyes": 1,
+        "face": 0,
+        "top": 4,
+        "topColor": 5,
+        "bottom": 2,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "6a56cc7e48fafd21bc8ba4ebb962400305e42b116b80b5c3d37d49c97495592e"
+    },
+    {
+      "id": "city/sela",
+      "appearance": {
+        "name": "Sela",
+        "body": "feminine",
+        "skin": 4,
+        "hair": 1,
+        "hairColor": 3,
+        "eyes": 1,
+        "face": 2,
+        "top": 3,
+        "topColor": 4,
+        "bottom": 1,
+        "bottomColor": 3,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "8b4b1103e20cd48c98667a7d8d91bedd675b3206f5b5e1f1945486f240bd9767"
+    },
+    {
+      "id": "city/neri",
+      "appearance": {
+        "name": "Neri",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 6,
+        "hairColor": 1,
+        "eyes": 1,
+        "face": 0,
+        "top": 5,
+        "topColor": 2,
+        "bottom": 0,
+        "bottomColor": 1,
+        "shoes": 1,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "3f11db1affeada717cb3ef0e7d9e00954626a5ca0037382e7998628c4d281a50"
+    },
+    {
+      "id": "city/bram",
+      "appearance": {
+        "name": "Bram",
+        "body": "masculine",
+        "skin": 0,
+        "hair": 5,
+        "hairColor": 5,
+        "eyes": 1,
+        "face": 1,
+        "top": 4,
+        "topColor": 3,
+        "bottom": 3,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "25810c688242b3e6027e611a829dc44bd6dd6e73d42abb4c311cd29eaa3ae230"
+    },
+    {
+      "id": "feminine/default",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "caafb3f880d3f47c17152ac25a32fea00aef579d80968a7b6a6c718de55fde56"
+    },
+    {
+      "id": "feminine/variant-0",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 0,
+        "face": 0,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 0,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "d40d2dc2d5fdb78dc66c16bcbfaaf8308e961a550deed3ae74cadc276a1e2717"
+    },
+    {
+      "id": "feminine/variant-1",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 1,
+        "hairColor": 0,
+        "eyes": 3,
+        "face": 0,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 0,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "bb7fce8a13234f203ff989f34395c145ad47a43042984d15b98c8c173ccbb2db"
+    },
+    {
+      "id": "feminine/variant-2",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 2,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 0,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "726b59215a152bda6542035f08645c2a821770bee7ea383c598d2dbd7f61556f"
+    },
+    {
+      "id": "feminine/variant-3",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 3,
+        "hair": 3,
+        "hairColor": 0,
+        "eyes": 4,
+        "face": 0,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 0,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "7c1b64bb5c3317e6b15e9d1d73a4924664475caba50bc94bab20a064dfe55fac"
+    },
+    {
+      "id": "feminine/variant-4",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 4,
+        "hair": 4,
+        "hairColor": 1,
+        "eyes": 2,
+        "face": 0,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "56fb619791fca97e5436690c31f194cbb28f87fa96a86f6b68323a9ae4a9c6c3"
+    },
+    {
+      "id": "feminine/variant-5",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 5,
+        "hairColor": 1,
+        "eyes": 0,
+        "face": 0,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "cea0316d7deab46c9787fb1c333daa57eae54081d516ffdc671de74f73511304"
+    },
+    {
+      "id": "feminine/variant-6",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 6,
+        "hairColor": 1,
+        "eyes": 3,
+        "face": 0,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 1,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "e816d230de1fe2da1085ba2b804ca7999aad3aa081da8f4922d53e600bf579c1"
+    },
+    {
+      "id": "feminine/variant-7",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 7,
+        "hairColor": 1,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 1,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          true,
+          true
+        ]
+      },
+      "sha256": "2fec252a5585a61f6c0ba52371eab186fd72180ff85ecce13787a0fe51e8f9ea"
+    },
+    {
+      "id": "feminine/variant-8",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 3,
+        "hair": 0,
+        "hairColor": 2,
+        "eyes": 4,
+        "face": 1,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 1,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "1ca9ae7ead885f61cec9ef06d6ae41e4cdcec34cc0e7954778ff07e1e714d16e"
+    },
+    {
+      "id": "feminine/variant-9",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 4,
+        "hair": 1,
+        "hairColor": 2,
+        "eyes": 2,
+        "face": 1,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 1,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "7ab796f00b775f5522179600e791441cf8c44ac6213877d668021df9d9a3bc72"
+    },
+    {
+      "id": "feminine/variant-10",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 2,
+        "hairColor": 2,
+        "eyes": 0,
+        "face": 1,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 1,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "4d7b745993598e1d4b039d95c9230f10a3fc171e37cb23da86eae0b4eb4adbc2"
+    },
+    {
+      "id": "feminine/variant-11",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 3,
+        "hairColor": 2,
+        "eyes": 3,
+        "face": 1,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 1,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "e3779c98edcab77d915c85a687afe083696c0e7ee5382ea8a9832a330f6bb2c6"
+    },
+    {
+      "id": "feminine/variant-12",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 4,
+        "hairColor": 3,
+        "eyes": 1,
+        "face": 1,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 2,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "2ab6d40d2ac3b0cb0983d8555444d0d1b196d150b6b79478b041e7eb7e1dae91"
+    },
+    {
+      "id": "feminine/variant-13",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 3,
+        "hair": 5,
+        "hairColor": 3,
+        "eyes": 4,
+        "face": 1,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 2,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "75d732e041fb92f0188d4337e78d8344e67a00f70f99d906216d44d8d58973b5"
+    },
+    {
+      "id": "feminine/variant-14",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 4,
+        "hair": 6,
+        "hairColor": 3,
+        "eyes": 2,
+        "face": 1,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 2,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "194e222e83c1613eaf7bc0ad2814e3635c101261953b0c02b4d595a7e7ba4e0f"
+    },
+    {
+      "id": "feminine/variant-15",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 7,
+        "hairColor": 3,
+        "eyes": 0,
+        "face": 1,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 2,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          true,
+          true
+        ]
+      },
+      "sha256": "abd464e0b423453dab3ddbb31c4d97cc47585c60c4f7f9fec8368a1ad5dd81ca"
+    },
+    {
+      "id": "feminine/variant-16",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 4,
+        "eyes": 3,
+        "face": 2,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 2,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "4a74debd912898fe1439a323118036d1db3c22c743ecc9d098129a78e07cb901"
+    },
+    {
+      "id": "feminine/variant-17",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 1,
+        "hairColor": 4,
+        "eyes": 1,
+        "face": 2,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 2,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "2eb964ba7ef7ce1f24cb2098094a7feb8532547ebfe24ef8e54c9dd731bfebe5"
+    },
+    {
+      "id": "feminine/variant-18",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 3,
+        "hair": 2,
+        "hairColor": 4,
+        "eyes": 4,
+        "face": 2,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 3,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "70eded5d8d911114fb1f51b4d44528622942235ca33e468d8a8b9b9a769e0ae5"
+    },
+    {
+      "id": "feminine/variant-19",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 4,
+        "hair": 3,
+        "hairColor": 4,
+        "eyes": 2,
+        "face": 2,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 3,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "fccd13ad0aae1e2e2d13d07c3a768e05855bbe59a6113df8fd4d31bfe143a6f3"
+    },
+    {
+      "id": "feminine/variant-20",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 0,
+        "hair": 4,
+        "hairColor": 5,
+        "eyes": 0,
+        "face": 2,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 3,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "4074954e4b11bccfc46695737896b6df071599402de450fe21044b9b5836ac76"
+    },
+    {
+      "id": "feminine/variant-21",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 1,
+        "hair": 5,
+        "hairColor": 5,
+        "eyes": 3,
+        "face": 2,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 3,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "b192bd66e61aab64a52e2c480e9ca6fd10155a6d757386d5c9545276ef4f4a55"
+    },
+    {
+      "id": "feminine/variant-22",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 2,
+        "hair": 6,
+        "hairColor": 5,
+        "eyes": 1,
+        "face": 2,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 3,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "d4dde5397369d16e757f1450625dbc4db66faea1ddac0f36c5ec701cf2164d9f"
+    },
+    {
+      "id": "feminine/variant-23",
+      "appearance": {
+        "name": "Haru",
+        "body": "feminine",
+        "skin": 3,
+        "hair": 7,
+        "hairColor": 5,
+        "eyes": 4,
+        "face": 2,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 3,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          true,
+          true
+        ]
+      },
+      "sha256": "60475ccb6726a7ca98f27372ffdb4d324f08ea41b3a5fb7f50de552348fa1d3e"
+    },
+    {
+      "id": "masculine/default",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "7272bddb47eac31556dd049b0f354416c4b1c6885a3d3867ca95dd980d8877cd"
+    },
+    {
+      "id": "masculine/variant-0",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 0,
+        "hair": 0,
+        "hairColor": 0,
+        "eyes": 0,
+        "face": 0,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 0,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "9d4467a358dd215b8e8e4c519dffe85b0075ef305c1b1d9c5908ad0a1b391a88"
+    },
+    {
+      "id": "masculine/variant-1",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 1,
+        "hairColor": 0,
+        "eyes": 3,
+        "face": 0,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 0,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "769a98a6df9d0d4b55861422412e6d316ae971795fe21dc3c6991ce7f1a65197"
+    },
+    {
+      "id": "masculine/variant-2",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 2,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 0,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "e113368606ea6630d99b3603193802c9149e1e5b45a37ad355b081fa7173c4ef"
+    },
+    {
+      "id": "masculine/variant-3",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 3,
+        "hairColor": 0,
+        "eyes": 4,
+        "face": 0,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 0,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "3344abb39090a6ab65420e1172c5f34298e835223f8f19023e15349365f104e7"
+    },
+    {
+      "id": "masculine/variant-4",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 4,
+        "hair": 4,
+        "hairColor": 1,
+        "eyes": 2,
+        "face": 0,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 0,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "540d819bdfdccff6fae2657c1181e07150bfca0ae852f49b63e380fca942bd1f"
+    },
+    {
+      "id": "masculine/variant-5",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 0,
+        "hair": 5,
+        "hairColor": 1,
+        "eyes": 0,
+        "face": 0,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 0,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "fb3667e3f3ad30d9e2a57f000f39b890152cbc888e9f2279f184b5a74237e715"
+    },
+    {
+      "id": "masculine/variant-6",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 6,
+        "hairColor": 1,
+        "eyes": 3,
+        "face": 0,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 1,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "52a95978744de13cfe3adc13429b696d6772ba28dc6f0091c21a7ec4ba6e54dc"
+    },
+    {
+      "id": "masculine/variant-7",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 7,
+        "hairColor": 1,
+        "eyes": 1,
+        "face": 0,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 1,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          true,
+          true
+        ]
+      },
+      "sha256": "b115b5a0956547de69a9c49e969a6d903b0b181ed7c2ebd84c70ec1cc0425ff1"
+    },
+    {
+      "id": "masculine/variant-8",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 0,
+        "hairColor": 2,
+        "eyes": 4,
+        "face": 1,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 1,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "0954c077734811893c8f571743992cf6eb3347a72d737abfbee7d8335268bd51"
+    },
+    {
+      "id": "masculine/variant-9",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 4,
+        "hair": 1,
+        "hairColor": 2,
+        "eyes": 2,
+        "face": 1,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 1,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "86db7d309b52a1c774e9c2f6d95934c30a7698550f34986a4bbea6313238a3ac"
+    },
+    {
+      "id": "masculine/variant-10",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 0,
+        "hair": 2,
+        "hairColor": 2,
+        "eyes": 0,
+        "face": 1,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 1,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "15fbbf9853448b2dafeefb298faec3980a4bf34633a54c10fdf59e9b62ba12f9"
+    },
+    {
+      "id": "masculine/variant-11",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 3,
+        "hairColor": 2,
+        "eyes": 3,
+        "face": 1,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 1,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "eacd9ec0fe07b79bcc41b68e04bdc44b78dfb1874925b6e16d85c02ffe9ef4a4"
+    },
+    {
+      "id": "masculine/variant-12",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 4,
+        "hairColor": 3,
+        "eyes": 1,
+        "face": 1,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 2,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "7c4bf5a6508a1eca003ccb94e31c3c6d0b6349dea93cd9690dd922902b10cfe4"
+    },
+    {
+      "id": "masculine/variant-13",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 5,
+        "hairColor": 3,
+        "eyes": 4,
+        "face": 1,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 2,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "e46f7d5de95683747df192f9bbfcb398bdb9b5e09c690b5de9df9654939abfda"
+    },
+    {
+      "id": "masculine/variant-14",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 4,
+        "hair": 6,
+        "hairColor": 3,
+        "eyes": 2,
+        "face": 1,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 2,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "1c293793632ef9cf5d990ca8dc2d049f0a58c1ec76e4c6abc09e705209f2772b"
+    },
+    {
+      "id": "masculine/variant-15",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 0,
+        "hair": 7,
+        "hairColor": 3,
+        "eyes": 0,
+        "face": 1,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 2,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          true,
+          true
+        ]
+      },
+      "sha256": "0c520a3ea3f80e5362b63a17ba5ac0e2982baa74b3b32138aa3a3376736e5786"
+    },
+    {
+      "id": "masculine/variant-16",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 0,
+        "hairColor": 4,
+        "eyes": 3,
+        "face": 2,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 2,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          false,
+          false
+        ]
+      },
+      "sha256": "3ba32a8ffad692d0aefd840211c21937750adef1fa05ad17058d5af737806ce5"
+    },
+    {
+      "id": "masculine/variant-17",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 1,
+        "hairColor": 4,
+        "eyes": 1,
+        "face": 2,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 2,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          false,
+          false
+        ]
+      },
+      "sha256": "87b1b98037a3c71bc59ddbcbb79bfe7eee053192221d65319b7ccf8da2131b39"
+    },
+    {
+      "id": "masculine/variant-18",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 2,
+        "hairColor": 4,
+        "eyes": 4,
+        "face": 2,
+        "top": 0,
+        "topColor": 2,
+        "bottom": 3,
+        "bottomColor": 4,
+        "shoes": 0,
+        "accessories": [
+          false,
+          true,
+          false
+        ]
+      },
+      "sha256": "7d8b586923fdf5faf06f17c4d8824c020ace8262246cf28afda468dfd22552c9"
+    },
+    {
+      "id": "masculine/variant-19",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 4,
+        "hair": 3,
+        "hairColor": 4,
+        "eyes": 2,
+        "face": 2,
+        "top": 1,
+        "topColor": 3,
+        "bottom": 3,
+        "bottomColor": 5,
+        "shoes": 1,
+        "accessories": [
+          true,
+          true,
+          false
+        ]
+      },
+      "sha256": "2e9b4e483d7212a7e4bf04f585f2989ad8953cb7423653687c7a75fb768fd197"
+    },
+    {
+      "id": "masculine/variant-20",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 0,
+        "hair": 4,
+        "hairColor": 5,
+        "eyes": 0,
+        "face": 2,
+        "top": 2,
+        "topColor": 4,
+        "bottom": 3,
+        "bottomColor": 0,
+        "shoes": 2,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "sha256": "cf34956d4c15ec545c73e2c1fb4b3ac189f553ef8ff20a66a9bb89aa024ddddc"
+    },
+    {
+      "id": "masculine/variant-21",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 5,
+        "hairColor": 5,
+        "eyes": 3,
+        "face": 2,
+        "top": 3,
+        "topColor": 5,
+        "bottom": 3,
+        "bottomColor": 1,
+        "shoes": 0,
+        "accessories": [
+          true,
+          false,
+          true
+        ]
+      },
+      "sha256": "216caaaae8c7cb55396b9fc8b159df33f11543fed823f62f9ff0771b16f8506b"
+    },
+    {
+      "id": "masculine/variant-22",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 2,
+        "hair": 6,
+        "hairColor": 5,
+        "eyes": 1,
+        "face": 2,
+        "top": 4,
+        "topColor": 0,
+        "bottom": 3,
+        "bottomColor": 2,
+        "shoes": 1,
+        "accessories": [
+          false,
+          true,
+          true
+        ]
+      },
+      "sha256": "33cc40f837a916fd4c15480885bfc582f4c874d344107d635ba5d93d9bb713ad"
+    },
+    {
+      "id": "masculine/variant-23",
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 3,
+        "hair": 7,
+        "hairColor": 5,
+        "eyes": 4,
+        "face": 2,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 3,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          true,
+          true,
+          true
+        ]
+      },
+      "sha256": "d5de33cca8c066d46adbc8348fed3798c19e169b9b2d302efa0694f08f39f638"
+    }
+  ]
+}

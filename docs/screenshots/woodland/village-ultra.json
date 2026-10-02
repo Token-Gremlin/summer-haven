@@ -1,0 +1,45 @@
+{
+  "camera": [
+    18,
+    1.27,
+    23.96003332222421
+  ],
+  "display": [
+    920,
+    668
+  ],
+  "orbit": {
+    "distance": 8,
+    "pitch": -0.1,
+    "yaw": 0
+  },
+  "player": [
+    18,
+    0.02,
+    16
+  ],
+  "render": [
+    1380,
+    1002
+  ],
+  "settings": {
+    "aa": 4,
+    "ambience": 0.7,
+    "distance": 310,
+    "effects": 0.7,
+    "freezeTime": true,
+    "hints": true,
+    "invertY": false,
+    "master": 0.65,
+    "post": true,
+    "quality": "ultra",
+    "reflections": true,
+    "resolution": 1.2,
+    "sensitivity": 1,
+    "shadows": 4096,
+    "timeSpeed": 1,
+    "vegetation": 1,
+    "visibility": "nearby"
+  },
+  "time": 0.2
+}

@@ -1,0 +1,103 @@
+{
+  "version": 3,
+  "units": "metres",
+  "forward": "+Z",
+  "up": "+Y",
+  "rig": "deer skinned armature; terrapin/songbird transform parts; global-aligned glTF rest axes",
+  "clips": [],
+  "species": {
+    "deer": {
+      "root": "Wildlife_Deer",
+      "triangles": 12112,
+      "meshes": 15,
+      "pivots": {
+        "BodyPivot": "deer_BodyPivot",
+        "NeckPivot": "deer_NeckPivot",
+        "HeadPivot": "deer_HeadPivot",
+        "Leg_FL": "deer_Leg_FL",
+        "Knee_FL": "deer_Knee_FL",
+        "Hoof_FL": "deer_Hoof_FL",
+        "Leg_BL": "deer_Leg_BL",
+        "Knee_BL": "deer_Knee_BL",
+        "Hoof_BL": "deer_Hoof_BL",
+        "Leg_FR": "deer_Leg_FR",
+        "Knee_FR": "deer_Knee_FR",
+        "Hoof_FR": "deer_Hoof_FR",
+        "Leg_BR": "deer_Leg_BR",
+        "Knee_BR": "deer_Knee_BR",
+        "Hoof_BR": "deer_Hoof_BR",
+        "TailPivot": "deer_TailPivot"
+      },
+      "contactY": 0.0007148923468776047,
+      "bounds": {
+        "min": [
+          -0.3050000071525574,
+          0.0007148923468776047,
+          -0.8700000047683716
+        ],
+        "max": [
+          0.3050000071525574,
+          1.9850000143051147,
+          1.3747178316116333
+        ]
+      }
+    },
+    "terrapin": {
+      "root": "Wildlife_Terrapin",
+      "triangles": 3446,
+      "meshes": 16,
+      "pivots": {
+        "BodyPivot": "terrapin_BodyPivot",
+        "NeckPivot": "terrapin_NeckPivot",
+        "HeadPivot": "terrapin_HeadPivot",
+        "Leg_FL": "terrapin_Leg_FL",
+        "Leg_BL": "terrapin_Leg_BL",
+        "Leg_FR": "terrapin_Leg_FR",
+        "Leg_BR": "terrapin_Leg_BR",
+        "TailPivot": "terrapin_TailPivot"
+      },
+      "contactY": 0.007321223616600037,
+      "bounds": {
+        "min": [
+          -0.32995331287384033,
+          0.007321223616600037,
+          -0.4004004895687103
+        ],
+        "max": [
+          0.32995331287384033,
+          0.288800448179245,
+          0.47412109375
+        ]
+      }
+    },
+    "songbird": {
+      "root": "Wildlife_Songbird",
+      "triangles": 2520,
+      "meshes": 14,
+      "pivots": {
+        "BodyPivot": "songbird_BodyPivot",
+        "HeadPivot": "songbird_HeadPivot",
+        "Wing_L": "songbird_Wing_L",
+        "WingTip_L": "songbird_WingTip_L",
+        "Foot_L": "songbird_Foot_L",
+        "Wing_R": "songbird_Wing_R",
+        "WingTip_R": "songbird_WingTip_R",
+        "Foot_R": "songbird_Foot_R",
+        "TailPivot": "songbird_TailPivot"
+      },
+      "contactY": 0.003184892237186432,
+      "bounds": {
+        "min": [
+          -0.28999999165534973,
+          0.003184892237186432,
+          -0.20600000023841858
+        ],
+        "max": [
+          0.28999999165534973,
+          0.2980000078678131,
+          0.1811055839061737
+        ]
+      }
+    }
+  }
+}

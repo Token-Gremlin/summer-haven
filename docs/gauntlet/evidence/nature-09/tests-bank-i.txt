@@ -1,0 +1,29 @@
+✔ actual generated trees and current gorge permit the whole optional walking strip (571.2066ms)
+✔ trail render mesh follows actual sampled dry ground including mitered corners (324.792ms)
+✔ each generated leaf variant fits transformed camera-only bounds with wind margin (79.6458ms)
+✔ falling current leaves a level lip, accelerates downward and shares exact river seams (22.376ms)
+✔ receiving pool covers the carved basin without a second coplanar river surface (3641.1987ms)
+✔ legacy and malformed saves initialize bounded habitat state without losing appearance (2.5572ms)
+Protected rendered-ground samples: 2593
+{"drySamples":7636,"maxSupportError":0.0012616584128950503,"maxRaisedAboveSupport":-0.043738341587104934,"maxReverseDrop":0.0005743444221906566}
+{"dryNormalVertices":127,"minDryNormalY":0.9997066855430603}
+{"maxChangedBankDistance":7.349809531008191,"maxDryLift":1.092127188057794,"minChangedX":43.88618850708008,"maxChangedX":58.32109832763672,"westAt124":[{"d":5.1001,"old":-1.028889942707915,"new":-0.022280126844065586,"physical":0.022860441161852815},{"d":5.69,"old":-0.7574888072382359,"new":-0.023384628315481264,"physical":0.02157970677121328},{"d":6.2,"old":-0.5238320631982579,"new":-0.02436178124585399,"physical":0.020514142518476188},{"d":7,"old":-0.15731168039045426,"new":-0.02589563269926162,"physical":0.0189196756015738}]}
+[{"z":-128,"side":-1,"waterEdge":45.96031535671559,"waterY":-0.10664406179785194,"oldGroundAtWater":-0.9843508789532514,"newGroundAtWater":-0.06480853133524533,"crossing":45.98989778564597},{"z":-128,"side":1,"waterEdge":56.09370496905191,"waterY":-0.10664406179785194,"oldGroundAtWater":-0.7395107253212726,"newGroundAtWater":-0.0703580708942528,"crossing":56.0658977856464},{"z":-124,"side":-1,"waterEdge":46.159245136185724,"waterY":-0.1599618747676296,"oldGroundAtWater":-1.074377080066239,"newGroundAtWater":-0.13206897047026422,"crossing":46.18363600704704},{"z":-124,"side":1,"waterEdge":56.159338985738316,"waterY":-0.1599618747676296,"oldGroundAtWater":-1.0990821822250236,"newGroundAtWater":-0.12196029695057076,"crossing":56.13063600704743},{"z":-120,"side":-1,"waterEdge":46.12159830164622,"waterY":-0.21340822857047062,"oldGroundAtWater":-1.0563608328366958,"newGroundAtWater":-0.18464457389643824,"crossing":46.14651626779957},{"z":-120,"side":1,"waterEdge":55.98807676015534,"waterY":-0.21340822857047062,"oldGroundAtWater":-1.1449999809265137,"newGroundAtWater":-0.17866146861955814,"crossing":55.9605162677999},{"z":-116,"side":-1,"waterEdge":45.85605941740946,"waterY":-0.23995908259529358,"oldGroundAtWater":-0.9284180341458367,"newGroundAtWater":-0.20920833204526176,"crossing":45.88130800104273},{"z":-116,"side":1,"waterEdge":55.656162886105946,"waterY":-0.23995908259529358,"oldGroundAtWater":-0.11168943441158172,"newGroundAtWater":-0.19387117479682525,"crossing":55.62430800104305}]
+{"beforeTriangles":42880,"afterTriangles":44018,"delta":1138,"beforeVertices":21735,"afterVertices":22435,"rawBytesDelta":29228,"preparedBytesDelta":43228,"drawDelta":0}
+✔ isolated reference slice retains the exact original ground (45.7951ms)
+✔ replacement preserves external ground, portal edge and bounds (362.91ms)
+✔ dry replacement follows physical support without a ridge or wall normals (462.8797ms)
+✔ actual replacement mesh connects the blocked dry bank to the existing water edge (231.4951ms)
+✔ local replacement has bounded cost and no duplicated surface area (20.029ms)
+✔ the actual village and valley water meshes meet at one matching edge, without a hidden duplicate strip (219.5688ms)
+✔ the short join blends smoothly while retaining the existing bridge, paddies and village river level (7.4187ms)
+✔ village wildlife leaves the render list in distant forests and returns under full visibility (36.5666ms)
+✔ a startled bird completes its flight while culled, then reappears at its home (31.5466ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 4613.1559

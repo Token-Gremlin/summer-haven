@@ -1,0 +1,150 @@
+{
+  "reviewedAt": "2026-09-29T19:18:50.669Z",
+  "checks": {
+    "savedData": true,
+    "worldAppearance": true,
+    "returnTitle": true
+  },
+  "expected": {
+    "version": 1,
+    "created": true,
+    "appearance": {
+      "name": "Haru",
+      "body": "masculine",
+      "skin": 1,
+      "hair": 7,
+      "hairColor": 0,
+      "eyes": 1,
+      "face": 0,
+      "top": 5,
+      "topColor": 1,
+      "bottom": 3,
+      "bottomColor": 3,
+      "shoes": 2,
+      "accessories": [
+        false,
+        false,
+        true
+      ]
+    },
+    "settings": {
+      "quality": "low",
+      "resolution": 0.7,
+      "shadows": 1024,
+      "vegetation": 0.35,
+      "reflections": false,
+      "aa": 0,
+      "post": false,
+      "distance": 140,
+      "master": 0.65,
+      "ambience": 0.7,
+      "effects": 0.7,
+      "sensitivity": 1,
+      "invertY": false,
+      "freezeTime": true,
+      "timeSpeed": 2.5,
+      "hints": true
+    },
+    "activities": {
+      "cat": 0,
+      "delivery": 0,
+      "photo": 0
+    },
+    "position": [
+      81,
+      72
+    ],
+    "time": 0.86,
+    "discoveries": [
+      "village",
+      "south",
+      "orchard",
+      "river",
+      "fields",
+      "shrine",
+      "hill"
+    ]
+  },
+  "actual": {
+    "save": {
+      "version": 1,
+      "created": true,
+      "appearance": {
+        "name": "Haru",
+        "body": "masculine",
+        "skin": 1,
+        "hair": 7,
+        "hairColor": 0,
+        "eyes": 1,
+        "face": 0,
+        "top": 5,
+        "topColor": 1,
+        "bottom": 3,
+        "bottomColor": 3,
+        "shoes": 2,
+        "accessories": [
+          false,
+          false,
+          true
+        ]
+      },
+      "settings": {
+        "quality": "low",
+        "resolution": 0.7,
+        "shadows": 1024,
+        "vegetation": 0.35,
+        "reflections": false,
+        "aa": 0,
+        "post": false,
+        "distance": 140,
+        "master": 0.65,
+        "ambience": 0.7,
+        "effects": 0.7,
+        "sensitivity": 1,
+        "invertY": false,
+        "freezeTime": true,
+        "timeSpeed": 2.5,
+        "hints": true
+      },
+      "activities": {
+        "cat": 0,
+        "delivery": 0,
+        "photo": 0
+      },
+      "position": [
+        81,
+        72
+      ],
+      "time": 0.86,
+      "discoveries": [
+        "village",
+        "south",
+        "orchard",
+        "river",
+        "fields",
+        "shrine",
+        "hill"
+      ]
+    },
+    "actualAppearance": {
+      "name": "Haru",
+      "body": "masculine",
+      "skin": 1,
+      "hair": 7,
+      "hairColor": 0,
+      "eyes": 1,
+      "face": 0,
+      "top": 5,
+      "topColor": 1,
+      "bottom": 3,
+      "bottomColor": 3,
+      "shoes": 2,
+      "accessories": [
+        false,
+        false,
+        true
+      ]
+    },
+    "mode": "title"
+  }
+}

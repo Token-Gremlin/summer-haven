@@ -1,0 +1,8 @@
+{
+  "source": "Node composition preflight; object counts are not measured renderer draws or frame times",
+  "buildings": 24,
+  "interiorEntrances": 3,
+  "coveredFrontages": 4,
+  "staticMeshObjectsAfterBatching": 50,
+  "collisionObstacles": 985
+}

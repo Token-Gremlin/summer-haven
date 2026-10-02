@@ -1,0 +1,22 @@
+[
+  {
+    "Algorithm": "SHA256",
+    "Hash": "6E0E6C4089DFE44A4ED3AEA747AE712595CF5761DD1C79C5E1CA6A58B7A73DDB",
+    "Path": "dist/assets/index-7hgK5CKM.js"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "5B99D494154DBEDD0169BE29E0B4E26B2B119E7379BD7FDE73AC535FF9C93D74",
+    "Path": "public/assets/creatures/haven-wildlife.glb"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "ED1037AE7B43B059A236FEEC4C2FC60BB38D043CF8687760AAC8FC54FBA45905",
+    "Path": "public/assets/creatures/vesper-siltfin.glb"
+  },
+  {
+    "Algorithm": "SHA256",
+    "Hash": "7557F4C608D6E7E549FC0F33ADAC394AE7417724E9C96F7EE374492A5DEEB8EC",
+    "Path": "public/assets/fantasy/silverveil-gorge.glb"
+  }
+]

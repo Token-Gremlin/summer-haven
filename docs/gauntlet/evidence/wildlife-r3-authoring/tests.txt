@@ -1,0 +1,16 @@
+{"skinContact":{"minimumTerrainClearance":0.05868208157071202,"maximumSkinToHoofNearestVertex":0.007151356315131555}}
+✔ actual exported hoof surfaces stay on flat and sloped terrain at rest, walking and stopping (598.7489ms)
+✔ missing pivots are safe, and rendered gait preserves saved/offscreen simulation (528.566ms)
+✔ exported hooves on actual Mosswood routes including heading changes and feeding (8132.0195ms)
+✔ connected deer skin has normalized weights and independent cloned articulation (25.8065ms)
+✔ terrapin and songbird geometry/materials remain identical to revision 1 (29.0966ms)
+✔ revision 3 preserves revision 2 joint axes and exact cloven sole geometry (14.8512ms)
+✔ connected pastern skin clears terrain and stays attached during gait and feeding (356.8314ms)
+ℹ tests 7
+ℹ suites 0
+ℹ pass 7
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10347.4446

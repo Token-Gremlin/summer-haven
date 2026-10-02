@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-09-30T00:12:50.1128281Z",
+  "cpu": {
+    "Name": "Intel(R) Core(TM) i5-10300H CPU @ 2.50GHz",
+    "NumberOfCores": 4,
+    "NumberOfLogicalProcessors": 8
+  },
+  "adapters": [
+    {
+      "Name": "Parsec Virtual Display Adapter",
+      "DriverVersion": "0.45.0.0",
+      "AdapterRAM": null,
+      "CurrentRefreshRate": null
+    },
+    {
+      "Name": "Intel(R) UHD Graphics",
+      "DriverVersion": "31.0.101.2141",
+      "AdapterRAM": 1073741824,
+      "CurrentRefreshRate": 144
+    },
+    {
+      "Name": "NVIDIA GeForce GTX 1650",
+      "DriverVersion": "32.0.16.1692",
+      "AdapterRAM": 4293918720,
+      "CurrentRefreshRate": null
+    }
+  ],
+  "os": {
+    "Caption": "Microsoft Windows 11 Home Single Language",
+    "Version": "10.0.26200",
+    "TotalVisibleMemorySize": 16604212
+  },
+  "note": "Browser WebGL renderer must be recorded separately; installed GPU is not proof it rendered the game. AdapterRAM is the Windows-reported value, not process GPU usage. Display refresh/vsync of the embedded browser remains unverified."
+}

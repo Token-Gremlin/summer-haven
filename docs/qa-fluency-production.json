@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-29T20:10:10.850Z",
+  "qaExposed": false,
+  "qualityOptions": [
+    "Low",
+    "Medium",
+    "High",
+    "Ultra"
+  ],
+  "visibilityOptions": [
+    "As I approach · smoother",
+    "Entire landscape · longest view"
+  ],
+  "resolutionStep": "0.05",
+  "script": [
+    "http://127.0.0.1:4173/assets/index-ByrAHarE.js"
+  ],
+  "timeOrigin": 1790712522704.3,
+  "logs": []
+}

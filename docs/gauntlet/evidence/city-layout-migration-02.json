@@ -1,0 +1,76 @@
+{
+  "build": "Bcrodwn1",
+  "revision": 2,
+  "residents": [
+    {
+      "id": "iona",
+      "completed": 32,
+      "previous": 32,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "mira",
+      "completed": 32,
+      "previous": 32,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "oren",
+      "completed": 32,
+      "previous": 32,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "lio",
+      "completed": 31,
+      "previous": 31,
+      "conversations": 1,
+      "previousConversations": 1
+    },
+    {
+      "id": "mara",
+      "completed": 33,
+      "previous": 33,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "rowan",
+      "completed": 28,
+      "previous": 28,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "tamsin",
+      "completed": 33,
+      "previous": 33,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "sela",
+      "completed": 29,
+      "previous": 29,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "neri",
+      "completed": 31,
+      "previous": 31,
+      "conversations": 0,
+      "previousConversations": 0
+    },
+    {
+      "id": "bram",
+      "completed": 32,
+      "previous": 32,
+      "conversations": 0,
+      "previousConversations": 0
+    }
+  ]
+}

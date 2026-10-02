@@ -1,0 +1,782 @@
+{
+  "date": "2026-09-29T17:00:20.960Z",
+  "method": "2600 ms populated-scene requestAnimationFrame samples after ten warmup frames; no screenshots during measurement",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "results": [
+    {
+      "averageFps": 24.8,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 407,
+      "frames": 65,
+      "meanMs": 40.38,
+      "medianMs": 41.7,
+      "p95Ms": 48.7,
+      "passes": {
+        "calls": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 307.318,
+          "sharpen": 1,
+          "smaa": 3
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "grade": 1.891,
+          "ink+kuwahara": 5.29,
+          "scene": 35.147,
+          "sharpen": 0.651,
+          "smaa": 2.892
+        },
+        "tris": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 726520.121,
+          "sharpen": 1,
+          "smaa": 3
+        }
+      },
+      "quality": "low",
+      "render": [
+        1344,
+        756
+      ],
+      "scene": "town walk",
+      "triangles": 1116102
+    },
+    {
+      "averageFps": 25,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 329,
+      "frames": 66,
+      "meanMs": 39.98,
+      "medianMs": 41.6,
+      "p95Ms": 41.8,
+      "passes": {
+        "calls": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 211,
+          "sharpen": 1,
+          "smaa": 3
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "grade": 1.909,
+          "ink+kuwahara": 5.224,
+          "scene": 23.063,
+          "sharpen": 0.639,
+          "smaa": 2.969
+        },
+        "tris": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 633598,
+          "sharpen": 1,
+          "smaa": 3
+        }
+      },
+      "quality": "low",
+      "render": [
+        1344,
+        756
+      ],
+      "scene": "garden foliage",
+      "triangles": 1064980
+    },
+    {
+      "averageFps": 24.2,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 394,
+      "frames": 63,
+      "meanMs": 41.33,
+      "medianMs": 41.7,
+      "p95Ms": 48.6,
+      "passes": {
+        "calls": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 284,
+          "sharpen": 1,
+          "smaa": 3
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "grade": 1.897,
+          "ink+kuwahara": 5.265,
+          "scene": 24.17,
+          "sharpen": 0.66,
+          "smaa": 3.118
+        },
+        "tris": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 700666,
+          "sharpen": 1,
+          "smaa": 3
+        }
+      },
+      "quality": "low",
+      "render": [
+        1344,
+        756
+      ],
+      "scene": "villagers",
+      "triangles": 1099330
+    },
+    {
+      "averageFps": 24.3,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 237,
+      "frames": 64,
+      "meanMs": 41.22,
+      "medianMs": 41.6,
+      "p95Ms": 48.5,
+      "passes": {
+        "calls": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 117,
+          "sharpen": 1,
+          "smaa": 3
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "grade": 1.878,
+          "ink+kuwahara": 5.204,
+          "scene": 23.143,
+          "sharpen": 0.639,
+          "smaa": 3.133
+        },
+        "tris": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 548338,
+          "sharpen": 1,
+          "smaa": 3
+        }
+      },
+      "quality": "low",
+      "render": [
+        1344,
+        756
+      ],
+      "scene": "river",
+      "triangles": 1016856
+    },
+    {
+      "averageFps": 50,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 265,
+      "frames": 131,
+      "meanMs": 19.98,
+      "medianMs": 20.8,
+      "p95Ms": 21,
+      "passes": {
+        "calls": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 61,
+          "sharpen": 1,
+          "smaa": 3
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "grade": 1.881,
+          "ink+kuwahara": 5.22,
+          "scene": 7.243,
+          "sharpen": 0.629,
+          "smaa": 3.093
+        },
+        "tris": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 19574,
+          "sharpen": 1,
+          "smaa": 3
+        }
+      },
+      "quality": "low",
+      "render": [
+        1344,
+        756
+      ],
+      "scene": "home interior",
+      "triangles": 76328
+    },
+    {
+      "averageFps": 23.4,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 427,
+      "frames": 61,
+      "meanMs": 42.8,
+      "medianMs": 41.7,
+      "p95Ms": 48.7,
+      "passes": {
+        "calls": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 344.532,
+          "sharpen": 1,
+          "smaa": 3
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "grade": 1.889,
+          "ink+kuwahara": 5.233,
+          "scene": 24.359,
+          "sharpen": 0.645,
+          "smaa": 3.215
+        },
+        "tris": {
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 752247.274,
+          "sharpen": 1,
+          "smaa": 3
+        }
+      },
+      "quality": "low",
+      "render": [
+        1344,
+        756
+      ],
+      "scene": "fast cycling",
+      "triangles": 1108590
+    },
+    {
+      "averageFps": 14.3,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 418,
+      "frames": 38,
+      "meanMs": 69.8,
+      "medianMs": 76.3,
+      "p95Ms": 90.3,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 303.231,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 1.868,
+          "grade": 2.693,
+          "ink+kuwahara": 7.471,
+          "scene": 41.443,
+          "sharpen": 0.919,
+          "smaa": 3.279
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 861870.564,
+          "sharpen": 1
+        }
+      },
+      "quality": "medium",
+      "render": [
+        1632,
+        918
+      ],
+      "scene": "town walk",
+      "triangles": 1256836
+    },
+    {
+      "averageFps": 15.5,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 351,
+      "frames": 41,
+      "meanMs": 64.35,
+      "medianMs": 62.6,
+      "p95Ms": 69.5,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 223,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 1.853,
+          "grade": 2.782,
+          "ink+kuwahara": 7.722,
+          "scene": 38.909,
+          "sharpen": 0.944
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 716192,
+          "sharpen": 1
+        }
+      },
+      "quality": "medium",
+      "render": [
+        1632,
+        918
+      ],
+      "scene": "garden foliage",
+      "triangles": 1149362
+    },
+    {
+      "averageFps": 14.7,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 400,
+      "frames": 39,
+      "meanMs": 67.83,
+      "medianMs": 69.4,
+      "p95Ms": 90.3,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 280,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 1.866,
+          "grade": 2.797,
+          "ink+kuwahara": 7.77,
+          "scene": 40.91,
+          "sharpen": 0.939
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 812822,
+          "sharpen": 1
+        }
+      },
+      "quality": "medium",
+      "render": [
+        1632,
+        918
+      ],
+      "scene": "villagers",
+      "triangles": 1216616
+    },
+    {
+      "averageFps": 15.4,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 315,
+      "frames": 40,
+      "meanMs": 65.09,
+      "medianMs": 62.6,
+      "p95Ms": 76.4,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 120,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 1.89,
+          "grade": 2.773,
+          "ink+kuwahara": 7.735,
+          "scene": 38.74,
+          "sharpen": 0.958
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 584204,
+          "sharpen": 1
+        }
+      },
+      "quality": "medium",
+      "render": [
+        1632,
+        918
+      ],
+      "scene": "river",
+      "triangles": 1570920
+    },
+    {
+      "averageFps": 30.1,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 275,
+      "frames": 79,
+      "meanMs": 33.22,
+      "medianMs": 34.7,
+      "p95Ms": 41.6,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 61,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 1.849,
+          "grade": 2.789,
+          "ink+kuwahara": 7.816,
+          "scene": 17.963,
+          "sharpen": 0.936
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 19574,
+          "sharpen": 1
+        }
+      },
+      "quality": "medium",
+      "render": [
+        1632,
+        918
+      ],
+      "scene": "home interior",
+      "triangles": 76338
+    },
+    {
+      "averageFps": 14.2,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 561,
+      "frames": 37,
+      "meanMs": 70.56,
+      "medianMs": 69.4,
+      "p95Ms": 90.1,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 354.184,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 1.903,
+          "grade": 2.782,
+          "ink+kuwahara": 7.768,
+          "scene": 41.572,
+          "sharpen": 0.945
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 930696,
+          "sharpen": 1
+        }
+      },
+      "quality": "medium",
+      "render": [
+        1632,
+        918
+      ],
+      "scene": "fast cycling",
+      "triangles": 1854374
+    },
+    {
+      "averageFps": 9.6,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 531,
+      "frames": 25,
+      "meanMs": 104.16,
+      "medianMs": 104.4,
+      "p95Ms": 131.9,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 331.038,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 2.479,
+          "grade": 3.698,
+          "ink+kuwahara": 10.455,
+          "scene": 67.137,
+          "sharpen": 1.288
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 1043319.231,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1920,
+        1080
+      ],
+      "scene": "town walk",
+      "triangles": 1985216
+    },
+    {
+      "averageFps": 10.6,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 367,
+      "frames": 28,
+      "meanMs": 94.48,
+      "medianMs": 97.1,
+      "p95Ms": 117.9,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 239,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 2.544,
+          "grade": 3.837,
+          "ink+kuwahara": 10.801,
+          "scene": 62.53,
+          "sharpen": 1.325
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 815946,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1920,
+        1080
+      ],
+      "scene": "garden foliage",
+      "triangles": 1249116
+    },
+    {
+      "averageFps": 9.7,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 507,
+      "frames": 26,
+      "meanMs": 103.07,
+      "medianMs": 104.1,
+      "p95Ms": 138.9,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 301,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 2.555,
+          "grade": 3.823,
+          "ink+kuwahara": 10.801,
+          "scene": 67.133,
+          "sharpen": 1.307
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 963374,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1920,
+        1080
+      ],
+      "scene": "villagers",
+      "triangles": 1917892
+    },
+    {
+      "averageFps": 10.5,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 260,
+      "frames": 28,
+      "meanMs": 95.46,
+      "medianMs": 97.1,
+      "p95Ms": 104,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 127.103,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 2.577,
+          "grade": 3.879,
+          "ink+kuwahara": 10.942,
+          "scene": 61.295,
+          "sharpen": 1.336
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 624801.241,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1920,
+        1080
+      ],
+      "scene": "river",
+      "triangles": 1096920
+    },
+    {
+      "averageFps": 18.7,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 275,
+      "frames": 49,
+      "meanMs": 53.56,
+      "medianMs": 55.5,
+      "p95Ms": 55.7,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 61,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 2.482,
+          "grade": 3.876,
+          "ink+kuwahara": 10.941,
+          "scene": 34.165,
+          "sharpen": 1.301
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 19574,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1920,
+        1080
+      ],
+      "scene": "home interior",
+      "triangles": 76338
+    },
+    {
+      "averageFps": 9.4,
+      "display": [
+        1920,
+        1080
+      ],
+      "drawCalls": 472,
+      "frames": 25,
+      "meanMs": 106.64,
+      "medianMs": 104.1,
+      "p95Ms": 145.9,
+      "passes": {
+        "calls": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 380.308,
+          "sharpen": 1
+        },
+        "cpuMs": {},
+        "gpuMs": {
+          "bloom": 2.598,
+          "grade": 3.863,
+          "ink+kuwahara": 10.912,
+          "scene": 64.992,
+          "sharpen": 1.313
+        },
+        "tris": {
+          "bloom": 13,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 1131972.5,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1920,
+        1080
+      ],
+      "scene": "fast cycling",
+      "triangles": 1474444
+    }
+  ]
+}

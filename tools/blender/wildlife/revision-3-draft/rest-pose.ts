@@ -1,0 +1,15 @@
+import {readFileSync, writeFileSync} from 'node:fs';
+import * as T from 'three';
+import {GLTFLoader} from 'three/addons/loaders/GLTFLoader.js';
+import {DeerGait} from '../../../../src/world/deer-gait';
+const b=readFileSync('tools/blender/wildlife/revision-3-draft/export/haven-wildlife.glb');
+const gltf=await new GLTFLoader().parseAsync(b.buffer.slice(b.byteOffset,b.byteOffset+b.byteLength),'');
+const model=gltf.scene.getObjectByName('Wildlife_Deer')!;
+const rest=new Map<string,T.Vector3>();
+model.traverse(o=>{if(o instanceof T.Bone)rest.set(o.name,o.position.clone());});
+const root=new T.Group();root.add(model);
+DeerGait.create(root,model,()=>0)!.update(0,false,true);
+root.updateMatrixWorld(true);
+const bones:Record<string,{quaternion:number[];translation:number[]}>= {};
+model.traverse(o=>{if(o instanceof T.Bone)bones[o.name]={quaternion:o.quaternion.toArray(),translation:o.position.clone().sub(rest.get(o.name)!).toArray()};});
+writeFileSync('tools/blender/wildlife/revision-3-draft/ik-rest.json',JSON.stringify({provenance:'Actual DeerGait flat-ground rest pose applied to staged GLB; authoring diagnostic, not runtime gameplay capture',bones},null,2));

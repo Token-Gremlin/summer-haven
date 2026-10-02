@@ -1,0 +1,17 @@
+{
+  "recordedAt": "2026-09-29T22:49:31.996Z",
+  "build": "Bcrodwn1",
+  "fixture": "docs/gauntlet/evidence/city-residents-collision.json",
+  "fixtureSha256": "6f4dc7ac1246ee870147af08cb2c0188b1901218c3ddcb69a1280d40b372b512",
+  "source": "Compiled candidate Bcrodwn1, layout 2, full runtime incl. generated trees/ferry",
+  "obstacles": 1233,
+  "command": "npx tsx --test tests/city-life.test.ts tests/city-layout.test.ts",
+  "tests": 12,
+  "passed": 12,
+  "failed": 0,
+  "durationMs": 15570.6877,
+  "typecheck": "passed",
+  "migrationRecord": "docs/gauntlet/evidence/city-layout-migration-02.json",
+  "migrationCountsPreserved": true,
+  "limitation": "Mechanical evidence only; no visual, gameplay motion, sound, performance or Q4 approval."
+}

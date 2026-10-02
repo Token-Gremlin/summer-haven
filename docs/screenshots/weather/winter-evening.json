@@ -1,0 +1,47 @@
+{
+  "audioContext": "running",
+  "camera": [
+    18,
+    1.27,
+    23.94246908683093
+  ],
+  "climate": {
+    "automatic": false,
+    "clouds": 0.72,
+    "direction": 125,
+    "intensity": 0.85,
+    "season": "winter",
+    "weather": "snow",
+    "wind": 0.45
+  },
+  "display": [
+    920,
+    668
+  ],
+  "method": "Actual gameplay capture; evening selected through the time controls",
+  "render": [
+    1380,
+    1002
+  ],
+  "settings": {
+    "aa": 4,
+    "ambience": 0.7,
+    "distance": 310,
+    "effects": 0.7,
+    "freezeTime": true,
+    "hints": true,
+    "invertY": false,
+    "master": 0.65,
+    "post": true,
+    "quality": "ultra",
+    "reflections": true,
+    "resolution": 1.2,
+    "sensitivity": 1,
+    "shadows": 4096,
+    "timeSpeed": 1,
+    "vegetation": 1,
+    "visibility": "nearby"
+  },
+  "shaderErrors": 0,
+  "time": 1
+}

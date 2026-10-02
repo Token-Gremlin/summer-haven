@@ -1,0 +1,20 @@
+{
+  "reviewedAt": "2026-09-29T19:19:41.995Z",
+  "url": "http://127.0.0.1:4173/",
+  "script": [
+    "http://127.0.0.1:4173/assets/index-XzIz8i6I.js"
+  ],
+  "enteredWorld": true,
+  "openedClockPanel": true,
+  "selectedSunset": true,
+  "checks": {
+    "viewport": [
+      1920,
+      1080
+    ],
+    "qaExposed": false,
+    "slider": "0.67",
+    "clock": true
+  },
+  "errorsSinceLoad": []
+}

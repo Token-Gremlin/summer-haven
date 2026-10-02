@@ -1,0 +1,94 @@
+{
+  "camera": [
+    18,
+    1.2700000000000002,
+    23.87074954230497
+  ],
+  "captured": "2026-10-02T00:37:44.756Z",
+  "climate": {
+    "automatic": false,
+    "clouds": 0.4,
+    "direction": 125,
+    "intensity": 0.7,
+    "season": "summer",
+    "weather": "fair",
+    "wind": 0.4
+  },
+  "display": [
+    920,
+    668
+  ],
+  "method": "Actual gameplay render, existing map; QA-positioned camera and settled weather.",
+  "player": [
+    18,
+    0.02,
+    16
+  ],
+  "render": [
+    1380,
+    1002
+  ],
+  "settings": {
+    "aa": 4,
+    "ambience": 0.7,
+    "distance": 310,
+    "effects": 0.7,
+    "freezeTime": true,
+    "hints": true,
+    "invertY": false,
+    "master": 0.65,
+    "post": true,
+    "quality": "ultra",
+    "reflections": true,
+    "resolution": 1.2,
+    "sensitivity": 1,
+    "shadows": 4096,
+    "timeSpeed": 1,
+    "vegetation": 1,
+    "visibility": "nearby"
+  },
+  "shaderErrors": 0,
+  "sky": {
+    "bands": 4,
+    "hz": 6,
+    "resolution": [
+      1280,
+      1280
+    ],
+    "steps": 32
+  },
+  "state": {
+    "catchmentRebuilds": 5,
+    "counts": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "state": {
+      "clock": 1975.535366666294,
+      "coverage": 0.3999999995789328,
+      "direction": 2.1816615649929116,
+      "gust": 0.6796298007637589,
+      "overcast": 1.4897651474470302e-20,
+      "rain": 4.3229525664572716e-41,
+      "season": [
+        9.15549686572714e-12,
+        0.9999999999908448,
+        1.884294263945979e-54,
+        4.346905347275547e-27
+      ],
+      "snow": 2.6727883075663925e-13,
+      "snowfall": 1.4389776993025477e-20,
+      "travel": [
+        1358.6763144431168,
+        951.355397360056
+      ],
+      "wetness": 0.00012140951814144318,
+      "wind": 0.4000000000000046,
+      "windPhase": 2149.6769807230626
+    },
+    "visible": true
+  },
+  "time": 0.16
+}

@@ -1,0 +1,178 @@
+{
+  "date": "2026-09-29T19:59:19.385Z",
+  "passed": 18,
+  "failed": [],
+  "checks": [
+    {
+      "name": "masculine walk: grounded feet and stable joints through two seconds",
+      "pass": true,
+      "detail": {
+        "maxAnkleTargetGap": 0.000001532139674752444,
+        "minAnkleAboveGround": 0.12499972692744343,
+        "contacts": 120,
+        "footfalls": 6
+      }
+    },
+    {
+      "name": "masculine jog: grounded feet and stable joints through two seconds",
+      "pass": true,
+      "detail": {
+        "maxAnkleTargetGap": 3.0873070496026055e-7,
+        "minAnkleAboveGround": 0.12499978814132567,
+        "contacts": 54,
+        "footfalls": 6
+      }
+    },
+    {
+      "name": "feminine walk: grounded feet and stable joints through two seconds",
+      "pass": true,
+      "detail": {
+        "maxAnkleTargetGap": 2.9571097283983224e-7,
+        "minAnkleAboveGround": 0.12499982309909125,
+        "contacts": 120,
+        "footfalls": 6
+      }
+    },
+    {
+      "name": "feminine jog: grounded feet and stable joints through two seconds",
+      "pass": true,
+      "detail": {
+        "maxAnkleTargetGap": 2.9582379148949473e-7,
+        "minAnkleAboveGround": 0.12499983851180713,
+        "contacts": 54,
+        "footfalls": 6
+      }
+    },
+    {
+      "name": "Crossing 0.13, -5.21 has one road surface without coplanar overlap",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Continuous road surface",
+          "y": 0.03500000014901161
+        }
+      ]
+    },
+    {
+      "name": "Crossing 0.19, 17.31 has one road surface without coplanar overlap",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Continuous road surface",
+          "y": 0.03500000014901161
+        }
+      ]
+    },
+    {
+      "name": "Crossing 0.23, -28.72 has one road surface without coplanar overlap",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Continuous road surface",
+          "y": 0.03500000014901872
+        }
+      ]
+    },
+    {
+      "name": "Crossing 0.17, 65.22 has one road surface without coplanar overlap",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Continuous road surface",
+          "y": 0.03500000014901872
+        }
+      ]
+    },
+    {
+      "name": "Crossing 23.12, -5.23 has one road surface without coplanar overlap",
+      "pass": true,
+      "detail": [
+        {
+          "name": "Continuous road surface",
+          "y": 0.03500000014901161
+        }
+      ]
+    },
+    {
+      "name": "low preset updates renderer and saved settings",
+      "pass": true,
+      "detail": {
+        "render": [
+          896,
+          504
+        ],
+        "aa": 1
+      }
+    },
+    {
+      "name": "medium preset updates renderer and saved settings",
+      "pass": true,
+      "detail": {
+        "render": [
+          1088,
+          612
+        ],
+        "aa": 1
+      }
+    },
+    {
+      "name": "high preset updates renderer and saved settings",
+      "pass": true,
+      "detail": {
+        "render": [
+          1280,
+          720
+        ],
+        "aa": 4
+      }
+    },
+    {
+      "name": "ultra preset updates renderer and saved settings",
+      "pass": true,
+      "detail": {
+        "render": [
+          1536,
+          864
+        ],
+        "aa": 4
+      }
+    },
+    {
+      "name": "nearby preference persists through the settings UI",
+      "pass": true
+    },
+    {
+      "name": "full preference persists through the settings UI",
+      "pass": true
+    },
+    {
+      "name": "Full landscape retains every tree and more distant scenery",
+      "pass": true,
+      "detail": {
+        "nearby": {
+          "scenery": 66,
+          "trees": 21,
+          "plants": 130
+        },
+        "full": {
+          "scenery": 139,
+          "trees": 249,
+          "plants": 722
+        }
+      }
+    },
+    {
+      "name": "Tree canopies keep the same geometry when moving away",
+      "pass": true
+    },
+    {
+      "name": "Camera retracts before the player-house wall",
+      "pass": true,
+      "detail": [
+        9.058675276018665,
+        1.3229779194269191,
+        10
+      ]
+    }
+  ]
+}

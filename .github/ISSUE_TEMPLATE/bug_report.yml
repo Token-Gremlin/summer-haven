@@ -1,0 +1,31 @@
+name: Bug report
+description: Help improve a place, interaction or visual detail in Summer Haven.
+title: "[Bug] "
+body:
+  - type: markdown
+    attributes:
+      value: "Thanks for exploring! Please remove personal paths, emails and browser save data from anything you attach."
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the expected behavior and what you saw instead.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: How can we reproduce it?
+      description: Include the location, actions and time of day when relevant.
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Browser, graphics settings and version
+      placeholder: "Chrome, Medium, nearby scenery, main at commit…"
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Screenshots or additional context
+      description: For performance issues, include resolution and measured timing if available.

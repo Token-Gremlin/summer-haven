@@ -1,0 +1,349 @@
+{
+  "loaded": {
+    "siltfin": {
+      "version": 1,
+      "encounters": 1,
+      "lastEncounter": 253.38470000000856,
+      "alertUntil": 259.3847000000086
+    },
+    "habitat": {
+      "version": 1,
+      "elapsed": 317.2000000000036,
+      "animals": [
+        {
+          "id": "mosswood-glade-0",
+          "state": "feed",
+          "age": 0,
+          "node": 4,
+          "target": 4,
+          "position": {
+            "x": 202,
+            "y": 10.960701007240969,
+            "z": -510
+          },
+          "origin": {
+            "x": 215,
+            "y": 12.813798616795623,
+            "z": -515
+          },
+          "duration": 9,
+          "cycle": 11,
+          "cooldown": 0
+        },
+        {
+          "id": "mosswood-glade-1",
+          "state": "wander",
+          "age": 0.8999999999999999,
+          "node": 0,
+          "target": 3,
+          "position": {
+            "x": 207.491947349949,
+            "y": 12.549035529779443,
+            "z": -506.6064421200408
+          },
+          "origin": {
+            "x": 207,
+            "y": 12.475393415317159,
+            "z": -507
+          },
+          "duration": 9.149212505578141,
+          "cycle": 11,
+          "cooldown": 0
+        },
+        {
+          "id": "mosswood-glade-2",
+          "state": "wander",
+          "age": 12.69999999999997,
+          "node": 3,
+          "target": 1,
+          "position": {
+            "x": 214.1561417065734,
+            "y": 12.881064895351459,
+            "z": -511.6245668262948
+          },
+          "origin": {
+            "x": 212,
+            "y": 12.605638727675924,
+            "z": -503
+          },
+          "duration": 17.672954694433717,
+          "cycle": 10,
+          "cooldown": 0
+        },
+        {
+          "id": "silver-river-pool-0",
+          "state": "feed",
+          "age": 9.199999999999983,
+          "node": 2,
+          "target": 2,
+          "position": {
+            "x": 313.09999999999997,
+            "y": 15.33,
+            "z": -584
+          },
+          "origin": {
+            "x": 308.55,
+            "y": 15.255,
+            "z": -581
+          },
+          "duration": 10,
+          "cycle": 7,
+          "cooldown": 0
+        },
+        {
+          "id": "silver-river-pool-1",
+          "state": "wander",
+          "age": 11.099999999999977,
+          "node": 5,
+          "target": 1,
+          "position": {
+            "x": 315.3470307135495,
+            "y": 15.310917071683754,
+            "z": -583.2366828673502
+          },
+          "origin": {
+            "x": 317.66666666666663,
+            "y": 16.55,
+            "z": -584
+          },
+          "duration": 44.02071171785964,
+          "cycle": 7,
+          "cooldown": 0
+        },
+        {
+          "id": "silver-river-pool-2",
+          "state": "rest",
+          "age": 4.100000000000001,
+          "node": 0,
+          "target": 0,
+          "position": {
+            "x": 306.05,
+            "y": 15.155000000000001,
+            "z": -577
+          },
+          "origin": {
+            "x": 315.3366725010359,
+            "y": 16.450143370636518,
+            "z": -580.0057348254608
+          },
+          "duration": 12,
+          "cycle": 6,
+          "cooldown": 0
+        },
+        {
+          "id": "mosswood-songbirds-0",
+          "state": "perch",
+          "age": 15.499999999999961,
+          "node": 0,
+          "target": 0,
+          "position": {
+            "x": 204,
+            "y": 12.72945992583442,
+            "z": -500
+          },
+          "origin": {
+            "x": 198,
+            "y": 11.559937569673416,
+            "z": -519
+          },
+          "duration": 17,
+          "cycle": 13,
+          "cooldown": 0
+        },
+        {
+          "id": "mosswood-songbirds-1",
+          "state": "perch",
+          "age": 15.199999999999962,
+          "node": 0,
+          "target": 0,
+          "position": {
+            "x": 204.7,
+            "y": 12.748814239767624,
+            "z": -500
+          },
+          "origin": {
+            "x": 198.7,
+            "y": 11.570076739711052,
+            "z": -519
+          },
+          "duration": 17,
+          "cycle": 13,
+          "cooldown": 0
+        },
+        {
+          "id": "mosswood-songbirds-2",
+          "state": "perch",
+          "age": 14.799999999999963,
+          "node": 0,
+          "target": 0,
+          "position": {
+            "x": 204,
+            "y": 12.711948879894853,
+            "z": -499.3
+          },
+          "origin": {
+            "x": 198,
+            "y": 11.51593139933624,
+            "z": -518.3
+          },
+          "duration": 17,
+          "cycle": 13,
+          "cooldown": 0
+        },
+        {
+          "id": "mosswood-songbirds-3",
+          "state": "perch",
+          "age": 14.499999999999964,
+          "node": 0,
+          "target": 0,
+          "position": {
+            "x": 204.7,
+            "y": 12.731303193828058,
+            "z": -499.3
+          },
+          "origin": {
+            "x": 198.7,
+            "y": 11.526293430650568,
+            "z": -518.3
+          },
+          "duration": 17,
+          "cycle": 13,
+          "cooldown": 0
+        },
+        {
+          "id": "crownreach-songbirds-0",
+          "state": "perch",
+          "age": 5.799999999999995,
+          "node": 2,
+          "target": 2,
+          "position": {
+            "x": 475,
+            "y": 80.0751840422732,
+            "z": -963
+          },
+          "origin": {
+            "x": 465,
+            "y": 83.40394999260305,
+            "z": -985
+          },
+          "duration": 20,
+          "cycle": 14,
+          "cooldown": 0
+        },
+        {
+          "id": "crownreach-songbirds-1",
+          "state": "perch",
+          "age": 5.4999999999999964,
+          "node": 2,
+          "target": 2,
+          "position": {
+            "x": 475.7,
+            "y": 80.17327667305237,
+            "z": -963
+          },
+          "origin": {
+            "x": 465.7,
+            "y": 83.50071219439182,
+            "z": -985
+          },
+          "duration": 20,
+          "cycle": 14,
+          "cooldown": 0
+        },
+        {
+          "id": "crownreach-songbirds-2",
+          "state": "perch",
+          "age": 5.099999999999998,
+          "node": 2,
+          "target": 2,
+          "position": {
+            "x": 475,
+            "y": 79.88984054597779,
+            "z": -962.3
+          },
+          "origin": {
+            "x": 465,
+            "y": 83.47947829370978,
+            "z": -984.3
+          },
+          "duration": 20,
+          "cycle": 14,
+          "cooldown": 0
+        },
+        {
+          "id": "crownreach-songbirds-3",
+          "state": "perch",
+          "age": 4.799999999999999,
+          "node": 2,
+          "target": 2,
+          "position": {
+            "x": 475.7,
+            "y": 79.9868580021464,
+            "z": -962.3
+          },
+          "origin": {
+            "x": 465.7,
+            "y": 83.57643913492218,
+            "z": -984.3
+          },
+          "duration": 20,
+          "cycle": 14,
+          "cooldown": 0
+        }
+      ]
+    },
+    "appearance": {
+      "name": "Haru",
+      "body": "feminine",
+      "skin": 1,
+      "hair": 0,
+      "hairColor": 0,
+      "eyes": 1,
+      "face": 0,
+      "top": 1,
+      "topColor": 0,
+      "bottom": 0,
+      "bottomColor": 3,
+      "shoes": 0,
+      "accessories": [
+        false,
+        false,
+        true
+      ]
+    },
+    "settings": {
+      "quality": "high",
+      "resolution": 1,
+      "shadows": 1024,
+      "vegetation": 1,
+      "reflections": false,
+      "aa": 1,
+      "post": true,
+      "distance": 240,
+      "visibility": "nearby",
+      "master": 0.65,
+      "ambience": 0.7,
+      "effects": 0.7,
+      "sensitivity": 1,
+      "invertY": false,
+      "freezeTime": true,
+      "timeSpeed": 1,
+      "hints": true
+    },
+    "worldSeconds": 253.6208000000086,
+    "position": [
+      355.99996391605197,
+      56.02,
+      -742.0043696274312
+    ],
+    "mode": "title"
+  },
+  "matches": {
+    "siltfin": true,
+    "habitat": true,
+    "appearance": true,
+    "settings": true,
+    "clock": true,
+    "position": true
+  }
+}

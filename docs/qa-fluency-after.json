@@ -1,0 +1,140 @@
+{
+  "date": "2026-09-29T19:54:50.717Z",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "method": "4000 ms populated-scene RAF samples after 24 warmup frames. No screenshot during measurement.",
+  "results": [
+    {
+      "quality": "low",
+      "visibility": "nearby",
+      "scene": "town walk",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        896,
+        504
+      ],
+      "meanMs": 28.111888111888113,
+      "p95Ms": 41.70000000001164,
+      "fps": 35.57213930348259,
+      "drawCalls": 366.2237762237762,
+      "triangles": 1094996.6643356644,
+      "elapsedMs": 4020,
+      "distance": 9.277329999999964,
+      "samples": 143
+    },
+    {
+      "quality": "low",
+      "visibility": "nearby",
+      "scene": "Hibiscus run",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        896,
+        504
+      ],
+      "meanMs": 25.725000000000037,
+      "p95Ms": 34.70000000001164,
+      "fps": 38.872691933916364,
+      "drawCalls": 328.2307692307692,
+      "triangles": 887756.9102564103,
+      "elapsedMs": 4013.100000000006,
+      "distance": 18.916320000000084,
+      "samples": 156
+    },
+    {
+      "quality": "low",
+      "visibility": "nearby",
+      "scene": "river view",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        896,
+        504
+      ],
+      "meanMs": 23.929166666666703,
+      "p95Ms": 27.89999999999418,
+      "fps": 41.79000522375059,
+      "drawCalls": 234.71428571428572,
+      "triangles": 879962.4285714285,
+      "elapsedMs": 4020.100000000006,
+      "distance": 0,
+      "samples": 168
+    },
+    {
+      "quality": "low",
+      "visibility": "nearby",
+      "scene": "home interior",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        896,
+        504
+      ],
+      "meanMs": 10.211704834605554,
+      "p95Ms": 14,
+      "fps": 97.92684142330353,
+      "drawCalls": 126.45801526717557,
+      "triangles": 41156.64122137405,
+      "elapsedMs": 4013.1999999999825,
+      "distance": 0,
+      "samples": 393
+    },
+    {
+      "quality": "medium",
+      "visibility": "nearby",
+      "scene": "town walk",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        1088,
+        612
+      ],
+      "meanMs": 51.449999999999704,
+      "p95Ms": 69.39999999999418,
+      "fps": 19.436345966958324,
+      "drawCalls": 557.0512820512821,
+      "triangles": 2333092.6025641025,
+      "elapsedMs": 4013.0999999999767,
+      "distance": 9.277329999999992,
+      "samples": 78
+    },
+    {
+      "quality": "medium",
+      "visibility": "nearby",
+      "scene": "Hibiscus run",
+      "viewport": [
+        1280,
+        720
+      ],
+      "dpr": 1.0000000149011612,
+      "render": [
+        1088,
+        612
+      ],
+      "meanMs": 48.941463414634285,
+      "p95Ms": 55.60000000000582,
+      "fps": 20.432572510714582,
+      "drawCalls": 554.890243902439,
+      "triangles": 2001086.9024390243,
+      "elapsedMs": 4013.2000000000116,
+      "distance": 19.04880000000003,
+      "samples": 82
+    }
+  ],
+  "version": "after focused movement and rendering polish"
+}

@@ -1,0 +1,20 @@
+
+test('revision 3 preserves revision 2 joint axes and exact cloven sole geometry', async () => {
+  const b = readFileSync('public/assets/creatures/haven-wildlife.glb');
+  const r2 = await new GLTFLoader().parseAsync(b.buffer.slice(b.byteOffset, b.byteOffset + b.byteLength), '');
+  const r3 = await asset();
+  for (const name of ['BodyPivot', 'NeckPivot', 'HeadPivot', 'TailPivot', ...['FL', 'FR', 'BL', 'BR'].flatMap(c => ['Leg_' + c, 'Knee_' + c, 'Hoof_' + c])]) {
+    const a = r2.scene.getObjectByName('deer_' + name)!, c = r3.getObjectByName('deer_' + name)!;
+    assert.ok(c.position.distanceTo(a.position) < 1e-7, name + ' rest origin');
+    assert.ok(c.quaternion.angleTo(a.quaternion) < 1e-7, name + ' rest axes');
+  }
+  for (const code of ['FL', 'FR', 'BL', 'BR']) {
+    const name = 'deer_Hoof_' + code + '_Dark';
+    const a = r2.scene.getObjectByName(name) as T.Mesh, c = r3.getObjectByName(name) as T.Mesh;
+    assert.ok(a && c, name);
+    assert.deepEqual(c.geometry.getAttribute('position').array, a.geometry.getAttribute('position').array, name + ' sole positions');
+    assert.deepEqual(c.geometry.index!.array, a.geometry.index!.array, name + ' sole topology');
+    assert.deepEqual(c.position.toArray(), a.position.toArray(), name + ' attachment');
+    assert.deepEqual(c.quaternion.toArray(), a.quaternion.toArray(), name + ' attachment rotation');
+  }
+});

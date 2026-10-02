@@ -1,0 +1,115 @@
+{
+  "baseCheckpoint": "3c0cd57",
+  "resolution": [
+    1000,
+    900
+  ],
+  "exportSha256": "46e075749d14876c05d320327f6a1a3e181b92f3d8474fb97e766ba71d50a63e",
+  "viewTransform": "Standard",
+  "samples": 24,
+  "cameraConvention": "Blender Z-up, position=centre+direction, optical axis looks at centre; orthographic scale in metres",
+  "poseConvention": "ikrest is exported flat DeerGait pose; feed retains IK legs and sets neck X=1.35/head X=0.15 radians in XYZ mode",
+  "qualityPreset": "Not applicable; no runtime renderer",
+  "metadataProvenance": "Camera settings reconstructed from the exact review script and arguments used for these inspected renders",
+  "lighting": "White area lights and neutral gray world/floor",
+  "views": [
+    {
+      "scale": 2.5,
+      "path": "tools/blender/wildlife/revision-3-draft/evidence/deer-side-ikrest.png",
+      "direction": [
+        5,
+        0,
+        0.6
+      ],
+      "sha256": "89b1ddbca11925f226ef60a304754e4ba39624a3c294fad54a1b2f5e1b662dfe",
+      "centre": [
+        0,
+        -0.22,
+        1.0
+      ],
+      "view": "side",
+      "file": "deer-side-ikrest.png",
+      "pose": "ikrest",
+      "capturedAt": "2026-09-30T02:19:51.5083522Z"
+    },
+    {
+      "scale": 2.5,
+      "path": "tools/blender/wildlife/revision-3-draft/evidence/deer-front-ikrest.png",
+      "direction": [
+        0,
+        -5,
+        0.8
+      ],
+      "sha256": "cae7c55330f3e188abf96297712f56e029e3715c3fb0965fe3a5e76ed39896a2",
+      "centre": [
+        0,
+        -0.22,
+        1.0
+      ],
+      "view": "front",
+      "file": "deer-front-ikrest.png",
+      "pose": "ikrest",
+      "capturedAt": "2026-09-30T02:20:15.1958834Z"
+    },
+    {
+      "scale": 2.5,
+      "path": "tools/blender/wildlife/revision-3-draft/evidence/deer-threequarter-ikrest.png",
+      "direction": [
+        3,
+        -4,
+        1.8
+      ],
+      "sha256": "c98ec41fc8469bcea3346e81a3c394efb711fe2adb6068cce658249f06917280",
+      "centre": [
+        0,
+        -0.22,
+        1.0
+      ],
+      "view": "threequarter",
+      "file": "deer-threequarter-ikrest.png",
+      "pose": "ikrest",
+      "capturedAt": "2026-09-30T02:22:44.6415381Z"
+    },
+    {
+      "scale": 0.7,
+      "path": "tools/blender/wildlife/revision-3-draft/evidence/deer-face-ikrest.png",
+      "direction": [
+        3,
+        -4,
+        1.3
+      ],
+      "sha256": "009849f0f69df6e42a508c0ad7ce469d903a8cd5b6d8ed95c9b51c7ec382aab6",
+      "centre": [
+        0,
+        -1.02,
+        1.69
+      ],
+      "view": "face",
+      "file": "deer-face-ikrest.png",
+      "pose": "ikrest",
+      "capturedAt": "2026-09-30T02:23:14.7420616Z"
+    },
+    {
+      "scale": 2.5,
+      "path": "tools/blender/wildlife/revision-3-draft/evidence/deer-side-feed.png",
+      "direction": [
+        5,
+        0,
+        0.6
+      ],
+      "sha256": "43209328715fe636b1cbcfdad8f386c5168ac327bb44ed6f4a643fc934bdc333",
+      "centre": [
+        0,
+        -0.22,
+        1.0
+      ],
+      "view": "side",
+      "file": "deer-side-feed.png",
+      "pose": "feed",
+      "capturedAt": "2026-09-30T02:22:07.0142109Z"
+    }
+  ],
+  "engine": "CYCLES",
+  "saveSeed": "Not applicable to authoring scene",
+  "evidence": "Blender authoring diagnostics, not gameplay"
+}

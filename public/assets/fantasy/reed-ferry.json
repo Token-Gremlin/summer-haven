@@ -1,0 +1,865 @@
+{
+  "candidate": "Reed Ferry 02",
+  "created_utc": "2026-09-29T22:41:53.448202+00:00",
+  "units": "metres",
+  "up": "Y",
+  "forward": "+Z",
+  "waterline_y": 0,
+  "roots": {
+    "FERRY_Reed": {
+      "triangles": 22588,
+      "meshes": 11,
+      "bounds_three": {
+        "min": [
+          -2.671708583831787,
+          -0.3700000047683716,
+          -2.33902907371521
+        ],
+        "max": [
+          2.671708583831787,
+          2.211434841156006,
+          2.364149332046509
+        ]
+      }
+    },
+    "LANDING_Reed": {
+      "triangles": 3864,
+      "meshes": 5,
+      "bounds_three": {
+        "min": [
+          -1.2999999523162842,
+          -1.4001742601394653,
+          -1.725000023841858
+        ],
+        "max": [
+          1.2999999523162842,
+          0.7825000286102295,
+          1.725000023841858
+        ]
+      }
+    },
+    "GANGWAY_Reed": {
+      "triangles": 1084,
+      "meshes": 5,
+      "bounds_three": {
+        "min": [
+          -0.5860000252723694,
+          -0.23000000417232513,
+          -0.05000000074505806
+        ],
+        "max": [
+          0.5860000252723694,
+          0.6200000047683716,
+          2.450000047683716
+        ]
+      }
+    }
+  },
+  "attachments": {
+    "passenger_left": {
+      "position": [
+        -0.56,
+        0.638,
+        0.82
+      ],
+      "facing_yaw": 0,
+      "role": "seat surface; character hips require its own seated offset"
+    },
+    "passenger_right": {
+      "position": [
+        0.56,
+        0.638,
+        0.82
+      ],
+      "facing_yaw": 0,
+      "role": "seat surface; character hips require its own seated offset"
+    },
+    "rower": {
+      "position": [
+        0,
+        0.608,
+        -1.02
+      ],
+      "facing_yaw": 3.141592653589793,
+      "role": "seat surface; faces aft"
+    },
+    "boarding": {
+      "position": [
+        1.045,
+        0.55,
+        -0.63
+      ],
+      "facing_yaw": -1.5707963267948966,
+      "role": "outer edge of boarding tread"
+    },
+    "floor_arrival": {
+      "position": [
+        0.48,
+        0.2,
+        -0.63
+      ],
+      "facing_yaw": 0,
+      "role": "inside boarding tread, feet plane"
+    }
+  },
+  "hull_footprint_xz": [
+    [
+      -0.028,
+      2.25
+    ],
+    [
+      -0.38086811280516525,
+      1.96875
+    ],
+    [
+      -0.563829789386436,
+      1.6875
+    ],
+    [
+      -0.703156456927538,
+      1.40625
+    ],
+    [
+      -0.8120557899639068,
+      1.125
+    ],
+    [
+      -0.8949040294127274,
+      0.84375
+    ],
+    [
+      -0.9534389610885278,
+      0.5625
+    ],
+    [
+      -0.988377788783711,
+      0.28125
+    ],
+    [
+      -1.0,
+      -0.0
+    ],
+    [
+      -0.988377788783711,
+      -0.28125
+    ],
+    [
+      -0.9534389610885278,
+      -0.5625
+    ],
+    [
+      -0.8949040294127275,
+      -0.84375
+    ],
+    [
+      -0.8120557899639068,
+      -1.125
+    ],
+    [
+      -0.703156456927538,
+      -1.40625
+    ],
+    [
+      -0.5638297893864361,
+      -1.6875
+    ],
+    [
+      -0.38086811280516564,
+      -1.96875
+    ],
+    [
+      -0.028000000132505223,
+      -2.25
+    ],
+    [
+      0.028000000132505223,
+      -2.25
+    ],
+    [
+      0.38086811280516564,
+      -1.96875
+    ],
+    [
+      0.5638297893864361,
+      -1.6875
+    ],
+    [
+      0.703156456927538,
+      -1.40625
+    ],
+    [
+      0.8120557899639068,
+      -1.125
+    ],
+    [
+      0.8949040294127275,
+      -0.84375
+    ],
+    [
+      0.9534389610885278,
+      -0.5625
+    ],
+    [
+      0.988377788783711,
+      -0.28125
+    ],
+    [
+      1.0,
+      -0.0
+    ],
+    [
+      0.988377788783711,
+      0.28125
+    ],
+    [
+      0.9534389610885278,
+      0.5625
+    ],
+    [
+      0.8949040294127274,
+      0.84375
+    ],
+    [
+      0.8120557899639068,
+      1.125
+    ],
+    [
+      0.703156456927538,
+      1.40625
+    ],
+    [
+      0.563829789386436,
+      1.6875
+    ],
+    [
+      0.38086811280516525,
+      1.96875
+    ],
+    [
+      0.028,
+      2.25
+    ]
+  ],
+  "hull_only_bounds_three": {
+    "min": [
+      -1.0,
+      -0.37,
+      -2.25
+    ],
+    "max": [
+      1.0,
+      0.79,
+      2.25
+    ]
+  },
+  "oars": {
+    "oar_left": {
+      "pivot_three": [
+        -0.8500000238418579,
+        0.5699999928474426,
+        -1.100000023841858
+      ],
+      "rest_rotation_three": [
+        0,
+        0,
+        0
+      ],
+      "sweep_axis_three": [
+        0,
+        1,
+        0
+      ],
+      "lift_axis_three": [
+        0,
+        0,
+        1
+      ],
+      "handle_local_three": [
+        0.58,
+        0.105,
+        0
+      ],
+      "blade_tip_local_three": [
+        -1.82,
+        -0.39,
+        -0.05
+      ],
+      "recommended_sweep_radians": [
+        -0.42,
+        0.42
+      ],
+      "recommended_lift_radians": [
+        -0.16,
+        0.16
+      ]
+    },
+    "oar_right": {
+      "pivot_three": [
+        0.8500000238418579,
+        0.5699999928474426,
+        -1.100000023841858
+      ],
+      "rest_rotation_three": [
+        0,
+        0,
+        0
+      ],
+      "sweep_axis_three": [
+        0,
+        1,
+        0
+      ],
+      "lift_axis_three": [
+        0,
+        0,
+        1
+      ],
+      "handle_local_three": [
+        -0.58,
+        0.105,
+        0
+      ],
+      "blade_tip_local_three": [
+        1.82,
+        -0.39,
+        -0.05
+      ],
+      "recommended_sweep_radians": [
+        -0.42,
+        0.42
+      ],
+      "recommended_lift_radians": [
+        -0.16,
+        0.16
+      ]
+    }
+  },
+  "dock_contract": {
+    "LANDING_Reed": {
+      "origin": "deck top centre",
+      "walking_size_xz": [
+        2.6,
+        3.2
+      ],
+      "walking_y": 0,
+      "open_sides": [
+        "+X",
+        "+Z"
+      ],
+      "posts_bottom_y": -1.4
+    },
+    "GANGWAY_Reed": {
+      "origin": "near hinge on walking plane",
+      "walking_width": 1.1,
+      "walking_length": 2.4,
+      "extends_three": "+Z",
+      "slope_axis_three": [
+        1,
+        0,
+        0
+      ]
+    }
+  },
+  "collision": "No collision meshes exported. Use hull footprint for water navigation; landing/gangway walking rectangles and structural post positions for runtime collision. Do not collide against visual canopy/oars as a solid box.",
+  "verification": {
+    "bytes": 601568,
+    "sha256": "f18e2fd565662f55af5c35b719b289122ce0f62c8a1467f5ec2fcf0e4a8279a4",
+    "one_material_per_mesh": true,
+    "exported_roots": [
+      "FERRY_Reed",
+      "GANGWAY_Reed",
+      "LANDING_Reed"
+    ],
+    "movable_nodes": [
+      {
+        "children": [
+          14
+        ],
+        "name": "oar_left",
+        "translation": [
+          -0.8500000238418579,
+          0.5699999928474426,
+          -1.100000023841858
+        ]
+      },
+      {
+        "children": [
+          16
+        ],
+        "name": "oar_right",
+        "translation": [
+          0.8500000238418579,
+          0.5699999928474426,
+          -1.100000023841858
+        ]
+      }
+    ],
+    "root_transforms_identity": true,
+    "triangles_from_glb_indices": 27536,
+    "finite_source_coordinates": true,
+    "aisle_clearance": {
+      "vertical_rays": 507,
+      "x_limits": [
+        -0.3,
+        0.3
+      ],
+      "z_limits": [
+        -0.63,
+        1.25
+      ],
+      "y_limits": [
+        0.23,
+        1.5
+      ],
+      "hits": [],
+      "interpretation": "Sampled fixed visual geometry clearance above floor, not a runtime capsule or overhead head-clearance test."
+    },
+    "passenger_sole_planes": {
+      "left": {
+        "samples": 108,
+        "minimum_y": 0.4300000071525574,
+        "maximum_y": 0.4300000071525574,
+        "sole_envelope_abs_x": [
+          0.395,
+          0.725
+        ],
+        "sole_envelope_z": [
+          0.94,
+          1.2
+        ],
+        "ray_start_y": 0.55,
+        "notes": "Ray starts below seat underside; checks sole plane, not standing overhead clearance."
+      },
+      "right": {
+        "samples": 108,
+        "minimum_y": 0.4300000071525574,
+        "maximum_y": 0.4300000071525574,
+        "sole_envelope_abs_x": [
+          0.395,
+          0.725
+        ],
+        "sole_envelope_z": [
+          0.94,
+          1.2
+        ],
+        "ray_start_y": 0.55,
+        "notes": "Ray starts below seat underside; checks sole plane, not standing overhead clearance."
+      }
+    }
+  },
+  "preserved_scenes": {
+    "Scene": 3,
+    "Haven_Dragons": 15,
+    "Haven_Architecture": 211,
+    "Haven_Geology": 45
+  },
+  "oar_pose_contract": {
+    "order": "Apply yaw about Three Y, then local roll about Three Z; quaternions qYaw.multiply(qRoll). Identity rest pose is exported.",
+    "stroke": {
+      "left_yaw": 0.36,
+      "right_yaw": -0.36,
+      "left_roll": 0.14,
+      "right_roll": -0.14
+    },
+    "recovery": {
+      "left_yaw": -0.36,
+      "right_yaw": 0.36,
+      "left_roll": -0.14,
+      "right_roll": 0.14
+    },
+    "stowed": {
+      "left_yaw": -1.5707963267948966,
+      "right_yaw": 1.5707963267948966,
+      "left_roll": 0,
+      "right_roll": 0
+    },
+    "notes": "Interpolate with a rowing cycle and drive rower hand targets from each handle; stow before docking. No runtime animation clip is exported."
+  },
+  "passenger_aisle": {
+    "clear_width_m": 0.62,
+    "x_limits": [
+      -0.31,
+      0.31
+    ],
+    "boarding_to_forward_z": [
+      -0.63,
+      1.25
+    ],
+    "floor_top_y": 0.1975,
+    "seat_top_y": 0.639,
+    "backrest_inner_edges_x": [
+      -0.31,
+      0.31
+    ],
+    "notes": "Split passenger seats and backrests. Supports remain outside aisle. Low canopy requires stooping/seated transition. Aft rower thwart retained.",
+    "forward_floor_continuation": {
+      "z_limits": [
+        0.97,
+        1.34
+      ],
+      "x_limits": [
+        -0.2965,
+        0.2965
+      ],
+      "top_y": 0.214,
+      "notes": "Three actual boards continue the aisle forward between the raised toe boards."
+    }
+  },
+  "passenger_footrests": {
+    "left": {
+      "center_three": [
+        -0.555,
+        0.43,
+        1.07
+      ],
+      "walking_size_xz": [
+        0.45,
+        0.28
+      ]
+    },
+    "right": {
+      "center_three": [
+        0.555,
+        0.43,
+        1.07
+      ],
+      "walking_size_xz": [
+        0.45,
+        0.28
+      ]
+    },
+    "notes": "Flat plane Y=.43, geometric boards X=.33..78 or mirrored and Z=.93..1.21. Clear usable sole envelope X=.395..725 or mirrored, Z=.94..1.20. Keep actual sole corners inside this envelope; Z1.17 target would place toes into narrowing hull. Suggested sole centres X=.45/.67, Z1.07, mirrored left. Rower sole plane remains Y=.1975 at X +/-.175 and Z-1.24..-1.50."
+  },
+  "example_boarding_layout_three": {
+    "FERRY_Reed": {
+      "position": [
+        0,
+        0,
+        0
+      ],
+      "yaw": 0
+    },
+    "LANDING_Reed": {
+      "position": [
+        2.45,
+        0.55,
+        -0.63
+      ],
+      "yaw": 3.141592653589793
+    },
+    "GANGWAY_Reed": {
+      "position": [
+        2.45,
+        0.55,
+        -2.23
+      ],
+      "yaw": 3.141592653589793
+    },
+    "oars": "stowed",
+    "tread_to_dock_gap_m": 0.105
+  },
+  "review": {
+    "mode": "Blender Eevee diagnostic, no gameplay or motion approval",
+    "resolution": [
+      1080,
+      810
+    ],
+    "views": [
+      {
+        "file": "ferry-three-quarter.png",
+        "camera_position_blender": [
+          7,
+          -9,
+          6
+        ],
+        "target_blender": [
+          0,
+          0,
+          0.65
+        ],
+        "ortho_scale": 7.6,
+        "oar_pose": "rest",
+        "oar_sweep_radians": 0,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:41:54.938675+00:00",
+        "sha256": "426463b9ff06b7ca86bbfafee1fedf28e3b622148d070b77b8786e365a75e042"
+      },
+      {
+        "file": "ferry-front.png",
+        "camera_position_blender": [
+          0,
+          -10,
+          3.5
+        ],
+        "target_blender": [
+          0,
+          0,
+          0.7
+        ],
+        "ortho_scale": 6.5,
+        "oar_pose": "rest",
+        "oar_sweep_radians": 0,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:41:56.403428+00:00",
+        "sha256": "17f98df3453e37a76384ae52dd44f3222b35a6911260e997659f1899a7e5abd4"
+      },
+      {
+        "file": "ferry-side.png",
+        "camera_position_blender": [
+          10,
+          0,
+          3.3
+        ],
+        "target_blender": [
+          0,
+          0,
+          0.7
+        ],
+        "ortho_scale": 6.5,
+        "oar_pose": "rest",
+        "oar_sweep_radians": 0,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:41:57.773551+00:00",
+        "sha256": "b4bf2bceb1f69922836e0a32e80ea78e810768b0255796ce2eb65543905db9de"
+      },
+      {
+        "file": "ferry-close.png",
+        "camera_position_blender": [
+          4,
+          4,
+          4
+        ],
+        "target_blender": [
+          0,
+          0.45,
+          0.85
+        ],
+        "ortho_scale": 4.7,
+        "oar_pose": "rest",
+        "oar_sweep_radians": 0,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:41:59.084707+00:00",
+        "sha256": "d1eab081f99d04c9f321bb2e3a50afbf3fa8ea30d079892d8bb7fd160329fa83"
+      },
+      {
+        "file": "ferry-boarding.png",
+        "camera_position_blender": [
+          10,
+          -8,
+          8
+        ],
+        "target_blender": [
+          2.25,
+          0,
+          0.55
+        ],
+        "ortho_scale": 10.8,
+        "oar_pose": "stowed",
+        "oar_sweep_radians": 0,
+        "dock_visible": true,
+        "rendered_utc": "2026-09-29T22:42:00.446306+00:00",
+        "sha256": "b8942e5470453655ec857a6b777801c8e86709ff191fff597e658dc63743e929"
+      },
+      {
+        "file": "ferry-forward-aisle.png",
+        "camera_position_blender": [
+          0,
+          3.9,
+          1.52
+        ],
+        "target_blender": [
+          0,
+          -0.7,
+          0.59
+        ],
+        "ortho_scale": 2.35,
+        "oar_pose": "rest",
+        "oar_sweep_radians": 0,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:42:01.696645+00:00",
+        "sha256": "906570e11995880010e188cbc5a768b0f2623b98203f5edbb7f086443f308f3f"
+      },
+      {
+        "file": "ferry-seating.png",
+        "camera_position_blender": [
+          2.7,
+          2.4,
+          1.65
+        ],
+        "target_blender": [
+          0,
+          -0.78,
+          0.61
+        ],
+        "ortho_scale": 2.55,
+        "oar_pose": "rest",
+        "oar_sweep_radians": 0,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:42:02.985153+00:00",
+        "sha256": "f040658fd88691503fe8c7b9cccbc35679f4290283af62d5f1b082d974247527"
+      },
+      {
+        "file": "ferry-oar-pull.png",
+        "camera_position_blender": [
+          7,
+          -9,
+          6
+        ],
+        "target_blender": [
+          0,
+          0,
+          0.65
+        ],
+        "ortho_scale": 7.6,
+        "oar_pose": "stroke",
+        "oar_sweep_radians": -0.36,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:42:04.347998+00:00",
+        "sha256": "c7158a52fd515554cd26e7b26ad2637774600531077219bfcfe16c94755e5f53"
+      },
+      {
+        "file": "ferry-oar-recover.png",
+        "camera_position_blender": [
+          7,
+          -9,
+          6
+        ],
+        "target_blender": [
+          0,
+          0,
+          0.65
+        ],
+        "ortho_scale": 7.6,
+        "oar_pose": "recovery",
+        "oar_sweep_radians": 0.36,
+        "dock_visible": false,
+        "rendered_utc": "2026-09-29T22:42:05.711342+00:00",
+        "sha256": "6224995d60842ff7239dd94e82b0809f75b70f0be4b3e97715766534e2062e59"
+      }
+    ],
+    "studio_floor_z": -0.43,
+    "source_sha256": {
+      "reed_ferry.py": "b063e0246311ea287bcd28f513ef7e5996797408b3ea8286b77b067e5267f6b8",
+      "review.py": "91111104693715bee14260ca79d805535b5a27088bf4c0f39b06cb4d25c42474",
+      "inspect.py": "426ee0491953962339e8c11355f2f854356e487828890058b165d7404503e180"
+    }
+  },
+  "inspected_oar_poses": {
+    "rest": {
+      "oar_left": {
+        "blade_tip_three": [
+          -2.6700000762939453,
+          0.18000000715255737,
+          -1.149999976158142
+        ],
+        "handle_three": [
+          -0.27000004053115845,
+          0.675000011920929,
+          -1.100000023841858
+        ]
+      },
+      "oar_right": {
+        "blade_tip_three": [
+          2.6700000762939453,
+          0.18000000715255737,
+          -1.149999976158142
+        ],
+        "handle_three": [
+          0.27000004053115845,
+          0.675000011920929,
+          -1.100000023841858
+        ]
+      }
+    },
+    "stroke": {
+      "oar_left": {
+        "blade_tip_three": [
+          -2.503347396850586,
+          -0.07015272974967957,
+          -0.5311000347137451
+        ],
+        "handle_three": [
+          -0.3262036144733429,
+          0.7549076676368713,
+          -1.2971584796905518
+        ]
+      },
+      "oar_right": {
+        "blade_tip_three": [
+          2.503347396850586,
+          -0.07015272974967957,
+          -0.5311000347137451
+        ],
+        "handle_three": [
+          0.3262036144733429,
+          0.7549076676368713,
+          -1.2971584796905518
+        ]
+      }
+    },
+    "recovery": {
+      "oar_left": {
+        "blade_tip_three": [
+          -2.569986343383789,
+          0.43778422474861145,
+          -1.8008325099945068
+        ],
+        "handle_three": [
+          -0.2987780272960663,
+          0.5930376648902893,
+          -0.8925184607505798
+        ]
+      },
+      "oar_right": {
+        "blade_tip_three": [
+          2.569986343383789,
+          0.43778422474861145,
+          -1.8008325099945068
+        ],
+        "handle_three": [
+          0.2987780272960663,
+          0.5930376648902893,
+          -0.8925184607505798
+        ]
+      }
+    },
+    "stowed": {
+      "oar_left": {
+        "blade_tip_three": [
+          -0.7999999523162842,
+          0.18000000715255737,
+          -2.9200000762939453
+        ],
+        "handle_three": [
+          -0.8500000238418579,
+          0.675000011920929,
+          -0.5200000405311584
+        ]
+      },
+      "oar_right": {
+        "blade_tip_three": [
+          0.7999999523162842,
+          0.18000000715255737,
+          -2.9200000762939453
+        ],
+        "handle_three": [
+          0.8500000238418579,
+          0.675000011920929,
+          -0.5200000405311584
+        ]
+      }
+    }
+  },
+  "source_body_bounds_three": {
+    "min": [
+      -1.1389966011047363,
+      -0.3700000047683716,
+      -2.33902907371521
+    ],
+    "max": [
+      1.1389966011047363,
+      2.211434841156006,
+      2.364149332046509
+    ]
+  }
+}

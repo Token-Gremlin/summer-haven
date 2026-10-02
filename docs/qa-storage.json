@@ -1,0 +1,24 @@
+{
+  "date": "2026-09-29T16:56:27.037Z",
+  "method": "Real navigation/reload on localhost. Malformed data inserted on the same-origin test fixture after unloading the game.",
+  "persisted": {
+    "appearanceMatches": true,
+    "mode": "title",
+    "pass": true,
+    "position": [
+      0,
+      22
+    ],
+    "time": 0.48
+  },
+  "recovered": {
+    "created": false,
+    "mode": "title",
+    "pass": true,
+    "position": [
+      8,
+      16
+    ],
+    "quality": "low"
+  }
+}

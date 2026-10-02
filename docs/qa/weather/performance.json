@@ -1,0 +1,5239 @@
+{
+  "date": "2026-10-02T00:40:32.362Z",
+  "method": "3000ms rAF per populated view; 24 warmup frames; frozen afternoon; no concurrent screenshots or tests; diagnostic profiler active.",
+  "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+  "results": [
+    {
+      "averageFps": 34.3,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "climate": {
+        "catchmentRebuilds": 17,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 29.19,
+      "name": "village clear",
+      "p95Ms": 41.7,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.077,
+          "frame-total": 415,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 291,
+          "shadow": 143
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.151,
+          "audio": 0.148,
+          "camera/sky": 0.145,
+          "dragons": 0.108,
+          "frame-total": 15.638,
+          "habitat": 0.795,
+          "input/time": 0.077,
+          "lighting": 5.015,
+          "pass:atmosphere": 0.026,
+          "pass:fxaa": 0.022,
+          "pass:grade": 0.029,
+          "pass:ink+kuwahara": 0.059,
+          "pass:scene": 6.196,
+          "pass:shadow": 5.908,
+          "persistence/input-end": 0.002,
+          "player/ferry": 0.849,
+          "post": 6.337,
+          "residents:city": 1.474,
+          "residents:village": 0.325,
+          "scenery": 0.108,
+          "wildlife": 0.058
+        },
+        "diagnostic": true,
+        "elapsedMs": 3033.1,
+        "enabled": true,
+        "frames": 104,
+        "gpuMs": {
+          "atmosphere": 0.132,
+          "fxaa": 0.686,
+          "grade": 0.879,
+          "ink+kuwahara": 0.863,
+          "scene": 16.278,
+          "shadow": 6.22
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 33,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.077,
+              "min": 0,
+              "samples": 104
+            },
+            "frame-total": {
+              "max": 437,
+              "mean": 415,
+              "min": 294,
+              "samples": 104
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 104
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 104
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 104
+            },
+            "scene": {
+              "max": 291,
+              "mean": 291,
+              "min": 291,
+              "samples": 104
+            },
+            "shadow": {
+              "max": 143,
+              "mean": 143,
+              "min": 143,
+              "samples": 88
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.5,
+              "mean": 0.151,
+              "min": 0,
+              "samples": 104
+            },
+            "audio": {
+              "max": 2.2,
+              "mean": 0.148,
+              "min": 0,
+              "samples": 104
+            },
+            "camera/sky": {
+              "max": 0.9,
+              "mean": 0.145,
+              "min": 0,
+              "samples": 104
+            },
+            "dragons": {
+              "max": 0.4,
+              "mean": 0.108,
+              "min": 0,
+              "samples": 104
+            },
+            "frame-total": {
+              "max": 31.7,
+              "mean": 15.638,
+              "min": 6.6,
+              "samples": 104
+            },
+            "habitat": {
+              "max": 6.3,
+              "mean": 0.795,
+              "min": 0.3,
+              "samples": 104
+            },
+            "input/time": {
+              "max": 0.5,
+              "mean": 0.077,
+              "min": 0,
+              "samples": 104
+            },
+            "lighting": {
+              "max": 11.1,
+              "mean": 5.015,
+              "min": 0,
+              "samples": 104
+            },
+            "pass:atmosphere": {
+              "max": 0.6,
+              "mean": 0.026,
+              "min": 0,
+              "samples": 104
+            },
+            "pass:fxaa": {
+              "max": 0.2,
+              "mean": 0.022,
+              "min": 0,
+              "samples": 104
+            },
+            "pass:grade": {
+              "max": 0.2,
+              "mean": 0.029,
+              "min": 0,
+              "samples": 104
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.3,
+              "mean": 0.059,
+              "min": 0,
+              "samples": 104
+            },
+            "pass:scene": {
+              "max": 12.7,
+              "mean": 6.196,
+              "min": 3.9,
+              "samples": 104
+            },
+            "pass:shadow": {
+              "max": 11.1,
+              "mean": 5.908,
+              "min": 3.3,
+              "samples": 88
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.002,
+              "min": 0,
+              "samples": 104
+            },
+            "player/ferry": {
+              "max": 2.2,
+              "mean": 0.849,
+              "min": 0.4,
+              "samples": 104
+            },
+            "post": {
+              "max": 12.9,
+              "mean": 6.337,
+              "min": 4.1,
+              "samples": 104
+            },
+            "residents:city": {
+              "max": 3.6,
+              "mean": 1.474,
+              "min": 0.8,
+              "samples": 104
+            },
+            "residents:village": {
+              "max": 2.2,
+              "mean": 0.325,
+              "min": 0,
+              "samples": 104
+            },
+            "scenery": {
+              "max": 0.6,
+              "mean": 0.108,
+              "min": 0,
+              "samples": 104
+            },
+            "wildlife": {
+              "max": 0.7,
+              "mean": 0.058,
+              "min": 0,
+              "samples": 104
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 48.6,
+              "mean": 29.188,
+              "min": 13.8,
+              "samples": 103
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 1.661,
+              "mean": 0.132,
+              "min": 0.001,
+              "samples": 99
+            },
+            "fxaa": {
+              "max": 0.838,
+              "mean": 0.686,
+              "min": 0.613,
+              "samples": 98
+            },
+            "grade": {
+              "max": 0.997,
+              "mean": 0.879,
+              "min": 0.865,
+              "samples": 98
+            },
+            "ink+kuwahara": {
+              "max": 1.167,
+              "mean": 0.863,
+              "min": 0.77,
+              "samples": 98
+            },
+            "scene": {
+              "max": 22.96,
+              "mean": 16.278,
+              "min": 14.786,
+              "samples": 98
+            },
+            "shadow": {
+              "max": 13.28,
+              "mean": 6.22,
+              "min": 5.482,
+              "samples": 84
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 0.154,
+              "min": 0,
+              "samples": 104
+            },
+            "frame-total": {
+              "max": 995337,
+              "mean": 923606.846,
+              "min": 529091,
+              "samples": 104
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 104
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 104
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 104
+            },
+            "scene": {
+              "max": 529088,
+              "mean": 529088,
+              "min": 529088,
+              "samples": 104
+            },
+            "shadow": {
+              "max": 466246,
+              "mean": 466246,
+              "min": 466246,
+              "samples": 88
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 0.154,
+          "frame-total": 923606.846,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 529088,
+          "shadow": 466246
+        }
+      },
+      "quality": "low",
+      "render": [
+        805,
+        584
+      ],
+      "samples": 103,
+      "sky": {
+        "bands": 1,
+        "hz": 3,
+        "resolution": [
+          384,
+          384
+        ],
+        "steps": 12
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 38.4,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "climate": {
+        "catchmentRebuilds": 18,
+        "counts": [
+          560,
+          0,
+          62,
+          72
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 26.04,
+      "name": "river rain",
+      "p95Ms": 34.7,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.077,
+          "frame-total": 288.222,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 146,
+          "shadow": 179
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.166,
+          "audio": 0.14,
+          "camera/sky": 0.298,
+          "dragons": 0.119,
+          "frame-total": 14.361,
+          "habitat": 0.87,
+          "input/time": 0.059,
+          "lighting": 4.246,
+          "pass:atmosphere": 0.031,
+          "pass:fxaa": 0.03,
+          "pass:grade": 0.021,
+          "pass:ink+kuwahara": 0.056,
+          "pass:scene": 5.721,
+          "pass:shadow": 5.441,
+          "persistence/input-end": 0.002,
+          "player/ferry": 0.881,
+          "post": 5.876,
+          "residents:city": 1.41,
+          "residents:village": 0.086,
+          "scenery": 0.107,
+          "wildlife": 0.056
+        },
+        "diagnostic": true,
+        "elapsedMs": 3045.5,
+        "enabled": true,
+        "frames": 117,
+        "gpuMs": {
+          "atmosphere": 0.126,
+          "fxaa": 0.767,
+          "grade": 0.885,
+          "ink+kuwahara": 0.744,
+          "scene": 14.702,
+          "shadow": 4.973
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 33,
+          "pooled": 2,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.077,
+              "min": 0,
+              "samples": 117
+            },
+            "frame-total": {
+              "max": 328,
+              "mean": 288.222,
+              "min": 149,
+              "samples": 117
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 117
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 117
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 117
+            },
+            "scene": {
+              "max": 146,
+              "mean": 146,
+              "min": 146,
+              "samples": 117
+            },
+            "shadow": {
+              "max": 179,
+              "mean": 179,
+              "min": 179,
+              "samples": 91
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.7,
+              "mean": 0.166,
+              "min": 0,
+              "samples": 117
+            },
+            "audio": {
+              "max": 0.4,
+              "mean": 0.14,
+              "min": 0,
+              "samples": 117
+            },
+            "camera/sky": {
+              "max": 0.7,
+              "mean": 0.298,
+              "min": 0.1,
+              "samples": 117
+            },
+            "dragons": {
+              "max": 0.4,
+              "mean": 0.119,
+              "min": 0,
+              "samples": 117
+            },
+            "frame-total": {
+              "max": 36.6,
+              "mean": 14.361,
+              "min": 6,
+              "samples": 117
+            },
+            "habitat": {
+              "max": 1.6,
+              "mean": 0.87,
+              "min": 0.4,
+              "samples": 117
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.059,
+              "min": 0,
+              "samples": 117
+            },
+            "lighting": {
+              "max": 7.9,
+              "mean": 4.246,
+              "min": 0,
+              "samples": 117
+            },
+            "pass:atmosphere": {
+              "max": 0.3,
+              "mean": 0.031,
+              "min": 0,
+              "samples": 117
+            },
+            "pass:fxaa": {
+              "max": 0.2,
+              "mean": 0.03,
+              "min": 0,
+              "samples": 117
+            },
+            "pass:grade": {
+              "max": 0.2,
+              "mean": 0.021,
+              "min": 0,
+              "samples": 117
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.3,
+              "mean": 0.056,
+              "min": 0,
+              "samples": 117
+            },
+            "pass:scene": {
+              "max": 14.8,
+              "mean": 5.721,
+              "min": 2.9,
+              "samples": 117
+            },
+            "pass:shadow": {
+              "max": 7.9,
+              "mean": 5.441,
+              "min": 3,
+              "samples": 91
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.002,
+              "min": 0,
+              "samples": 117
+            },
+            "player/ferry": {
+              "max": 5,
+              "mean": 0.881,
+              "min": 0.4,
+              "samples": 117
+            },
+            "post": {
+              "max": 14.9,
+              "mean": 5.876,
+              "min": 2.9,
+              "samples": 117
+            },
+            "residents:city": {
+              "max": 11.7,
+              "mean": 1.41,
+              "min": 0.7,
+              "samples": 117
+            },
+            "residents:village": {
+              "max": 0.2,
+              "mean": 0.086,
+              "min": 0,
+              "samples": 117
+            },
+            "scenery": {
+              "max": 0.8,
+              "mean": 0.107,
+              "min": 0,
+              "samples": 117
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.056,
+              "min": 0,
+              "samples": 117
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 41.6,
+              "mean": 26.036,
+              "min": 14,
+              "samples": 116
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 1.581,
+              "mean": 0.126,
+              "min": 0.001,
+              "samples": 112
+            },
+            "fxaa": {
+              "max": 0.954,
+              "mean": 0.767,
+              "min": 0.695,
+              "samples": 111
+            },
+            "grade": {
+              "max": 1.021,
+              "mean": 0.885,
+              "min": 0.864,
+              "samples": 111
+            },
+            "ink+kuwahara": {
+              "max": 1.062,
+              "mean": 0.744,
+              "min": 0.618,
+              "samples": 111
+            },
+            "scene": {
+              "max": 16.417,
+              "mean": 14.702,
+              "min": 14.193,
+              "samples": 111
+            },
+            "shadow": {
+              "max": 5.451,
+              "mean": 4.973,
+              "min": 4.867,
+              "samples": 87
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 0.154,
+              "min": 0,
+              "samples": 117
+            },
+            "frame-total": {
+              "max": 706714,
+              "mean": 630840.444,
+              "min": 365283,
+              "samples": 117
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 117
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 117
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 117
+            },
+            "scene": {
+              "max": 365280,
+              "mean": 365280,
+              "min": 365280,
+              "samples": 117
+            },
+            "shadow": {
+              "max": 341431,
+              "mean": 341431,
+              "min": 341431,
+              "samples": 91
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 0.154,
+          "frame-total": 630840.444,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 365280,
+          "shadow": 341431
+        }
+      },
+      "quality": "low",
+      "render": [
+        805,
+        584
+      ],
+      "samples": 116,
+      "sky": {
+        "bands": 1,
+        "hz": 3,
+        "resolution": [
+          384,
+          384
+        ],
+        "steps": 12
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 44,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "climate": {
+        "catchmentRebuilds": 19,
+        "counts": [
+          0,
+          280,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 22.71,
+      "name": "woodland snow",
+      "p95Ms": 27.9,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.06,
+          "frame-total": 281.493,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 197,
+          "shadow": 120
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.101,
+          "audio": 0.102,
+          "camera/sky": 0.193,
+          "dragons": 0.082,
+          "frame-total": 8.865,
+          "habitat": 0.531,
+          "input/time": 0.046,
+          "lighting": 2.299,
+          "pass:atmosphere": 0.019,
+          "pass:fxaa": 0.017,
+          "pass:grade": 0.011,
+          "pass:ink+kuwahara": 0.028,
+          "pass:scene": 3.67,
+          "pass:shadow": 3.375,
+          "persistence/input-end": 0.002,
+          "player/ferry": 0.624,
+          "post": 3.751,
+          "residents:city": 0.934,
+          "residents:village": 0.066,
+          "scenery": 0.062,
+          "wildlife": 0.03
+        },
+        "diagnostic": true,
+        "elapsedMs": 3039.1,
+        "enabled": true,
+        "frames": 134,
+        "gpuMs": {
+          "atmosphere": 0.096,
+          "fxaa": 0.535,
+          "grade": 0.873,
+          "ink+kuwahara": 0.698,
+          "scene": 13.381,
+          "shadow": 4.62
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 33,
+          "pooled": 2,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.06,
+              "min": 0,
+              "samples": 134
+            },
+            "frame-total": {
+              "max": 320,
+              "mean": 281.493,
+              "min": 200,
+              "samples": 134
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 134
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 134
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 134
+            },
+            "scene": {
+              "max": 197,
+              "mean": 197,
+              "min": 197,
+              "samples": 134
+            },
+            "shadow": {
+              "max": 120,
+              "mean": 120,
+              "min": 120,
+              "samples": 91
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.101,
+              "min": 0,
+              "samples": 134
+            },
+            "audio": {
+              "max": 0.2,
+              "mean": 0.102,
+              "min": 0,
+              "samples": 134
+            },
+            "camera/sky": {
+              "max": 0.5,
+              "mean": 0.193,
+              "min": 0.1,
+              "samples": 134
+            },
+            "dragons": {
+              "max": 0.2,
+              "mean": 0.082,
+              "min": 0,
+              "samples": 134
+            },
+            "frame-total": {
+              "max": 12.3,
+              "mean": 8.865,
+              "min": 6.1,
+              "samples": 134
+            },
+            "habitat": {
+              "max": 0.9,
+              "mean": 0.531,
+              "min": 0.4,
+              "samples": 134
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.046,
+              "min": 0,
+              "samples": 134
+            },
+            "lighting": {
+              "max": 5.2,
+              "mean": 2.299,
+              "min": 0,
+              "samples": 134
+            },
+            "pass:atmosphere": {
+              "max": 0.2,
+              "mean": 0.019,
+              "min": 0,
+              "samples": 134
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.017,
+              "min": 0,
+              "samples": 134
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.011,
+              "min": 0,
+              "samples": 134
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.028,
+              "min": 0,
+              "samples": 134
+            },
+            "pass:scene": {
+              "max": 5.1,
+              "mean": 3.67,
+              "min": 3,
+              "samples": 134
+            },
+            "pass:shadow": {
+              "max": 5.2,
+              "mean": 3.375,
+              "min": 2.7,
+              "samples": 91
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.002,
+              "min": 0,
+              "samples": 134
+            },
+            "player/ferry": {
+              "max": 1.1,
+              "mean": 0.624,
+              "min": 0.4,
+              "samples": 134
+            },
+            "post": {
+              "max": 5.2,
+              "mean": 3.751,
+              "min": 3.1,
+              "samples": 134
+            },
+            "residents:city": {
+              "max": 1.6,
+              "mean": 0.934,
+              "min": 0.6,
+              "samples": 134
+            },
+            "residents:village": {
+              "max": 0.2,
+              "mean": 0.066,
+              "min": 0,
+              "samples": 134
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.062,
+              "min": 0,
+              "samples": 134
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.03,
+              "min": 0,
+              "samples": 134
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 27.9,
+              "mean": 22.708,
+              "min": 13.8,
+              "samples": 133
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 1.533,
+              "mean": 0.096,
+              "min": 0.001,
+              "samples": 129
+            },
+            "fxaa": {
+              "max": 0.64,
+              "mean": 0.535,
+              "min": 0.519,
+              "samples": 128
+            },
+            "grade": {
+              "max": 0.942,
+              "mean": 0.873,
+              "min": 0.864,
+              "samples": 128
+            },
+            "ink+kuwahara": {
+              "max": 0.815,
+              "mean": 0.698,
+              "min": 0.662,
+              "samples": 128
+            },
+            "scene": {
+              "max": 13.655,
+              "mean": 13.381,
+              "min": 13.227,
+              "samples": 128
+            },
+            "shadow": {
+              "max": 5.795,
+              "mean": 4.62,
+              "min": 4.544,
+              "samples": 87
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 0.119,
+              "min": 0,
+              "samples": 134
+            },
+            "frame-total": {
+              "max": 578591,
+              "mean": 478855.709,
+              "min": 267788,
+              "samples": 134
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 134
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 134
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 134
+            },
+            "scene": {
+              "max": 267785,
+              "mean": 267785,
+              "min": 267785,
+              "samples": 134
+            },
+            "shadow": {
+              "max": 310803,
+              "mean": 310803,
+              "min": 310803,
+              "samples": 91
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 0.119,
+          "frame-total": 478855.709,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "scene": 267785,
+          "shadow": 310803
+        }
+      },
+      "quality": "low",
+      "render": [
+        805,
+        584
+      ],
+      "samples": 133,
+      "sky": {
+        "bands": 1,
+        "hz": 3,
+        "resolution": [
+          384,
+          384
+        ],
+        "steps": 12
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 22.8,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "climate": {
+        "catchmentRebuilds": 19,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 43.77,
+      "name": "village clear",
+      "p95Ms": 55.6,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.171,
+          "frame-total": 591.5,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 105.5,
+          "scene": 334,
+          "shadow": 149
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.114,
+          "audio": 0.08,
+          "camera/sky": 0.1,
+          "dragons": 0.137,
+          "frame-total": 14.37,
+          "habitat": 0.544,
+          "input/time": 0.066,
+          "lighting": 6.14,
+          "pass:atmosphere": 0.02,
+          "pass:fxaa": 0.026,
+          "pass:grade": 0.009,
+          "pass:ink+kuwahara": 0.034,
+          "pass:reflection": 2.083,
+          "pass:scene": 4.706,
+          "pass:shadow": 4.04,
+          "persistence/input-end": 0.001,
+          "player/ferry": 0.86,
+          "post": 4.801,
+          "residents:city": 1.024,
+          "residents:village": 0.286,
+          "scenery": 0.109,
+          "wildlife": 0.034
+        },
+        "diagnostic": true,
+        "elapsedMs": 3056.2,
+        "enabled": true,
+        "frames": 70,
+        "gpuMs": {
+          "atmosphere": 0.976,
+          "fxaa": 0.959,
+          "grade": 1.282,
+          "ink+kuwahara": 1.206,
+          "reflection": 4.99,
+          "scene": 23.665,
+          "shadow": 6.24
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 34,
+          "pooled": 2,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.171,
+              "min": 0,
+              "samples": 70
+            },
+            "frame-total": {
+              "max": 697,
+              "mean": 591.5,
+              "min": 486,
+              "samples": 70
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 70
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 70
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 70
+            },
+            "reflection": {
+              "max": 211,
+              "mean": 105.5,
+              "min": 0,
+              "samples": 70
+            },
+            "scene": {
+              "max": 334,
+              "mean": 334,
+              "min": 334,
+              "samples": 70
+            },
+            "shadow": {
+              "max": 149,
+              "mean": 149,
+              "min": 149,
+              "samples": 70
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.2,
+              "mean": 0.114,
+              "min": 0,
+              "samples": 70
+            },
+            "audio": {
+              "max": 0.3,
+              "mean": 0.08,
+              "min": 0,
+              "samples": 70
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.1,
+              "min": 0,
+              "samples": 70
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.137,
+              "min": 0,
+              "samples": 70
+            },
+            "frame-total": {
+              "max": 19.7,
+              "mean": 14.37,
+              "min": 10.7,
+              "samples": 70
+            },
+            "habitat": {
+              "max": 1.1,
+              "mean": 0.544,
+              "min": 0.3,
+              "samples": 70
+            },
+            "input/time": {
+              "max": 0.3,
+              "mean": 0.066,
+              "min": 0,
+              "samples": 70
+            },
+            "lighting": {
+              "max": 10.5,
+              "mean": 6.14,
+              "min": 3.6,
+              "samples": 70
+            },
+            "pass:atmosphere": {
+              "max": 0.2,
+              "mean": 0.02,
+              "min": 0,
+              "samples": 70
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.026,
+              "min": 0,
+              "samples": 70
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.009,
+              "min": 0,
+              "samples": 70
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.034,
+              "min": 0,
+              "samples": 70
+            },
+            "pass:reflection": {
+              "max": 5.9,
+              "mean": 2.083,
+              "min": 0,
+              "samples": 70
+            },
+            "pass:scene": {
+              "max": 6.4,
+              "mean": 4.706,
+              "min": 4.2,
+              "samples": 70
+            },
+            "pass:shadow": {
+              "max": 5.9,
+              "mean": 4.04,
+              "min": 3.3,
+              "samples": 70
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.001,
+              "min": 0,
+              "samples": 70
+            },
+            "player/ferry": {
+              "max": 1.6,
+              "mean": 0.86,
+              "min": 0.5,
+              "samples": 70
+            },
+            "post": {
+              "max": 6.6,
+              "mean": 4.801,
+              "min": 4.2,
+              "samples": 70
+            },
+            "residents:city": {
+              "max": 1.9,
+              "mean": 1.024,
+              "min": 0.6,
+              "samples": 70
+            },
+            "residents:village": {
+              "max": 1.1,
+              "mean": 0.286,
+              "min": 0,
+              "samples": 70
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.109,
+              "min": 0,
+              "samples": 70
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.034,
+              "min": 0,
+              "samples": 70
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 55.6,
+              "mean": 43.772,
+              "min": 34.6,
+              "samples": 69
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 5.894,
+              "mean": 0.976,
+              "min": 0.001,
+              "samples": 66
+            },
+            "fxaa": {
+              "max": 1.04,
+              "mean": 0.959,
+              "min": 0.931,
+              "samples": 65
+            },
+            "grade": {
+              "max": 1.35,
+              "mean": 1.282,
+              "min": 1.267,
+              "samples": 65
+            },
+            "ink+kuwahara": {
+              "max": 1.357,
+              "mean": 1.206,
+              "min": 1.132,
+              "samples": 65
+            },
+            "reflection": {
+              "max": 9.99,
+              "mean": 4.99,
+              "min": 0,
+              "samples": 65
+            },
+            "scene": {
+              "max": 24.13,
+              "mean": 23.665,
+              "min": 23.215,
+              "samples": 65
+            },
+            "shadow": {
+              "max": 6.493,
+              "mean": 6.24,
+              "min": 6.155,
+              "samples": 65
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 0.343,
+              "min": 0,
+              "samples": 70
+            },
+            "frame-total": {
+              "max": 1754602,
+              "mean": 1516245.5,
+              "min": 1277889,
+              "samples": 70
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 70
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 70
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 70
+            },
+            "reflection": {
+              "max": 476713,
+              "mean": 238356.5,
+              "min": 0,
+              "samples": 70
+            },
+            "scene": {
+              "max": 778870,
+              "mean": 778870,
+              "min": 778870,
+              "samples": 70
+            },
+            "shadow": {
+              "max": 499016,
+              "mean": 499016,
+              "min": 499016,
+              "samples": 70
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 0.343,
+          "frame-total": 1516245.5,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 238356.5,
+          "scene": 778870,
+          "shadow": 499016
+        }
+      },
+      "quality": "medium",
+      "render": [
+        977,
+        709
+      ],
+      "samples": 69,
+      "sky": {
+        "bands": 1,
+        "hz": 4,
+        "resolution": [
+          640,
+          640
+        ],
+        "steps": 18
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 22.2,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "climate": {
+        "catchmentRebuilds": 20,
+        "counts": [
+          1440,
+          0,
+          124,
+          176
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 45.02,
+      "name": "river rain",
+      "p95Ms": 55.5,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.174,
+          "frame-total": 415.957,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 66.957,
+          "scene": 166,
+          "shadow": 180
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.117,
+          "audio": 0.093,
+          "camera/sky": 0.194,
+          "dragons": 0.13,
+          "frame-total": 12.642,
+          "habitat": 0.661,
+          "input/time": 0.071,
+          "lighting": 5.799,
+          "pass:atmosphere": 0.019,
+          "pass:fxaa": 0.016,
+          "pass:grade": 0.025,
+          "pass:ink+kuwahara": 0.022,
+          "pass:reflection": 1.981,
+          "pass:scene": 3.738,
+          "pass:shadow": 3.797,
+          "persistence/input-end": 0.001,
+          "player/ferry": 0.643,
+          "post": 3.825,
+          "residents:city": 0.901,
+          "residents:village": 0.025,
+          "scenery": 0.116,
+          "wildlife": 0.036
+        },
+        "diagnostic": true,
+        "elapsedMs": 3117.7,
+        "enabled": true,
+        "frames": 69,
+        "gpuMs": {
+          "atmosphere": 0.973,
+          "fxaa": 1.117,
+          "grade": 1.28,
+          "ink+kuwahara": 1.032,
+          "reflection": 6.316,
+          "scene": 23.602,
+          "shadow": 6.202
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 41,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.174,
+              "min": 0,
+              "samples": 69
+            },
+            "frame-total": {
+              "max": 481,
+              "mean": 415.957,
+              "min": 349,
+              "samples": 69
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 69
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 69
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 69
+            },
+            "reflection": {
+              "max": 132,
+              "mean": 66.957,
+              "min": 0,
+              "samples": 69
+            },
+            "scene": {
+              "max": 166,
+              "mean": 166,
+              "min": 166,
+              "samples": 69
+            },
+            "shadow": {
+              "max": 180,
+              "mean": 180,
+              "min": 180,
+              "samples": 69
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.117,
+              "min": 0,
+              "samples": 69
+            },
+            "audio": {
+              "max": 0.3,
+              "mean": 0.093,
+              "min": 0,
+              "samples": 69
+            },
+            "camera/sky": {
+              "max": 0.5,
+              "mean": 0.194,
+              "min": 0,
+              "samples": 69
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.13,
+              "min": 0,
+              "samples": 69
+            },
+            "frame-total": {
+              "max": 40.7,
+              "mean": 12.642,
+              "min": 8.7,
+              "samples": 69
+            },
+            "habitat": {
+              "max": 1.1,
+              "mean": 0.661,
+              "min": 0.4,
+              "samples": 69
+            },
+            "input/time": {
+              "max": 1.2,
+              "mean": 0.071,
+              "min": 0,
+              "samples": 69
+            },
+            "lighting": {
+              "max": 21,
+              "mean": 5.799,
+              "min": 2.8,
+              "samples": 69
+            },
+            "pass:atmosphere": {
+              "max": 0.2,
+              "mean": 0.019,
+              "min": 0,
+              "samples": 69
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.016,
+              "min": 0,
+              "samples": 69
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.025,
+              "min": 0,
+              "samples": 69
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.022,
+              "min": 0,
+              "samples": 69
+            },
+            "pass:reflection": {
+              "max": 12.7,
+              "mean": 1.981,
+              "min": 0,
+              "samples": 69
+            },
+            "pass:scene": {
+              "max": 8.5,
+              "mean": 3.738,
+              "min": 2.8,
+              "samples": 69
+            },
+            "pass:shadow": {
+              "max": 8.6,
+              "mean": 3.797,
+              "min": 2.8,
+              "samples": 69
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.001,
+              "min": 0,
+              "samples": 69
+            },
+            "player/ferry": {
+              "max": 1.3,
+              "mean": 0.643,
+              "min": 0.4,
+              "samples": 69
+            },
+            "post": {
+              "max": 8.6,
+              "mean": 3.825,
+              "min": 2.8,
+              "samples": 69
+            },
+            "residents:city": {
+              "max": 7.9,
+              "mean": 0.901,
+              "min": 0.5,
+              "samples": 69
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.025,
+              "min": 0,
+              "samples": 69
+            },
+            "scenery": {
+              "max": 0.6,
+              "mean": 0.116,
+              "min": 0,
+              "samples": 69
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.036,
+              "min": 0,
+              "samples": 69
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 69.4,
+              "mean": 45.025,
+              "min": 34.6,
+              "samples": 68
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 5.69,
+              "mean": 0.973,
+              "min": 0.001,
+              "samples": 64
+            },
+            "fxaa": {
+              "max": 1.227,
+              "mean": 1.117,
+              "min": 1.073,
+              "samples": 63
+            },
+            "grade": {
+              "max": 1.41,
+              "mean": 1.28,
+              "min": 1.267,
+              "samples": 63
+            },
+            "ink+kuwahara": {
+              "max": 1.236,
+              "mean": 1.032,
+              "min": 0.931,
+              "samples": 63
+            },
+            "reflection": {
+              "max": 18.026,
+              "mean": 6.316,
+              "min": 0,
+              "samples": 63
+            },
+            "scene": {
+              "max": 32.406,
+              "mean": 23.602,
+              "min": 22.516,
+              "samples": 63
+            },
+            "shadow": {
+              "max": 8.553,
+              "mean": 6.202,
+              "min": 6.015,
+              "samples": 63
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 0.348,
+              "min": 0,
+              "samples": 69
+            },
+            "frame-total": {
+              "max": 1651167,
+              "mean": 1351378.159,
+              "min": 1042772,
+              "samples": 69
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 69
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 69
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 69
+            },
+            "reflection": {
+              "max": 608395,
+              "mean": 308606.159,
+              "min": 0,
+              "samples": 69
+            },
+            "scene": {
+              "max": 657556,
+              "mean": 657556,
+              "min": 657556,
+              "samples": 69
+            },
+            "shadow": {
+              "max": 385213,
+              "mean": 385213,
+              "min": 385213,
+              "samples": 69
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 0.348,
+          "frame-total": 1351378.159,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 308606.159,
+          "scene": 657556,
+          "shadow": 385213
+        }
+      },
+      "quality": "medium",
+      "render": [
+        977,
+        709
+      ],
+      "samples": 68,
+      "sky": {
+        "bands": 1,
+        "hz": 4,
+        "resolution": [
+          640,
+          640
+        ],
+        "steps": 18
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 21.6,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "climate": {
+        "catchmentRebuilds": 21,
+        "counts": [
+          0,
+          680,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 46.36,
+      "name": "woodland snow",
+      "p95Ms": 62.4,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.167,
+          "frame-total": 523.576,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 123.909,
+          "scene": 273.667,
+          "shadow": 123
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.12,
+          "audio": 0.089,
+          "camera/sky": 0.202,
+          "dragons": 0.127,
+          "frame-total": 12.33,
+          "habitat": 0.647,
+          "input/time": 0.052,
+          "lighting": 5.58,
+          "pass:atmosphere": 0.017,
+          "pass:fxaa": 0.011,
+          "pass:grade": 0.024,
+          "pass:ink+kuwahara": 0.032,
+          "pass:reflection": 2.083,
+          "pass:scene": 3.77,
+          "pass:shadow": 3.474,
+          "persistence/input-end": 0,
+          "player/ferry": 0.673,
+          "post": 3.867,
+          "residents:city": 0.774,
+          "residents:village": 0.026,
+          "scenery": 0.095,
+          "wildlife": 0.039
+        },
+        "diagnostic": true,
+        "elapsedMs": 3080.6,
+        "enabled": true,
+        "frames": 66,
+        "gpuMs": {
+          "atmosphere": 0.939,
+          "fxaa": 0.888,
+          "grade": 1.282,
+          "ink+kuwahara": 1.156,
+          "reflection": 6.182,
+          "scene": 23.886,
+          "shadow": 5.866
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 42,
+          "pooled": 0,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.167,
+              "min": 0,
+              "samples": 66
+            },
+            "frame-total": {
+              "max": 651,
+              "mean": 523.576,
+              "min": 355,
+              "samples": 66
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 66
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 66
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 66
+            },
+            "reflection": {
+              "max": 248,
+              "mean": 123.909,
+              "min": 0,
+              "samples": 66
+            },
+            "scene": {
+              "max": 277,
+              "mean": 273.667,
+              "min": 215,
+              "samples": 66
+            },
+            "shadow": {
+              "max": 123,
+              "mean": 123,
+              "min": 123,
+              "samples": 66
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.12,
+              "min": 0,
+              "samples": 66
+            },
+            "audio": {
+              "max": 0.2,
+              "mean": 0.089,
+              "min": 0,
+              "samples": 66
+            },
+            "camera/sky": {
+              "max": 0.4,
+              "mean": 0.202,
+              "min": 0,
+              "samples": 66
+            },
+            "dragons": {
+              "max": 0.4,
+              "mean": 0.127,
+              "min": 0,
+              "samples": 66
+            },
+            "frame-total": {
+              "max": 23.5,
+              "mean": 12.33,
+              "min": 8.2,
+              "samples": 66
+            },
+            "habitat": {
+              "max": 2.7,
+              "mean": 0.647,
+              "min": 0.4,
+              "samples": 66
+            },
+            "input/time": {
+              "max": 0.3,
+              "mean": 0.052,
+              "min": 0,
+              "samples": 66
+            },
+            "lighting": {
+              "max": 13.5,
+              "mean": 5.58,
+              "min": 2.6,
+              "samples": 66
+            },
+            "pass:atmosphere": {
+              "max": 0.1,
+              "mean": 0.017,
+              "min": 0,
+              "samples": 66
+            },
+            "pass:fxaa": {
+              "max": 0.1,
+              "mean": 0.011,
+              "min": 0,
+              "samples": 66
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.024,
+              "min": 0,
+              "samples": 66
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.032,
+              "min": 0,
+              "samples": 66
+            },
+            "pass:reflection": {
+              "max": 9,
+              "mean": 2.083,
+              "min": 0,
+              "samples": 66
+            },
+            "pass:scene": {
+              "max": 5.7,
+              "mean": 3.77,
+              "min": 3,
+              "samples": 66
+            },
+            "pass:shadow": {
+              "max": 6,
+              "mean": 3.474,
+              "min": 2.6,
+              "samples": 66
+            },
+            "persistence/input-end": {
+              "max": 0,
+              "mean": 0,
+              "min": 0,
+              "samples": 66
+            },
+            "player/ferry": {
+              "max": 1.4,
+              "mean": 0.673,
+              "min": 0.4,
+              "samples": 66
+            },
+            "post": {
+              "max": 5.8,
+              "mean": 3.867,
+              "min": 3.2,
+              "samples": 66
+            },
+            "residents:city": {
+              "max": 1.6,
+              "mean": 0.774,
+              "min": 0.5,
+              "samples": 66
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.026,
+              "min": 0,
+              "samples": 66
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.095,
+              "min": 0,
+              "samples": 66
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.039,
+              "min": 0,
+              "samples": 66
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 69.5,
+              "mean": 46.358,
+              "min": 34.7,
+              "samples": 65
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 5.67,
+              "mean": 0.939,
+              "min": 0.001,
+              "samples": 60
+            },
+            "fxaa": {
+              "max": 0.976,
+              "mean": 0.888,
+              "min": 0.848,
+              "samples": 60
+            },
+            "grade": {
+              "max": 1.346,
+              "mean": 1.282,
+              "min": 1.269,
+              "samples": 60
+            },
+            "ink+kuwahara": {
+              "max": 1.26,
+              "mean": 1.156,
+              "min": 1.063,
+              "samples": 60
+            },
+            "reflection": {
+              "max": 14.928,
+              "mean": 6.182,
+              "min": 0,
+              "samples": 60
+            },
+            "scene": {
+              "max": 31.156,
+              "mean": 23.886,
+              "min": 22.612,
+              "samples": 60
+            },
+            "shadow": {
+              "max": 7.831,
+              "mean": 5.866,
+              "min": 5.726,
+              "samples": 60
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 0.333,
+              "min": 0,
+              "samples": 66
+            },
+            "frame-total": {
+              "max": 1447739,
+              "mean": 1151063.091,
+              "min": 846709,
+              "samples": 66
+            },
+            "fxaa": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 66
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 66
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 66
+            },
+            "reflection": {
+              "max": 592062,
+              "mean": 296005.545,
+              "min": 0,
+              "samples": 66
+            },
+            "scene": {
+              "max": 503245,
+              "mean": 502625.545,
+              "min": 492189,
+              "samples": 66
+            },
+            "shadow": {
+              "max": 352429,
+              "mean": 352429,
+              "min": 352429,
+              "samples": 66
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 0.333,
+          "frame-total": 1151063.091,
+          "fxaa": 1,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 296005.545,
+          "scene": 502625.545,
+          "shadow": 352429
+        }
+      },
+      "quality": "medium",
+      "render": [
+        977,
+        709
+      ],
+      "samples": 65,
+      "sky": {
+        "bands": 1,
+        "hz": 4,
+        "resolution": [
+          640,
+          640
+        ],
+        "steps": 18
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 12.1,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "climate": {
+        "catchmentRebuilds": 21,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 82.75,
+      "name": "village clear",
+      "p95Ms": 97.1,
+      "passes": {
+        "calls": {
+          "atmosphere": 1,
+          "bloom": 13,
+          "frame-total": 664,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 113,
+          "scene": 384,
+          "shadow": 151,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.124,
+          "audio": 0.111,
+          "camera/sky": 0.192,
+          "dragons": 0.134,
+          "frame-total": 17.432,
+          "habitat": 0.624,
+          "input/time": 0.05,
+          "lighting": 7.732,
+          "pass:atmosphere": 0.105,
+          "pass:bloom": 0.108,
+          "pass:grade": 0.013,
+          "pass:ink+kuwahara": 0.032,
+          "pass:reflection": 2.597,
+          "pass:scene": 6.384,
+          "pass:shadow": 5.103,
+          "pass:sharpen": 0.026,
+          "persistence/input-end": 0.008,
+          "player/ferry": 0.692,
+          "post": 6.603,
+          "residents:city": 0.653,
+          "residents:village": 0.282,
+          "scenery": 0.166,
+          "wildlife": 0.029
+        },
+        "diagnostic": true,
+        "elapsedMs": 3160.1,
+        "enabled": true,
+        "frames": 38,
+        "gpuMs": {
+          "atmosphere": 4.581,
+          "bloom": 1.278,
+          "grade": 1.773,
+          "ink+kuwahara": 4.915,
+          "reflection": 5.769,
+          "scene": 49.881,
+          "shadow": 8.722,
+          "sharpen": 0.687
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 39,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 38
+            },
+            "frame-total": {
+              "max": 777,
+              "mean": 664,
+              "min": 551,
+              "samples": 38
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            },
+            "reflection": {
+              "max": 226,
+              "mean": 113,
+              "min": 0,
+              "samples": 38
+            },
+            "scene": {
+              "max": 384,
+              "mean": 384,
+              "min": 384,
+              "samples": 38
+            },
+            "shadow": {
+              "max": 151,
+              "mean": 151,
+              "min": 151,
+              "samples": 38
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.5,
+              "mean": 0.124,
+              "min": 0,
+              "samples": 38
+            },
+            "audio": {
+              "max": 0.4,
+              "mean": 0.111,
+              "min": 0,
+              "samples": 38
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.192,
+              "min": 0.1,
+              "samples": 38
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.134,
+              "min": 0,
+              "samples": 38
+            },
+            "frame-total": {
+              "max": 23.8,
+              "mean": 17.432,
+              "min": 14.8,
+              "samples": 38
+            },
+            "habitat": {
+              "max": 1.2,
+              "mean": 0.624,
+              "min": 0.4,
+              "samples": 38
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 38
+            },
+            "lighting": {
+              "max": 14.2,
+              "mean": 7.732,
+              "min": 3.6,
+              "samples": 38
+            },
+            "pass:atmosphere": {
+              "max": 0.2,
+              "mean": 0.105,
+              "min": 0,
+              "samples": 38
+            },
+            "pass:bloom": {
+              "max": 0.2,
+              "mean": 0.108,
+              "min": 0,
+              "samples": 38
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.013,
+              "min": 0,
+              "samples": 38
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.032,
+              "min": 0,
+              "samples": 38
+            },
+            "pass:reflection": {
+              "max": 7.7,
+              "mean": 2.597,
+              "min": 0,
+              "samples": 38
+            },
+            "pass:scene": {
+              "max": 11.7,
+              "mean": 6.384,
+              "min": 4.4,
+              "samples": 38
+            },
+            "pass:shadow": {
+              "max": 7,
+              "mean": 5.103,
+              "min": 3.5,
+              "samples": 38
+            },
+            "pass:sharpen": {
+              "max": 0.2,
+              "mean": 0.026,
+              "min": 0,
+              "samples": 38
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.008,
+              "min": 0,
+              "samples": 38
+            },
+            "player/ferry": {
+              "max": 1.4,
+              "mean": 0.692,
+              "min": 0.4,
+              "samples": 38
+            },
+            "post": {
+              "max": 12.3,
+              "mean": 6.603,
+              "min": 4.6,
+              "samples": 38
+            },
+            "residents:city": {
+              "max": 1.2,
+              "mean": 0.653,
+              "min": 0.4,
+              "samples": 38
+            },
+            "residents:village": {
+              "max": 0.5,
+              "mean": 0.282,
+              "min": 0.1,
+              "samples": 38
+            },
+            "scenery": {
+              "max": 0.9,
+              "mean": 0.166,
+              "min": 0,
+              "samples": 38
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.029,
+              "min": 0,
+              "samples": 38
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 97.2,
+              "mean": 82.749,
+              "min": 69.4,
+              "samples": 37
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 6.305,
+              "mean": 4.581,
+              "min": 3.096,
+              "samples": 34
+            },
+            "bloom": {
+              "max": 1.363,
+              "mean": 1.278,
+              "min": 1.232,
+              "samples": 33
+            },
+            "grade": {
+              "max": 1.887,
+              "mean": 1.773,
+              "min": 1.748,
+              "samples": 33
+            },
+            "ink+kuwahara": {
+              "max": 5.375,
+              "mean": 4.915,
+              "min": 4.799,
+              "samples": 33
+            },
+            "reflection": {
+              "max": 12.505,
+              "mean": 5.769,
+              "min": 0,
+              "samples": 33
+            },
+            "scene": {
+              "max": 52.61,
+              "mean": 49.881,
+              "min": 47.786,
+              "samples": 33
+            },
+            "shadow": {
+              "max": 10.07,
+              "mean": 8.722,
+              "min": 8.245,
+              "samples": 33
+            },
+            "sharpen": {
+              "max": 0.763,
+              "mean": 0.687,
+              "min": 0.647,
+              "samples": 33
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 2,
+              "min": 2,
+              "samples": 38
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 38
+            },
+            "frame-total": {
+              "max": 2217569,
+              "mean": 1935410.5,
+              "min": 1653252,
+              "samples": 38
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            },
+            "reflection": {
+              "max": 564317,
+              "mean": 282158.5,
+              "min": 0,
+              "samples": 38
+            },
+            "scene": {
+              "max": 1149608,
+              "mean": 1149608,
+              "min": 1149608,
+              "samples": 38
+            },
+            "shadow": {
+              "max": 503628,
+              "mean": 503628,
+              "min": 503628,
+              "samples": 38
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 38
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 2,
+          "bloom": 13,
+          "frame-total": 1935410.5,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 282158.5,
+          "scene": 1149608,
+          "shadow": 503628,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1150,
+        835
+      ],
+      "samples": 37,
+      "sky": {
+        "bands": 4,
+        "hz": 5,
+        "resolution": [
+          896,
+          896
+        ],
+        "steps": 24
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 11.5,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "climate": {
+        "catchmentRebuilds": 22,
+        "counts": [
+          3360,
+          0,
+          248,
+          360
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 87.29,
+      "name": "river rain",
+      "p95Ms": 104,
+      "passes": {
+        "calls": {
+          "atmosphere": 1,
+          "bloom": 13,
+          "frame-total": 508,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 80,
+          "scene": 224,
+          "shadow": 188,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.125,
+          "audio": 0.119,
+          "camera/sky": 0.369,
+          "dragons": 0.178,
+          "frame-total": 17.083,
+          "habitat": 0.775,
+          "input/time": 0.05,
+          "lighting": 8.208,
+          "pass:atmosphere": 0.133,
+          "pass:bloom": 0.147,
+          "pass:grade": 0.022,
+          "pass:ink+kuwahara": 0.044,
+          "pass:reflection": 2.742,
+          "pass:scene": 5.319,
+          "pass:shadow": 5.428,
+          "pass:sharpen": 0.017,
+          "persistence/input-end": 0,
+          "player/ferry": 0.75,
+          "post": 5.6,
+          "residents:city": 0.578,
+          "residents:village": 0.031,
+          "scenery": 0.225,
+          "wildlife": 0.033
+        },
+        "diagnostic": true,
+        "elapsedMs": 3139.4,
+        "enabled": true,
+        "frames": 36,
+        "gpuMs": {
+          "atmosphere": 4.468,
+          "bloom": 1.333,
+          "grade": 1.759,
+          "ink+kuwahara": 4.89,
+          "reflection": 7.095,
+          "scene": 50.099,
+          "shadow": 11.489,
+          "sharpen": 0.687
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 44,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 36
+            },
+            "frame-total": {
+              "max": 588,
+              "mean": 508,
+              "min": 428,
+              "samples": 36
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            },
+            "reflection": {
+              "max": 160,
+              "mean": 80,
+              "min": 0,
+              "samples": 36
+            },
+            "scene": {
+              "max": 224,
+              "mean": 224,
+              "min": 224,
+              "samples": 36
+            },
+            "shadow": {
+              "max": 188,
+              "mean": 188,
+              "min": 188,
+              "samples": 36
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.4,
+              "mean": 0.125,
+              "min": 0,
+              "samples": 36
+            },
+            "audio": {
+              "max": 0.3,
+              "mean": 0.119,
+              "min": 0,
+              "samples": 36
+            },
+            "camera/sky": {
+              "max": 0.9,
+              "mean": 0.369,
+              "min": 0.2,
+              "samples": 36
+            },
+            "dragons": {
+              "max": 0.6,
+              "mean": 0.178,
+              "min": 0,
+              "samples": 36
+            },
+            "frame-total": {
+              "max": 23.5,
+              "mean": 17.083,
+              "min": 12.4,
+              "samples": 36
+            },
+            "habitat": {
+              "max": 1.5,
+              "mean": 0.775,
+              "min": 0.5,
+              "samples": 36
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 36
+            },
+            "lighting": {
+              "max": 13.4,
+              "mean": 8.208,
+              "min": 3.4,
+              "samples": 36
+            },
+            "pass:atmosphere": {
+              "max": 0.4,
+              "mean": 0.133,
+              "min": 0,
+              "samples": 36
+            },
+            "pass:bloom": {
+              "max": 0.4,
+              "mean": 0.147,
+              "min": 0,
+              "samples": 36
+            },
+            "pass:grade": {
+              "max": 0.2,
+              "mean": 0.022,
+              "min": 0,
+              "samples": 36
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.044,
+              "min": 0,
+              "samples": 36
+            },
+            "pass:reflection": {
+              "max": 7.3,
+              "mean": 2.742,
+              "min": 0,
+              "samples": 36
+            },
+            "pass:scene": {
+              "max": 9.6,
+              "mean": 5.319,
+              "min": 3.3,
+              "samples": 36
+            },
+            "pass:shadow": {
+              "max": 8.2,
+              "mean": 5.428,
+              "min": 3.4,
+              "samples": 36
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.017,
+              "min": 0,
+              "samples": 36
+            },
+            "persistence/input-end": {
+              "max": 0,
+              "mean": 0,
+              "min": 0,
+              "samples": 36
+            },
+            "player/ferry": {
+              "max": 2,
+              "mean": 0.75,
+              "min": 0.4,
+              "samples": 36
+            },
+            "post": {
+              "max": 10.2,
+              "mean": 5.6,
+              "min": 3.6,
+              "samples": 36
+            },
+            "residents:city": {
+              "max": 1.3,
+              "mean": 0.578,
+              "min": 0.4,
+              "samples": 36
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.031,
+              "min": 0,
+              "samples": 36
+            },
+            "scenery": {
+              "max": 0.9,
+              "mean": 0.225,
+              "min": 0,
+              "samples": 36
+            },
+            "wildlife": {
+              "max": 0.1,
+              "mean": 0.033,
+              "min": 0,
+              "samples": 36
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 104,
+              "mean": 87.289,
+              "min": 69.4,
+              "samples": 35
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 6.756,
+              "mean": 4.468,
+              "min": 2.955,
+              "samples": 31
+            },
+            "bloom": {
+              "max": 1.416,
+              "mean": 1.333,
+              "min": 1.249,
+              "samples": 30
+            },
+            "grade": {
+              "max": 1.844,
+              "mean": 1.759,
+              "min": 1.75,
+              "samples": 30
+            },
+            "ink+kuwahara": {
+              "max": 5.45,
+              "mean": 4.89,
+              "min": 4.723,
+              "samples": 30
+            },
+            "reflection": {
+              "max": 15.834,
+              "mean": 7.095,
+              "min": 0,
+              "samples": 31
+            },
+            "scene": {
+              "max": 52.937,
+              "mean": 50.099,
+              "min": 47.959,
+              "samples": 31
+            },
+            "shadow": {
+              "max": 12.386,
+              "mean": 11.489,
+              "min": 10.985,
+              "samples": 31
+            },
+            "sharpen": {
+              "max": 0.724,
+              "mean": 0.687,
+              "min": 0.639,
+              "samples": 30
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 2,
+              "min": 2,
+              "samples": 36
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 36
+            },
+            "frame-total": {
+              "max": 2233860,
+              "mean": 1867021.5,
+              "min": 1500183,
+              "samples": 36
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            },
+            "reflection": {
+              "max": 733677,
+              "mean": 366838.5,
+              "min": 0,
+              "samples": 36
+            },
+            "scene": {
+              "max": 1067694,
+              "mean": 1067694,
+              "min": 1067694,
+              "samples": 36
+            },
+            "shadow": {
+              "max": 432473,
+              "mean": 432473,
+              "min": 432473,
+              "samples": 36
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 36
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 2,
+          "bloom": 13,
+          "frame-total": 1867021.5,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 366838.5,
+          "scene": 1067694,
+          "shadow": 432473,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1150,
+        835
+      ],
+      "samples": 35,
+      "sky": {
+        "bands": 4,
+        "hz": 5,
+        "resolution": [
+          896,
+          896
+        ],
+        "steps": 24
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 11,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "climate": {
+        "catchmentRebuilds": 23,
+        "counts": [
+          0,
+          1680,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 90.67,
+      "name": "woodland snow",
+      "p95Ms": 104.4,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.971,
+          "bloom": 13,
+          "frame-total": 517.429,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 104.429,
+          "scene": 265,
+          "shadow": 132,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.114,
+          "audio": 0.097,
+          "camera/sky": 0.286,
+          "dragons": 0.16,
+          "frame-total": 16.36,
+          "habitat": 0.611,
+          "input/time": 0.057,
+          "lighting": 8.129,
+          "pass:atmosphere": 0.12,
+          "pass:bloom": 0.14,
+          "pass:grade": 0.014,
+          "pass:ink+kuwahara": 0.054,
+          "pass:reflection": 2.374,
+          "pass:scene": 5.314,
+          "pass:shadow": 5.726,
+          "pass:sharpen": 0.023,
+          "persistence/input-end": 0.006,
+          "player/ferry": 0.603,
+          "post": 5.58,
+          "residents:city": 0.449,
+          "residents:village": 0.023,
+          "scenery": 0.171,
+          "wildlife": 0.04
+        },
+        "diagnostic": true,
+        "elapsedMs": 3171.9,
+        "enabled": true,
+        "frames": 35,
+        "gpuMs": {
+          "atmosphere": 4.304,
+          "bloom": 1.285,
+          "grade": 1.763,
+          "ink+kuwahara": 4.914,
+          "reflection": 7.172,
+          "scene": 54.586,
+          "shadow": 10.86,
+          "sharpen": 0.668
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 44,
+          "pooled": 2,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.971,
+              "min": 0,
+              "samples": 35
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 35
+            },
+            "frame-total": {
+              "max": 628,
+              "mean": 517.429,
+              "min": 413,
+              "samples": 35
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 35
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 35
+            },
+            "reflection": {
+              "max": 215,
+              "mean": 104.429,
+              "min": 0,
+              "samples": 35
+            },
+            "scene": {
+              "max": 265,
+              "mean": 265,
+              "min": 265,
+              "samples": 35
+            },
+            "shadow": {
+              "max": 132,
+              "mean": 132,
+              "min": 132,
+              "samples": 35
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 35
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.114,
+              "min": 0,
+              "samples": 35
+            },
+            "audio": {
+              "max": 0.3,
+              "mean": 0.097,
+              "min": 0,
+              "samples": 35
+            },
+            "camera/sky": {
+              "max": 0.7,
+              "mean": 0.286,
+              "min": 0.1,
+              "samples": 35
+            },
+            "dragons": {
+              "max": 0.3,
+              "mean": 0.16,
+              "min": 0,
+              "samples": 35
+            },
+            "frame-total": {
+              "max": 24.7,
+              "mean": 16.36,
+              "min": 10.9,
+              "samples": 35
+            },
+            "habitat": {
+              "max": 1.1,
+              "mean": 0.611,
+              "min": 0.5,
+              "samples": 35
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.057,
+              "min": 0,
+              "samples": 35
+            },
+            "lighting": {
+              "max": 13.3,
+              "mean": 8.129,
+              "min": 3.1,
+              "samples": 35
+            },
+            "pass:atmosphere": {
+              "max": 0.5,
+              "mean": 0.12,
+              "min": 0,
+              "samples": 35
+            },
+            "pass:bloom": {
+              "max": 0.4,
+              "mean": 0.14,
+              "min": 0.1,
+              "samples": 35
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.014,
+              "min": 0,
+              "samples": 35
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.054,
+              "min": 0,
+              "samples": 35
+            },
+            "pass:reflection": {
+              "max": 7.9,
+              "mean": 2.374,
+              "min": 0,
+              "samples": 35
+            },
+            "pass:scene": {
+              "max": 8.1,
+              "mean": 5.314,
+              "min": 3.8,
+              "samples": 35
+            },
+            "pass:shadow": {
+              "max": 8.2,
+              "mean": 5.726,
+              "min": 3.1,
+              "samples": 35
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.023,
+              "min": 0,
+              "samples": 35
+            },
+            "persistence/input-end": {
+              "max": 0.2,
+              "mean": 0.006,
+              "min": 0,
+              "samples": 35
+            },
+            "player/ferry": {
+              "max": 1.1,
+              "mean": 0.603,
+              "min": 0.4,
+              "samples": 35
+            },
+            "post": {
+              "max": 8.3,
+              "mean": 5.58,
+              "min": 4,
+              "samples": 35
+            },
+            "residents:city": {
+              "max": 0.8,
+              "mean": 0.449,
+              "min": 0.2,
+              "samples": 35
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.023,
+              "min": 0,
+              "samples": 35
+            },
+            "scenery": {
+              "max": 0.3,
+              "mean": 0.171,
+              "min": 0,
+              "samples": 35
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.04,
+              "min": 0,
+              "samples": 35
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 131.7,
+              "mean": 90.668,
+              "min": 41.8,
+              "samples": 34
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 6.27,
+              "mean": 4.304,
+              "min": 0.002,
+              "samples": 30
+            },
+            "bloom": {
+              "max": 1.503,
+              "mean": 1.285,
+              "min": 1.217,
+              "samples": 29
+            },
+            "grade": {
+              "max": 1.828,
+              "mean": 1.763,
+              "min": 1.749,
+              "samples": 29
+            },
+            "ink+kuwahara": {
+              "max": 5.592,
+              "mean": 4.914,
+              "min": 4.807,
+              "samples": 29
+            },
+            "reflection": {
+              "max": 14.895,
+              "mean": 7.172,
+              "min": 0,
+              "samples": 30
+            },
+            "scene": {
+              "max": 56.71,
+              "mean": 54.586,
+              "min": 53.398,
+              "samples": 30
+            },
+            "shadow": {
+              "max": 11.36,
+              "mean": 10.86,
+              "min": 10.67,
+              "samples": 30
+            },
+            "sharpen": {
+              "max": 0.71,
+              "mean": 0.668,
+              "min": 0.643,
+              "samples": 29
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 1.943,
+              "min": 0,
+              "samples": 35
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 35
+            },
+            "frame-total": {
+              "max": 1988833,
+              "mean": 1629385.857,
+              "min": 1289908,
+              "samples": 35
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 35
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 35
+            },
+            "reflection": {
+              "max": 698925,
+              "mean": 339477.857,
+              "min": 0,
+              "samples": 35
+            },
+            "scene": {
+              "max": 898848,
+              "mean": 898848,
+              "min": 898848,
+              "samples": 35
+            },
+            "shadow": {
+              "max": 391044,
+              "mean": 391044,
+              "min": 391044,
+              "samples": 35
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 35
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 1.943,
+          "bloom": 13,
+          "frame-total": 1629385.857,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 339477.857,
+          "scene": 898848,
+          "shadow": 391044,
+          "sharpen": 1
+        }
+      },
+      "quality": "high",
+      "render": [
+        1150,
+        835
+      ],
+      "samples": 34,
+      "sky": {
+        "bands": 4,
+        "hz": 5,
+        "resolution": [
+          896,
+          896
+        ],
+        "steps": 24
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 8.7,
+      "camera": [
+        13.11669723895472,
+        2.252066253877803,
+        6.214511960018987
+      ],
+      "climate": {
+        "catchmentRebuilds": 23,
+        "counts": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 114.7,
+      "name": "village clear",
+      "p95Ms": 139.2,
+      "passes": {
+        "calls": {
+          "atmosphere": 0.964,
+          "bloom": 13,
+          "frame-total": 698.393,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 122.036,
+          "scene": 409.071,
+          "shadow": 151.286,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.139,
+          "audio": 0.121,
+          "camera/sky": 0.157,
+          "dragons": 0.132,
+          "frame-total": 18.611,
+          "habitat": 0.693,
+          "input/time": 0.057,
+          "lighting": 8.375,
+          "pass:atmosphere": 0.1,
+          "pass:bloom": 0.186,
+          "pass:grade": 0.014,
+          "pass:ink+kuwahara": 0.036,
+          "pass:reflection": 3.257,
+          "pass:scene": 6.693,
+          "pass:shadow": 5.079,
+          "pass:sharpen": 0.021,
+          "persistence/input-end": 0.007,
+          "player/ferry": 0.682,
+          "post": 6.993,
+          "residents:city": 0.575,
+          "residents:village": 0.35,
+          "scenery": 0.243,
+          "wildlife": 0.036
+        },
+        "diagnostic": true,
+        "elapsedMs": 3147.8,
+        "enabled": true,
+        "frames": 28,
+        "gpuMs": {
+          "atmosphere": 10.876,
+          "bloom": 1.861,
+          "grade": 2.573,
+          "ink+kuwahara": 7.138,
+          "reflection": 7.029,
+          "scene": 63.227,
+          "shadow": 17.268,
+          "sharpen": 1.005
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 39,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 0.964,
+              "min": 0,
+              "samples": 28
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 28
+            },
+            "frame-total": {
+              "max": 852,
+              "mean": 698.393,
+              "min": 575,
+              "samples": 28
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 28
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 28
+            },
+            "reflection": {
+              "max": 258,
+              "mean": 122.036,
+              "min": 0,
+              "samples": 28
+            },
+            "scene": {
+              "max": 423,
+              "mean": 409.071,
+              "min": 408,
+              "samples": 28
+            },
+            "shadow": {
+              "max": 155,
+              "mean": 151.286,
+              "min": 151,
+              "samples": 28
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 28
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.6,
+              "mean": 0.139,
+              "min": 0,
+              "samples": 28
+            },
+            "audio": {
+              "max": 0.5,
+              "mean": 0.121,
+              "min": 0,
+              "samples": 28
+            },
+            "camera/sky": {
+              "max": 0.3,
+              "mean": 0.157,
+              "min": 0.1,
+              "samples": 28
+            },
+            "dragons": {
+              "max": 0.2,
+              "mean": 0.132,
+              "min": 0,
+              "samples": 28
+            },
+            "frame-total": {
+              "max": 26.2,
+              "mean": 18.611,
+              "min": 9.7,
+              "samples": 28
+            },
+            "habitat": {
+              "max": 3.5,
+              "mean": 0.693,
+              "min": 0.4,
+              "samples": 28
+            },
+            "input/time": {
+              "max": 0.2,
+              "mean": 0.057,
+              "min": 0,
+              "samples": 28
+            },
+            "lighting": {
+              "max": 15.8,
+              "mean": 8.375,
+              "min": 3.2,
+              "samples": 28
+            },
+            "pass:atmosphere": {
+              "max": 0.2,
+              "mean": 0.1,
+              "min": 0,
+              "samples": 28
+            },
+            "pass:bloom": {
+              "max": 1.8,
+              "mean": 0.186,
+              "min": 0,
+              "samples": 28
+            },
+            "pass:grade": {
+              "max": 0.2,
+              "mean": 0.014,
+              "min": 0,
+              "samples": 28
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.3,
+              "mean": 0.036,
+              "min": 0,
+              "samples": 28
+            },
+            "pass:reflection": {
+              "max": 12.2,
+              "mean": 3.257,
+              "min": 0,
+              "samples": 28
+            },
+            "pass:scene": {
+              "max": 11.4,
+              "mean": 6.693,
+              "min": 3.9,
+              "samples": 28
+            },
+            "pass:shadow": {
+              "max": 11.2,
+              "mean": 5.079,
+              "min": 3,
+              "samples": 28
+            },
+            "pass:sharpen": {
+              "max": 0.2,
+              "mean": 0.021,
+              "min": 0,
+              "samples": 28
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.007,
+              "min": 0,
+              "samples": 28
+            },
+            "player/ferry": {
+              "max": 1,
+              "mean": 0.682,
+              "min": 0.5,
+              "samples": 28
+            },
+            "post": {
+              "max": 11.7,
+              "mean": 6.993,
+              "min": 4,
+              "samples": 28
+            },
+            "residents:city": {
+              "max": 1.6,
+              "mean": 0.575,
+              "min": 0.3,
+              "samples": 28
+            },
+            "residents:village": {
+              "max": 1.9,
+              "mean": 0.35,
+              "min": 0.1,
+              "samples": 28
+            },
+            "scenery": {
+              "max": 0.6,
+              "mean": 0.243,
+              "min": 0,
+              "samples": 28
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.036,
+              "min": 0,
+              "samples": 28
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 194.3,
+              "mean": 114.7,
+              "min": 34.6,
+              "samples": 27
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 17.029,
+              "mean": 10.876,
+              "min": 0.001,
+              "samples": 24
+            },
+            "bloom": {
+              "max": 2.067,
+              "mean": 1.861,
+              "min": 1.766,
+              "samples": 23
+            },
+            "grade": {
+              "max": 2.871,
+              "mean": 2.573,
+              "min": 2.509,
+              "samples": 23
+            },
+            "ink+kuwahara": {
+              "max": 7.728,
+              "mean": 7.138,
+              "min": 6.91,
+              "samples": 23
+            },
+            "reflection": {
+              "max": 14.625,
+              "mean": 7.029,
+              "min": 0,
+              "samples": 23
+            },
+            "scene": {
+              "max": 66.071,
+              "mean": 63.227,
+              "min": 61.272,
+              "samples": 23
+            },
+            "shadow": {
+              "max": 18.518,
+              "mean": 17.268,
+              "min": 16.56,
+              "samples": 23
+            },
+            "sharpen": {
+              "max": 1.215,
+              "mean": 1.005,
+              "min": 0.923,
+              "samples": 23
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 1.929,
+              "min": 0,
+              "samples": 28
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 28
+            },
+            "frame-total": {
+              "max": 2518788,
+              "mean": 2120463.464,
+              "min": 1793848,
+              "samples": 28
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 28
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 28
+            },
+            "reflection": {
+              "max": 678610,
+              "mean": 323306.179,
+              "min": 0,
+              "samples": 28
+            },
+            "scene": {
+              "max": 1324663,
+              "mean": 1292665.357,
+              "min": 1290204,
+              "samples": 28
+            },
+            "shadow": {
+              "max": 515499,
+              "mean": 504475.929,
+              "min": 503628,
+              "samples": 28
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 28
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 1.929,
+          "bloom": 13,
+          "frame-total": 2120463.464,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 323306.179,
+          "scene": 1292665.357,
+          "shadow": 504475.929,
+          "sharpen": 1
+        }
+      },
+      "quality": "ultra",
+      "render": [
+        1380,
+        1002
+      ],
+      "samples": 27,
+      "sky": {
+        "bands": 4,
+        "hz": 6,
+        "resolution": [
+          1280,
+          1280
+        ],
+        "steps": 32
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 6.9,
+      "camera": [
+        261.44911910987037,
+        17.651633309047597,
+        -552.683746776182
+      ],
+      "climate": {
+        "catchmentRebuilds": 24,
+        "counts": [
+          6800,
+          0,
+          402,
+          640
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 145.14,
+      "name": "river rain",
+      "p95Ms": 173.6,
+      "passes": {
+        "calls": {
+          "atmosphere": 1,
+          "bloom": 13,
+          "frame-total": 553.273,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 91.091,
+          "scene": 245.591,
+          "shadow": 200.591,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.114,
+          "audio": 0.145,
+          "camera/sky": 0.386,
+          "dragons": 0.205,
+          "frame-total": 18.7,
+          "habitat": 0.977,
+          "input/time": 0.095,
+          "lighting": 9.182,
+          "pass:atmosphere": 0.164,
+          "pass:bloom": 0.127,
+          "pass:grade": 0.009,
+          "pass:ink+kuwahara": 0.05,
+          "pass:reflection": 2.723,
+          "pass:scene": 5.177,
+          "pass:shadow": 6.441,
+          "pass:sharpen": 0.018,
+          "persistence/input-end": 0.009,
+          "player/ferry": 0.927,
+          "post": 5.423,
+          "residents:city": 0.718,
+          "residents:village": 0.036,
+          "scenery": 0.386,
+          "wildlife": 0.05
+        },
+        "diagnostic": true,
+        "elapsedMs": 3176.9,
+        "enabled": true,
+        "frames": 22,
+        "gpuMs": {
+          "atmosphere": 11.659,
+          "bloom": 2.252,
+          "grade": 2.525,
+          "ink+kuwahara": 7.037,
+          "reflection": 8.909,
+          "scene": 72.556,
+          "shadow": 31.574,
+          "sharpen": 1.115
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 43,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 22
+            },
+            "frame-total": {
+              "max": 646,
+              "mean": 553.273,
+              "min": 463,
+              "samples": 22
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "reflection": {
+              "max": 183,
+              "mean": 91.091,
+              "min": 0,
+              "samples": 22
+            },
+            "scene": {
+              "max": 246,
+              "mean": 245.591,
+              "min": 237,
+              "samples": 22
+            },
+            "shadow": {
+              "max": 201,
+              "mean": 200.591,
+              "min": 192,
+              "samples": 22
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.3,
+              "mean": 0.114,
+              "min": 0,
+              "samples": 22
+            },
+            "audio": {
+              "max": 0.4,
+              "mean": 0.145,
+              "min": 0,
+              "samples": 22
+            },
+            "camera/sky": {
+              "max": 1.1,
+              "mean": 0.386,
+              "min": 0.2,
+              "samples": 22
+            },
+            "dragons": {
+              "max": 0.5,
+              "mean": 0.205,
+              "min": 0.1,
+              "samples": 22
+            },
+            "frame-total": {
+              "max": 33.7,
+              "mean": 18.7,
+              "min": 11.2,
+              "samples": 22
+            },
+            "habitat": {
+              "max": 2.7,
+              "mean": 0.977,
+              "min": 0.5,
+              "samples": 22
+            },
+            "input/time": {
+              "max": 0.5,
+              "mean": 0.095,
+              "min": 0,
+              "samples": 22
+            },
+            "lighting": {
+              "max": 18.1,
+              "mean": 9.182,
+              "min": 3.5,
+              "samples": 22
+            },
+            "pass:atmosphere": {
+              "max": 0.5,
+              "mean": 0.164,
+              "min": 0.1,
+              "samples": 22
+            },
+            "pass:bloom": {
+              "max": 0.5,
+              "mean": 0.127,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.009,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.2,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:reflection": {
+              "max": 9.7,
+              "mean": 2.723,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:scene": {
+              "max": 12.7,
+              "mean": 5.177,
+              "min": 3.3,
+              "samples": 22
+            },
+            "pass:shadow": {
+              "max": 18,
+              "mean": 6.441,
+              "min": 3.5,
+              "samples": 22
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.018,
+              "min": 0,
+              "samples": 22
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.009,
+              "min": 0,
+              "samples": 22
+            },
+            "player/ferry": {
+              "max": 2.5,
+              "mean": 0.927,
+              "min": 0.4,
+              "samples": 22
+            },
+            "post": {
+              "max": 13,
+              "mean": 5.423,
+              "min": 3.5,
+              "samples": 22
+            },
+            "residents:city": {
+              "max": 1.7,
+              "mean": 0.718,
+              "min": 0.3,
+              "samples": 22
+            },
+            "residents:village": {
+              "max": 0.2,
+              "mean": 0.036,
+              "min": 0,
+              "samples": 22
+            },
+            "scenery": {
+              "max": 1.1,
+              "mean": 0.386,
+              "min": 0.1,
+              "samples": 22
+            },
+            "wildlife": {
+              "max": 0.2,
+              "mean": 0.05,
+              "min": 0,
+              "samples": 22
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 173.8,
+              "mean": 145.143,
+              "min": 118.2,
+              "samples": 21
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 15.961,
+              "mean": 11.659,
+              "min": 7.165,
+              "samples": 17
+            },
+            "bloom": {
+              "max": 4.757,
+              "mean": 2.252,
+              "min": 1.856,
+              "samples": 16
+            },
+            "grade": {
+              "max": 2.564,
+              "mean": 2.525,
+              "min": 2.51,
+              "samples": 16
+            },
+            "ink+kuwahara": {
+              "max": 7.372,
+              "mean": 7.037,
+              "min": 6.844,
+              "samples": 17
+            },
+            "reflection": {
+              "max": 18.618,
+              "mean": 8.909,
+              "min": 0,
+              "samples": 17
+            },
+            "scene": {
+              "max": 79.844,
+              "mean": 72.556,
+              "min": 69.99,
+              "samples": 17
+            },
+            "shadow": {
+              "max": 38.478,
+              "mean": 31.574,
+              "min": 29.708,
+              "samples": 17
+            },
+            "sharpen": {
+              "max": 1.341,
+              "mean": 1.115,
+              "min": 0.987,
+              "samples": 16
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 2,
+              "min": 2,
+              "samples": 22
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 22
+            },
+            "frame-total": {
+              "max": 2886205,
+              "mean": 2449660.273,
+              "min": 2023849,
+              "samples": 22
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "reflection": {
+              "max": 862356,
+              "mean": 429389.091,
+              "min": 0,
+              "samples": 22
+            },
+            "scene": {
+              "max": 1540133,
+              "mean": 1538344.091,
+              "min": 1500777,
+              "samples": 22
+            },
+            "shadow": {
+              "max": 483700,
+              "mean": 481911.091,
+              "min": 444344,
+              "samples": 22
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 2,
+          "bloom": 13,
+          "frame-total": 2449660.273,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 429389.091,
+          "scene": 1538344.091,
+          "shadow": 481911.091,
+          "sharpen": 1
+        }
+      },
+      "quality": "ultra",
+      "render": [
+        1380,
+        1002
+      ],
+      "samples": 21,
+      "sky": {
+        "bands": 4,
+        "hz": 6,
+        "resolution": [
+          1280,
+          1280
+        ],
+        "steps": 32
+      },
+      "suspended": false
+    },
+    {
+      "averageFps": 6.7,
+      "camera": [
+        204.90966280996545,
+        14.672122259330532,
+        -495.9348601592462
+      ],
+      "climate": {
+        "catchmentRebuilds": 25,
+        "counts": [
+          0,
+          3520,
+          0,
+          0
+        ],
+        "state": {
+          "clock": 3378.926566665046,
+          "coverage": 0.8499999999999982,
+          "direction": 2.181661564992907,
+          "gust": 0.5525282198167734,
+          "overcast": 0.8799999999999982,
+          "rain": 2.6958100111091444e-11,
+          "season": [
+            2.0916050675536354e-198,
+            2.226106475813911e-26,
+            1.0884263838478523e-14,
+            0.999999999999989
+          ],
+          "snow": 0.9644923705363604,
+          "snowfall": 0.8490139721873601,
+          "travel": [
+            6310.127757615022,
+            3876.98369980024
+          ],
+          "wetness": 0.03864982883180098,
+          "wind": 0.4503740250020308,
+          "windPhase": 4352.931546464157
+        },
+        "visible": true
+      },
+      "display": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "meanMs": 148.45,
+      "name": "woodland snow",
+      "p95Ms": 166.6,
+      "passes": {
+        "calls": {
+          "atmosphere": 1,
+          "bloom": 13,
+          "frame-total": 683.955,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 151.955,
+          "scene": 367,
+          "shadow": 149,
+          "sharpen": 1
+        },
+        "cpuMs": {
+          "HUD/interactions": 0.123,
+          "audio": 0.127,
+          "camera/sky": 0.536,
+          "dragons": 0.186,
+          "frame-total": 16.445,
+          "habitat": 1.236,
+          "input/time": 0.059,
+          "lighting": 7.259,
+          "pass:atmosphere": 0.227,
+          "pass:bloom": 0.123,
+          "pass:grade": 0.009,
+          "pass:ink+kuwahara": 0.045,
+          "pass:reflection": 2.159,
+          "pass:scene": 4.464,
+          "pass:shadow": 5.073,
+          "pass:sharpen": 0.014,
+          "persistence/input-end": 0.005,
+          "player/ferry": 0.918,
+          "post": 4.664,
+          "residents:city": 0.786,
+          "residents:village": 0.023,
+          "scenery": 0.364,
+          "wildlife": 0.095
+        },
+        "diagnostic": true,
+        "elapsedMs": 3262.2,
+        "enabled": true,
+        "frames": 22,
+        "gpuMs": {
+          "atmosphere": 11.387,
+          "bloom": 1.91,
+          "grade": 2.615,
+          "ink+kuwahara": 7.256,
+          "reflection": 8.945,
+          "scene": 79.807,
+          "shadow": 30.998,
+          "sharpen": 1.069
+        },
+        "gpuQueries": {
+          "discarded": 0,
+          "disjointEvents": 0,
+          "limit": 128,
+          "maxAgeFrames": 240,
+          "pending": 42,
+          "pooled": 1,
+          "skipped": 0
+        },
+        "gpuStatus": "available",
+        "notes": [
+          "CPU frame-total includes profiler overhead and GPU submission, not asynchronous GPU completion.",
+          "pass:* CPU entries are nested within main CPU stages; do not sum them twice.",
+          "GPU results are delayed; pending, discarded and unsupported samples are not zero milliseconds.",
+          "RAF delivery intervals are separate from CPU execution and GPU pass durations.",
+          "Reflection counts and times include attempts that reuse the preceding reflection."
+        ],
+        "samples": {
+          "calls": {
+            "atmosphere": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 22
+            },
+            "frame-total": {
+              "max": 837,
+              "mean": 683.955,
+              "min": 532,
+              "samples": 22
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "reflection": {
+              "max": 305,
+              "mean": 151.955,
+              "min": 0,
+              "samples": 22
+            },
+            "scene": {
+              "max": 367,
+              "mean": 367,
+              "min": 367,
+              "samples": 22
+            },
+            "shadow": {
+              "max": 149,
+              "mean": 149,
+              "min": 149,
+              "samples": 22
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            }
+          },
+          "cpuMs": {
+            "HUD/interactions": {
+              "max": 0.2,
+              "mean": 0.123,
+              "min": 0,
+              "samples": 22
+            },
+            "audio": {
+              "max": 0.3,
+              "mean": 0.127,
+              "min": 0,
+              "samples": 22
+            },
+            "camera/sky": {
+              "max": 1.3,
+              "mean": 0.536,
+              "min": 0.2,
+              "samples": 22
+            },
+            "dragons": {
+              "max": 0.4,
+              "mean": 0.186,
+              "min": 0,
+              "samples": 22
+            },
+            "frame-total": {
+              "max": 25,
+              "mean": 16.445,
+              "min": 11.9,
+              "samples": 22
+            },
+            "habitat": {
+              "max": 2,
+              "mean": 1.236,
+              "min": 0.6,
+              "samples": 22
+            },
+            "input/time": {
+              "max": 0.3,
+              "mean": 0.059,
+              "min": 0,
+              "samples": 22
+            },
+            "lighting": {
+              "max": 11.4,
+              "mean": 7.259,
+              "min": 3.7,
+              "samples": 22
+            },
+            "pass:atmosphere": {
+              "max": 0.8,
+              "mean": 0.227,
+              "min": 0.1,
+              "samples": 22
+            },
+            "pass:bloom": {
+              "max": 0.3,
+              "mean": 0.123,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:grade": {
+              "max": 0.1,
+              "mean": 0.009,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:ink+kuwahara": {
+              "max": 0.1,
+              "mean": 0.045,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:reflection": {
+              "max": 5.8,
+              "mean": 2.159,
+              "min": 0,
+              "samples": 22
+            },
+            "pass:scene": {
+              "max": 7.2,
+              "mean": 4.464,
+              "min": 3.5,
+              "samples": 22
+            },
+            "pass:shadow": {
+              "max": 7,
+              "mean": 5.073,
+              "min": 2.9,
+              "samples": 22
+            },
+            "pass:sharpen": {
+              "max": 0.1,
+              "mean": 0.014,
+              "min": 0,
+              "samples": 22
+            },
+            "persistence/input-end": {
+              "max": 0.1,
+              "mean": 0.005,
+              "min": 0,
+              "samples": 22
+            },
+            "player/ferry": {
+              "max": 2.6,
+              "mean": 0.918,
+              "min": 0.5,
+              "samples": 22
+            },
+            "post": {
+              "max": 7.5,
+              "mean": 4.664,
+              "min": 3.6,
+              "samples": 22
+            },
+            "residents:city": {
+              "max": 2.1,
+              "mean": 0.786,
+              "min": 0.3,
+              "samples": 22
+            },
+            "residents:village": {
+              "max": 0.1,
+              "mean": 0.023,
+              "min": 0,
+              "samples": 22
+            },
+            "scenery": {
+              "max": 0.8,
+              "mean": 0.364,
+              "min": 0.2,
+              "samples": 22
+            },
+            "wildlife": {
+              "max": 0.5,
+              "mean": 0.095,
+              "min": 0,
+              "samples": 22
+            }
+          },
+          "frameIntervalMs": {
+            "raf": {
+              "max": 166.6,
+              "mean": 148.452,
+              "min": 131.8,
+              "samples": 21
+            }
+          },
+          "gpuMs": {
+            "atmosphere": {
+              "max": 16.785,
+              "mean": 11.387,
+              "min": 7.193,
+              "samples": 17
+            },
+            "bloom": {
+              "max": 2.679,
+              "mean": 1.91,
+              "min": 1.752,
+              "samples": 17
+            },
+            "grade": {
+              "max": 2.883,
+              "mean": 2.615,
+              "min": 2.513,
+              "samples": 16
+            },
+            "ink+kuwahara": {
+              "max": 8.008,
+              "mean": 7.256,
+              "min": 6.987,
+              "samples": 17
+            },
+            "reflection": {
+              "max": 17.53,
+              "mean": 8.945,
+              "min": 0,
+              "samples": 17
+            },
+            "scene": {
+              "max": 87.765,
+              "mean": 79.807,
+              "min": 77.587,
+              "samples": 17
+            },
+            "shadow": {
+              "max": 34.483,
+              "mean": 30.998,
+              "min": 29.583,
+              "samples": 17
+            },
+            "sharpen": {
+              "max": 1.22,
+              "mean": 1.069,
+              "min": 0.961,
+              "samples": 16
+            }
+          },
+          "tris": {
+            "atmosphere": {
+              "max": 2,
+              "mean": 2,
+              "min": 2,
+              "samples": 22
+            },
+            "bloom": {
+              "max": 13,
+              "mean": 13,
+              "min": 13,
+              "samples": 22
+            },
+            "frame-total": {
+              "max": 2606621,
+              "mean": 2193639.318,
+              "min": 1780858,
+              "samples": 22
+            },
+            "grade": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "ink+kuwahara": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            },
+            "reflection": {
+              "max": 825763,
+              "mean": 412781.318,
+              "min": 0,
+              "samples": 22
+            },
+            "scene": {
+              "max": 1365258,
+              "mean": 1365258,
+              "min": 1365258,
+              "samples": 22
+            },
+            "shadow": {
+              "max": 415584,
+              "mean": 415584,
+              "min": 415584,
+              "samples": 22
+            },
+            "sharpen": {
+              "max": 1,
+              "mean": 1,
+              "min": 1,
+              "samples": 22
+            }
+          }
+        },
+        "tris": {
+          "atmosphere": 2,
+          "bloom": 13,
+          "frame-total": 2193639.318,
+          "grade": 1,
+          "ink+kuwahara": 1,
+          "reflection": 412781.318,
+          "scene": 1365258,
+          "shadow": 415584,
+          "sharpen": 1
+        }
+      },
+      "quality": "ultra",
+      "render": [
+        1380,
+        1002
+      ],
+      "samples": 21,
+      "sky": {
+        "bands": 4,
+        "hz": 6,
+        "resolution": [
+          1280,
+          1280
+        ],
+        "steps": 32
+      },
+      "suspended": false
+    }
+  ]
+}

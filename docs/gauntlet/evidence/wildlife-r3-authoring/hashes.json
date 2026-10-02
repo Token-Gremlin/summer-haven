@@ -1,0 +1,37 @@
+[
+  {
+    "bytes": 512352,
+    "sha256": "46e075749d14876c05d320327f6a1a3e181b92f3d8474fb97e766ba71d50a63e",
+    "path": "tools/blender/wildlife/revision-3-draft/export/haven-wildlife.glb"
+  },
+  {
+    "bytes": 2855,
+    "sha256": "691669dc21519f68b748ac4978c40f9e2fb1d01a66997a24d01a6e847de681bd",
+    "path": "tools/blender/wildlife/revision-3-draft/export/haven-wildlife.json"
+  },
+  {
+    "bytes": 454236,
+    "sha256": "879cfb5a99e1a1486c8219295a8b642325bd709a2bd2f48b85fa31339bc0f105",
+    "path": "tools/blender/wildlife/revision-3-draft/haven-wildlife.blend"
+  },
+  {
+    "bytes": 17175,
+    "sha256": "be1fd096efb1b0299b17d91c74c30c7b6bf0d7634d7fc00fc1841936b3b2dd90",
+    "path": "tools/blender/wildlife/revision-3-draft/deer.py"
+  },
+  {
+    "bytes": 14984,
+    "sha256": "752d9ce1aafed84c0c8b05da08868ff220f7f6c58868a97a93606886b9f549f4",
+    "path": "tools/blender/wildlife/revision-3-draft/wildlife.py"
+  },
+  {
+    "bytes": 4753,
+    "sha256": "ae7fefc60866247ee099694164311dfa1473aa1d9a5f1eb9744602d7d77094b2",
+    "path": "tools/blender/wildlife/revision-3-draft/review.py"
+  },
+  {
+    "bytes": 15768,
+    "sha256": "966fafa4c3fa474e1d01e443df1397a41d0f0bdbb8f862e6075ef40376bd8405",
+    "path": "tools/blender/wildlife/revision-3-draft/deer-gait.test.ts"
+  }
+]

@@ -1,0 +1,428 @@
+{
+  "generatedAt": "2026-09-30T00:35:21.221Z",
+  "evidence": [
+    {
+      "file": "docs/gauntlet/evidence/performance-05-attempt1.json",
+      "started": "2026-09-30T00:17:29.859Z",
+      "completed": "2026-09-30T00:21:10.468Z",
+      "build": [
+        "http://127.0.0.1:4175/assets/index-7hgK5CKM.js"
+      ],
+      "hardware": {
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "logicalProcessors": 8,
+        "deviceMemoryGB": 16
+      },
+      "viewport": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "method": {
+        "repeats": 3,
+        "durationMs": 60000,
+        "warmupMs": 10000,
+        "movement": "keyboard walk with scripted camera steering",
+        "screenshots": false,
+        "video": false,
+        "clockJumpsDuringSamples": false,
+        "note": "Scene placement/reset precedes warmup. RAF intervals are frame delivery, not GPU timer measurements."
+      },
+      "visibility": {
+        "state": "visible",
+        "focused": true
+      },
+      "error": "Error: Mosswood glade trail: movement stalled; run invalid.",
+      "routes": null
+    },
+    {
+      "file": "docs/gauntlet/evidence/performance-05.json",
+      "started": "2026-09-30T00:24:37.661Z",
+      "completed": "2026-09-30T00:35:08.057Z",
+      "build": [
+        "http://127.0.0.1:4175/assets/index-7hgK5CKM.js"
+      ],
+      "hardware": {
+        "renderer": "ANGLE (Intel, Intel(R) UHD Graphics (0x00009BC4) Direct3D11 vs_5_0 ps_5_0, D3D11)",
+        "userAgent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/154.0.0.0 Safari/537.36",
+        "logicalProcessors": 8,
+        "deviceMemoryGB": 16
+      },
+      "viewport": [
+        920,
+        668
+      ],
+      "dpr": 1.25,
+      "method": {
+        "repeats": 3,
+        "durationMs": 60000,
+        "warmupMs": 10000,
+        "movement": "keyboard walk with scripted camera steering",
+        "screenshots": false,
+        "video": false,
+        "clockJumpsDuringSamples": false,
+        "note": "Scene placement/reset precedes warmup. RAF intervals are frame delivery, not GPU timer measurements."
+      },
+      "visibility": {
+        "state": "visible",
+        "focused": true
+      },
+      "error": null,
+      "routes": [
+        {
+          "name": "Mosswood glade trail",
+          "points": [
+            [
+              196,
+              -492
+            ],
+            [
+              201.8,
+              -500.5
+            ],
+            [
+              206,
+              -503.5
+            ],
+            [
+              214,
+              -508.286
+            ],
+            [
+              206,
+              -503.5
+            ],
+            [
+              201.8,
+              -500.5
+            ],
+            [
+              196,
+              -492
+            ]
+          ]
+        },
+        {
+          "name": "Silverveil lower approach",
+          "points": [
+            [
+              348,
+              -688
+            ],
+            [
+              320,
+              -703.75
+            ],
+            [
+              348,
+              -688
+            ]
+          ]
+        },
+        {
+          "name": "Vesper upper bank",
+          "points": [
+            [
+              356,
+              -746
+            ],
+            [
+              356,
+              -760
+            ],
+            [
+              356,
+              -746
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Aldermere market",
+      "completedRuns": 3,
+      "runFps": [
+        37.79426786937315,
+        38.32758419570398,
+        37.848738375387484
+      ],
+      "runP95Ms": [
+        34.60000000000582,
+        34.69999999998254,
+        34.70000000001164
+      ],
+      "aggregate": {
+        "frames": 6839,
+        "elapsedMs": 180020.10000000065,
+        "fps": 37.99020220519806,
+        "medianMs": 27.70000000001164,
+        "p95Ms": 34.69999999999709,
+        "p99Ms": 34.800000000046566,
+        "minMs": 6.899999999965075,
+        "maxMs": 1152.3999999999942,
+        "over33ms": 485,
+        "over50ms": 4,
+        "over100ms": 1
+      },
+      "measuredUsedHeapBytes": [
+        334510898,
+        638627462
+      ],
+      "finalUsedHeapBytes": [
+        339915870,
+        339290462,
+        338496844
+      ],
+      "geometries": [
+        334,
+        484
+      ],
+      "textures": [
+        82,
+        92
+      ],
+      "calls": [
+        127,
+        402
+      ],
+      "triangles": [
+        408889,
+        1124620
+      ],
+      "render": [
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ]
+      ],
+      "sources": [
+        "docs/gauntlet/evidence/performance-05-attempt1.json"
+      ]
+    },
+    {
+      "name": "Mosswood glade trail",
+      "completedRuns": 3,
+      "runFps": [
+        42.61517513553686,
+        42.41511144591369,
+        42.793509651036274
+      ],
+      "runP95Ms": [
+        27.900000000023283,
+        27.900000000023283,
+        27.900000000023283
+      ],
+      "aggregate": {
+        "frames": 7670,
+        "elapsedMs": 180013.40000000002,
+        "fps": 42.60793918674943,
+        "medianMs": 20.900000000023283,
+        "p95Ms": 27.900000000023283,
+        "p99Ms": 28,
+        "minMs": 6.699999999953434,
+        "maxMs": 48.59999999997672,
+        "over33ms": 59,
+        "over50ms": 0,
+        "over100ms": 0
+      },
+      "measuredUsedHeapBytes": [
+        336392306,
+        345177981
+      ],
+      "finalUsedHeapBytes": [
+        338443065,
+        337453601,
+        339664110
+      ],
+      "geometries": [
+        608,
+        608
+      ],
+      "textures": [
+        96,
+        96
+      ],
+      "calls": [
+        151,
+        552
+      ],
+      "triangles": [
+        449215,
+        1017161
+      ],
+      "render": [
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ]
+      ],
+      "sources": [
+        "docs/gauntlet/evidence/performance-05.json"
+      ]
+    },
+    {
+      "name": "Silverveil lower approach",
+      "completedRuns": 3,
+      "runFps": [
+        50.37560907327548,
+        50.68164394520183,
+        50.11980098706677
+      ],
+      "runP95Ms": [
+        21.099999999976717,
+        21,
+        21.100000000093132
+      ],
+      "aggregate": {
+        "frames": 9072,
+        "elapsedMs": 180027.40000000002,
+        "fps": 50.392329167671136,
+        "medianMs": 20.800000000046566,
+        "p95Ms": 21.099999999976717,
+        "p99Ms": 27.800000000046566,
+        "minMs": 6.699999999953434,
+        "maxMs": 41.800000000046566,
+        "over33ms": 40,
+        "over50ms": 0,
+        "over100ms": 0
+      },
+      "measuredUsedHeapBytes": [
+        336958870,
+        351435634
+      ],
+      "finalUsedHeapBytes": [
+        344390454,
+        347720722,
+        344518338
+      ],
+      "geometries": [
+        636,
+        651
+      ],
+      "textures": [
+        96,
+        96
+      ],
+      "calls": [
+        68,
+        219
+      ],
+      "triangles": [
+        252011,
+        587548
+      ],
+      "render": [
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ]
+      ],
+      "sources": [
+        "docs/gauntlet/evidence/performance-05.json"
+      ]
+    },
+    {
+      "name": "Vesper upper bank",
+      "completedRuns": 3,
+      "runFps": [
+        48.87021982434715,
+        48.96511610465657,
+        49.048365054498184
+      ],
+      "runP95Ms": [
+        27.79999999993015,
+        27.79999999993015,
+        27.799999999813735
+      ],
+      "aggregate": {
+        "frames": 8814,
+        "elapsedMs": 180020.00000000012,
+        "fps": 48.96122653038548,
+        "medianMs": 20.800000000046566,
+        "p95Ms": 27.79999999993015,
+        "p99Ms": 27.9000000001397,
+        "minMs": 6.800000000046566,
+        "maxMs": 55.699999999953434,
+        "over33ms": 31,
+        "over50ms": 1,
+        "over100ms": 0
+      },
+      "measuredUsedHeapBytes": [
+        336794530,
+        351473554
+      ],
+      "finalUsedHeapBytes": [
+        348803906,
+        351243302,
+        340485470
+      ],
+      "geometries": [
+        655,
+        655
+      ],
+      "textures": [
+        96,
+        96
+      ],
+      "calls": [
+        121,
+        385
+      ],
+      "triangles": [
+        349040,
+        672922
+      ],
+      "render": [
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ],
+        [
+          805,
+          584
+        ]
+      ],
+      "sources": [
+        "docs/gauntlet/evidence/performance-05.json"
+      ]
+    }
+  ],
+  "limits": [
+    "RAF delivery intervals, not GPU timings. The actual embedded-browser refresh/vsync is unverified.",
+    "Separate diagnostic scene placement/reset precedes warmup; this is not a whole-world journey.",
+    "JavaScript heap is an approximate browser counter; process and GPU byte usage are not measured.",
+    "No cold-load, three-journey retention, high-quality or native-1080p performance approval.",
+    "Only complete runs appear in aggregates. Inspect retained failures and conditions before comparisons."
+  ]
+}
